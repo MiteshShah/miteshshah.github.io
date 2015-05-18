@@ -6,8 +6,8 @@ modified: 2015-05-17T11:00:00.12345-05:30
 comments: true
 image:
   feature: sample-image-2.jpg
-#  credit: secureit.kent.edu
-#  creditlink: http://secureit.kent.edu/bigbanner.png
+  credit: fedobe.com
+  creditlink: http://fedobe.com/wp-content/uploads/2011/11/Geek-Lifestyle-Facebook-Profile-Timeline-Cover.jpg
 ---
 
 Mitesh Shah passionate about making things easy/automate using shell scripts. <br>
