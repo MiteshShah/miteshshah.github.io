@@ -2,6 +2,7 @@
 layout: post
 title: "Guest Post Guidelines"
 author: Hetal_Shah
+comments: true
 modified:
 categories: guide
 excerpt: "How to setup jekyll and create guest post guidelines"
@@ -61,12 +62,14 @@ atom atom _posts/guide/2015-05-18-new-post-title.markdown
 
 
 * Assign author - Now add `author: Hetal_Shah` at the top of file.
+* Enable comments - Now add `comments: true` at the top of file.
 {% highlight yaml %}
 
 ---
 layout: post
 title: "Guest Post Guidelines"
 author: Hetal_Shah
+comments: true
 modified:
 categories: guide
 excerpt: "How to setup jekyll and create guest post guidelines"
