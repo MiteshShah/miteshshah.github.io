@@ -12,6 +12,8 @@ image:
 date: 2015-05-18T17:49:06+05:30
 ---
 
+{% include _toc.html %}
+
 ## Installation
 
 * Download following file and save as Gemfile
@@ -27,7 +29,7 @@ git clone git@github.com:MiteshShah/miteshshah.github.io.git
 cd ~/Github/miteshshah.github.io
 {% endhighlight %}
 
-## Override Author
+## Author Override
 * Start by editing `authors.yml` file in the `_data` folder and add your authors using the following format.
 
 {% highlight yaml %}
