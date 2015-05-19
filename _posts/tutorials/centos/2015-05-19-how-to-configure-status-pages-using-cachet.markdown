@@ -2,6 +2,7 @@
 layout: post
 title: "How to Configure Status Pages Using Cachet"
 modified:
+comments: true
 categories: tutorials/centos
 excerpt: "Beautiful & simple service statuses.
 An open source status page system, for everyone."
@@ -140,7 +141,7 @@ server {
 
 #### Restart NGINX and PHP-FPM services
 {% highlight bash %}
-[mitesh@status.example.com ~]$ systemctl start nginx && systemctl start php-fpm
+[mitesh@status.example.com ~]$ systemctl restart nginx && systemctl restart php-fpm
 {% endhighlight %}
 
 
