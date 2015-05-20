@@ -8,7 +8,7 @@ body {
 	color: $text-color;
 }
 
-/* 
+/*
    Header
    ========================================================================== */
 
@@ -79,7 +79,7 @@ body {
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
 		}
-		a { 
+		a {
 			display: block;
 			padding: 10px 0;
 			decoration: none;
@@ -165,11 +165,11 @@ $button-size: 1.5rem;
 	}
 }
 // Style the toggle menu link and hide it
-.nav .navtoogle {	
+.nav .navtoogle {
 	@include font-rem(18);
 	font-weight: normal;
 	background-color: $black;
-	color: $white;	
+	color: $white;
 	border: none;
 	cursor: pointer;
 	@media #{$small} {
@@ -206,7 +206,7 @@ $button-size: 1.5rem;
 	}
 }
 // Displaying the menu when the user has clicked on the button
-.js .nav .active + ul {		
+.js .nav .active + ul {
 	max-height: 30em;
 	overflow: hidden;
 	-webkit-transition: max-height .4s;
@@ -457,9 +457,13 @@ $button-size: 1.5rem;
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
 		position: absolute;
-		top: 5.5em;
+		top: 8.5em;
 		right: 0;
 		background-color: $white;
+		/* Fix OVERVIEW toc when feature image is set */
+		.image-wrap + #main & {
+        top: 68.5em;
+    }
 	}
 	header {
 		background: lighten($black, 10);
@@ -548,7 +552,7 @@ $button-size: 1.5rem;
 	margin: 1em 0;
 	li {
 		display: inline;
-		a { 
+		a {
 			border-bottom: 0 solid transparent;
 			&:hover {
 				border-bottom: 0 solid transparent;
@@ -574,7 +578,7 @@ $button-size: 1.5rem;
   li {
   	display: inline-block;
   }
-  $social: 
+  $social:
   (facebook, $facebook-color),
   (flickr, $flickr-color),
   (foursquare, $foursquare-color),
@@ -590,7 +594,7 @@ $button-size: 1.5rem;
   @each $socialnetwork, $color in $social {
     .#{$socialnetwork} {
       background: $color;
-    }    
+    }
   }
   a {
 	  display: block;
@@ -634,7 +638,7 @@ $button-size: 1.5rem;
 	h4,
 	h5,
 	h6,
-	span { 
+	span {
 		@include font-rem(14);
 	}
 	footer {
@@ -679,7 +683,7 @@ $button-size: 1.5rem;
 	}
 }
 
-/* 
+/*
    Browser upgrade alert
    ========================================================================== */
 
@@ -699,7 +703,7 @@ $button-size: 1.5rem;
 		}
 	}
 }
-/* 
+/*
    Google search form
    ========================================================================== */
 
