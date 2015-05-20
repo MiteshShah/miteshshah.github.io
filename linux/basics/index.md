@@ -13,7 +13,7 @@ image:
 
 
 1. <a href="/linux/basics/linux-ideas-and-history/"> Linux Ideas and History </a>
-2. Linux Usage Basics
+2. <a href="/linux/basics/linux-usage-basics/"> Linux Usage Basics </a>
 3. Running Commands and Getting Help
 4. Browsing the Filesystem
 5. Users Groups and Permissions
