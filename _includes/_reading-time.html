@@ -1,12 +1,12 @@
 <p class="byline">
 	<strong><i class="fa fa-fw fa-clock-o"></i>
 		{% assign words = page.content | number_of_words %}
-		{% if words < 150 %}
+		{% if words < 100 %}
 		less than 1 minute
-		{% elsif words < 300 %}
-		2 minute
+		{% elsif words < 200 %}
+		1 minute
 		{% else %}
-		{{ words | divided_by:150 }} minutes
+		{{ words | divided_by:100 }} minutes
 		{% endif %} to read
 	</strong>
 	({{ words }} words)
