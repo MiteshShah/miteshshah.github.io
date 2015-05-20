@@ -3,7 +3,7 @@ layout: post
 title: "Linux Basics"
 modified:
 categories: linux
-excerpt:
+excerpt: "Index of all Linux Basics posts"
 tags: [Linux, Basics, Tutorials]
 image:
   feature:
