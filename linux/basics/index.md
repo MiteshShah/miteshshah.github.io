@@ -1,13 +1,13 @@
 ---
-layout: post
+layout: page
 title: "Linux Basics"
-modified:
-categories: linux
-excerpt: "Index of all Linux Basics posts"
 tags: [Linux, Basics, Tutorials]
+modified: 2015-05-20T17:10:00.12345-05:30
+comments: true
 image:
   feature:
-date: 2015-05-20T15:03:52+05:30
+  credit:
+  creditlink:
 ---
 
 
