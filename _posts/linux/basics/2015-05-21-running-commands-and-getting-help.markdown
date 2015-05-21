@@ -159,7 +159,7 @@ man -K keyword (List all man pages that contains keyword in the command name or 
 * info [command]
 
 
-#### Navigating info pages
+##### Navigating info pages
 
 * Navigate with arrows, PgUp, PgDn
 * Tab moves to next link
@@ -173,7 +173,7 @@ Example: info --vi-keys [command]
 {: .notice}
 
 
-### Extended Documentation
+#### Extended Documentation
 
 * The /usr/share/doc directory contains the documentations that does not fit the length or the format of a man and info pages.
 * The /usr/share/doc is a location of documents that does not fit elsewhere.
