@@ -2,7 +2,7 @@
 layout: post
 title: "Running Commands and Getting Help"
 comments: true
-modified:
+modified: 2015-05-21T15:20:50+05:30
 categories: linux/basics
 excerpt: "How to run commands on Linux and how to get some help"
 tags: [Linux, Basics, Tutorials, Commands]
@@ -173,7 +173,7 @@ Example: info --vi-keys [command]
 {: .notice}
 
 
-#### Extended Documentation
+#### 5. Extended Documentation
 
 * The /usr/share/doc directory contains the documentations that does not fit the length or the format of a man and info pages.
 * The /usr/share/doc is a location of documents that does not fit elsewhere.
