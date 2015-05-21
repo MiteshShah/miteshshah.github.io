@@ -138,7 +138,7 @@ passwd(5) - which is accessed by running man 5 passwd, refers to the file format
 * q quits man page
 
 
-#### Searching Linux Manual
+##### Searching Linux Manual
 
 * Suppose you do not know the name of command you are looking for, in this case you can perform keyword search.
 * To perform keyword search its uses whatis database.
