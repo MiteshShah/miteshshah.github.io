@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Configure Status Pages Using Cachet"
-modified:
+modified: 2015-05-21T16:00:50+05:30
 comments: true
 categories: linux/centos
 excerpt: "Beautiful & simple service statuses.
@@ -78,7 +78,7 @@ The installation may take a little time, so grab a cup of coffee <i class="fa fa
 {% highlight bash %}
 [mitesh@status.example.com /var/www/Cachet]$ cat .env
 APP_ENV=local
-APP_DEBUG=true
+APP_DEBUG=false
 APP_URL=http://status.example.com
 APP_KEY=UyIXoUsiAzvWrnfZwp1DAC50SQHuH5b2
 
