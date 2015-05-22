@@ -3,8 +3,8 @@ layout: post
 title: "Linux Usage Basics"
 comments: true
 modified:
-categories: linux/basics
-excerpt: "How to use Linux"
+categories: Linux, Basics
+excerpt: "Newbie Guide - How to use Linux"
 tags: [Linux, Basics, Tutorials]
 image:
   feature:

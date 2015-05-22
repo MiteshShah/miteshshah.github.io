@@ -3,7 +3,7 @@ layout: post
 title: "Linux Ideas and History"
 comments: true
 modified:
-categories: linux/basics
+categories: Linux, Basics
 excerpt: "History behind Linux and OpenSource"
 tags: [Linux, Basics, Tutorials, History]
 image:

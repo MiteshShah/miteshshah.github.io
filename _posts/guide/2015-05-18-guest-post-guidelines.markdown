@@ -4,8 +4,8 @@ title: "Guest Post Guidelines"
 author: Hetal_Shah
 comments: true
 modified:
-categories: guide
-excerpt: "How to setup jekyll and create guest post guidelines"
+categories: Guide, Guest, Jekyll
+excerpt: "Setup Jekyll and Write first guest post"
 tags: [Guide, Jekyll, Guest Post]
 image:
   feature:

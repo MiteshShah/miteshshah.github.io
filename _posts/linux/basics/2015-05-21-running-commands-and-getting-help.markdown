@@ -3,8 +3,8 @@ layout: post
 title: "Running Commands and Getting Help"
 comments: true
 modified: 2015-05-21T15:20:50+05:30
-categories: linux/basics
-excerpt: "How to run commands on Linux and how to get some help"
+categories: Linux, Basics
+excerpt: "Newbie Guide - How to run commands & get help on Linux"
 tags: [Linux, Basics, Tutorials, Commands]
 image:
   feature:

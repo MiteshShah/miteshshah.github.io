@@ -3,8 +3,8 @@ layout: post
 title: "Browsing the Filesystem"
 comments: true
 modified:
-categories: linux/basics
-excerpt: "Baic Linux Commands & Filesystem"
+categories: Linux, Basics, CLI
+excerpt: "Newbie Guide - Basic Linux Commands & Filesystem Details"
 tags: [Linux, Basics, Tutorials]
 image:
   feature:
