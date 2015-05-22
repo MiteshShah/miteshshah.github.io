@@ -1,0 +1,60 @@
+# Site wide configuration
+
+title:            Mitesh Shah
+locale:           en_US
+url:              #http://miteshshah.github.io
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Mitesh Shah
+  avatar: MiteshShah.jpg
+  bio: "Linux System Administrator"
+  email: Mr.Miteshah@gmail.com
+  disqus-shortname: MiteshShah
+  twitter: MiteshShah05
+  facebook:
+  google:
+    plus: MiteshShah
+    analytics: UA-63026189-1
+    verify: vmK60li-L1v5MrrY7StAsB6E5ZfbWe1bghYkjCFRXa0
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: MiteshShah
+  stackoverflow: 2199313/Mitesh-Shah
+  linkedin: MiteshShah05
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
