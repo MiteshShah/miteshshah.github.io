@@ -18,7 +18,7 @@ image:
 2. <a href="/linux/basics/linux-usage-basics/"> Linux Usage Basics </a>
 3. <a href="/linux/basics/running-commands-and-getting-help"> Running Commands and Getting Help</a>
 4. <a href="/linux/basics/browsing-the-filesystem/"> Browsing the Filesystem </a>
-5. Users Groups and Permissions
+5. <a href="/linux/basics/users-groups-and-permissions/"> Users Groups and Permissions </a>
 6. Using The Bash Shell
 7. Standard IO and Pipes
 8. Text Processing Tools
