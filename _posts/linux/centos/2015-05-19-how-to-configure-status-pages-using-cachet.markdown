@@ -3,7 +3,7 @@ layout: post
 title: "How to Configure Status Pages Using Cachet"
 modified: 2015-05-21T16:00:50+05:30
 comments: true
-categories: Linux, CentOS, Cachet
+categories: linux/centos
 excerpt: "Beautiful & simple service status page,
 An open source status page system, for everyone."
 tags: [Status Page, Cachet, CentOS]
