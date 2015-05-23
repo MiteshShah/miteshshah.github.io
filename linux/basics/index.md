@@ -19,7 +19,7 @@ image:
 3. <a href="/linux/basics/running-commands-and-getting-help"> Running Commands and Getting Help</a>
 4. <a href="/linux/basics/browsing-the-filesystem/"> Browsing the Filesystem </a>
 5. <a href="/linux/basics/users-groups-and-permissions/"> Users Groups and Permissions </a>
-6. Using The Bash Shell
+6. <a href="/linux/basics/bash-and-shell-scripting/"> Bash & Shell Scripting </a>
 7. Standard IO and Pipes
 8. Text Processing Tools
 9. vim: An Advance Text Editor
