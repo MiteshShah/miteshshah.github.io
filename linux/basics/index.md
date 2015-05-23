@@ -20,7 +20,7 @@ image:
 4. <a href="/linux/basics/browsing-the-filesystem/"> Browsing the Filesystem </a>
 5. <a href="/linux/basics/users-groups-and-permissions/"> Users Groups and Permissions </a>
 6. <a href="/linux/basics/bash-and-shell-scripting/"> Bash & Shell Scripting </a>
-7. Standard IO and Pipes
+7. <a href="/linux/basics/standard-io-and-pipes/"> Standard IO & Pipes </a>
 8. Text Processing Tools
 9. vim: An Advance Text Editor
 10. Basic System Configuration Tools
