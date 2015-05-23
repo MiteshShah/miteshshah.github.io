@@ -79,7 +79,7 @@ w   Creates Or Remove Files From A Directory.
 x   Change Into A Directory And Do A Long Listing.
 {% endhighlight %}
 
-<a href="##directory-permissions" class="btn btn-danger">WARNING</a>
+<a href="#directory-permissions" class="btn btn-danger">WARNING</a>
 A file may be removed by anyone who has a write permission to the directory in which the file resides, regardless of the ownership or permissions on the file.
 {: .notice}
 
