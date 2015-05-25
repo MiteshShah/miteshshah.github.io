@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!doctype html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
@@ -34,7 +37,7 @@
   </div>
   <div id="index">
     <h1>{{ page.title }}</h1>
-    {% for post in site.posts %}  
+    {% for post in site.posts %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
       {% else %}
@@ -63,6 +66,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-  
+
 </body>
 </html>
