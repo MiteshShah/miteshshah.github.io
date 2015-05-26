@@ -1,7 +1,9 @@
 ---
 layout: {{ layout }}
 title: {{ title }}
+author:
 modified:
+comments:
 categories: {{ dir }}
 excerpt:
 tags: []
