@@ -39,9 +39,9 @@ cd ~/Github/miteshshah.github.io
 Hetal_Shah:
   name: Hetal Shah
   web:
-  email: name@email.com
+  email: hs8290hs@gmail.com
   bio: "Awesome Girl"
-  gravatar:
+  gravatar: 7f1f44ee22b0131ca70b2b90bccb0c8b
   twitter: username
   google:
     plus: username
