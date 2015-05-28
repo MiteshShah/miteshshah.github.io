@@ -1,3 +1,11 @@
+{% if site.ssl %}
+  <!-- redirect users to the https version of the production website.-->
+   <script type="text/javascript">
+    if (window.location.protocol != "https:")
+      window.location = window.location.toString().replace(/^http:/, "https:");
+  </script>
+{% endif %}
+
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
