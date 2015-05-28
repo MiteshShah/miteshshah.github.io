@@ -27,7 +27,7 @@ kramdown:
 # Site owner
 owner:
   name: Mitesh Shah
-  avatar: MiteshShah.jpg
+  gravatar: c66f52f78607be93acdf5904c88066ee
   bio: "Linux System Administrator"
   email: Mr.Miteshah@gmail.com
   disqus-shortname: MiteshShah

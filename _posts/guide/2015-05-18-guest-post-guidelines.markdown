@@ -41,14 +41,14 @@ Hetal_Shah:
   web:
   email: name@email.com
   bio: "Awesome Girl"
-  avatar: HetalShah.jpg
+  gravatar:
   twitter: username
   google:
     plus: username
 
 {% endhighlight %}
 
-**Note!** You have to add your image HetalShah.jpg (200x200) in `images` folder.
+**Note!** You have to add your Gravatar Email Hash.
 {: .notice}
 
 ## Create Post
