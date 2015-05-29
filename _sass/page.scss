@@ -447,7 +447,20 @@ $button-size: 1.5rem;
 		text-decoration: underline;
 	}
 }
-
+/* Google custom search */
+.googlesearch {
+	font-size: 95%;
+	@media #{$large} {
+		display: block;
+		@include grid(10,2);
+		@include prefix(10,0.5);
+		@include suffix(10,0.5);
+		position: absolute;
+		top: 0.5em;
+		right: 0;
+		background-color: $white;
+	}
+}
 /* Table of contents */
 .toc {
 	font-size: 95%;
