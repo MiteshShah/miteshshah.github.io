@@ -24,7 +24,7 @@ image:
 8. <a href="/linux/basics/text-processing-tools"> Text Processing Tools </a>
 9. <a href="/linux/basics/vim-an-advance-text-editor/"> VIM - An Advance Text Editor </a>
 10. <a href="/linux/basics/basic-system-configuration-tools/"> Basic System Configuration Tools </a>
-11. Investigating and Managing Processes
+11. <a href="/linux/basics/investigating-and-managing-processes/"> Investigating and Managing Processes </a>
 12. Configuring the Bash Shell
 13. Finding And Processing Files
 14. Network Clients
