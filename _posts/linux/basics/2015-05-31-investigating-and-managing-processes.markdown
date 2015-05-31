@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about process management/scheduling, signals and job control"
-tags: []
+tags: [Linux, Basics, PS, JOB, AT, CRON]
 image:
   feature:
 date: 2015-05-31T14:30:19+05:30
