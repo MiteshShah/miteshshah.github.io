@@ -23,7 +23,7 @@ image:
 7. <a href="/linux/basics/standard-io-and-pipes/"> Standard IO & Pipes </a>
 8. <a href="/linux/basics/text-processing-tools"> Text Processing Tools </a>
 9. <a href="/linux/basics/vim-an-advance-text-editor/"> VIM - An Advance Text Editor </a>
-10. Basic System Configuration Tools
+10. <a href="/linux/basics/basic-system-configuration-tools/"> Basic System Configuration Tools </a>
 11. Investigating and Managing Processes
 12. Configuring the Bash Shell
 13. Finding And Processing Files
