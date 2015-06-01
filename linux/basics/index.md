@@ -26,7 +26,7 @@ image:
 10. <a href="/linux/basics/basic-system-configuration-tools/"> Basic System Configuration Tools </a>
 11. <a href="/linux/basics/investigating-and-managing-processes/"> Investigating and Managing Processes </a>
 12. <a href="/linux/basics/configuring-the-bash-shell/"> Configuring the Bash Shell </a>
-13. Finding And Processing Files
+13. <a href="/linux/basics/finding-and-processing-files/"> Finding and Processing Files </a>
 14. Network Clients
 15. Advanced Topics in Users Groups and Permissions
 16. The Linux Filesystem In-Depth
