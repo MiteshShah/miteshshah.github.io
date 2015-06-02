@@ -28,5 +28,5 @@ image:
 12. <a href="/linux/basics/configuring-the-bash-shell/"> Configuring the Bash Shell </a>
 13. <a href="/linux/basics/finding-and-processing-files/"> Finding and Processing Files </a>
 14. <a href="/linux/basics/network-clients/"> Network Clients </a>
-15. Advanced Topics in Users Groups and Permissions
+15. <a href="/linux/basics/advanced-topics-in-users-groups-and-permissions/"> Advanced Topics in Users Groups and Permissions </a>
 16. The Linux Filesystem In-Depth
