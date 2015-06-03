@@ -11,9 +11,6 @@ image:
 ---
 
 
-**Note!** Whenever I'm get some free time, I will write the remaining articles.
-{: .notice}
-
 1. <a href="/linux/basics/linux-ideas-and-history/"> Linux Ideas and History </a>
 2. <a href="/linux/basics/linux-usage-basics/"> Linux Usage Basics </a>
 3. <a href="/linux/basics/running-commands-and-getting-help"> Running Commands and Getting Help</a>
@@ -29,4 +26,4 @@ image:
 13. <a href="/linux/basics/finding-and-processing-files/"> Finding and Processing Files </a>
 14. <a href="/linux/basics/network-clients/"> Network Clients </a>
 15. <a href="/linux/basics/advanced-topics-in-users-groups-and-permissions/"> Advanced Topics in Users Groups and Permissions </a>
-16. The Linux Filesystem In-Depth
+16. <a href="/linux/basics/the-linux-filesystem/"> The Linux Filesystem </a>
