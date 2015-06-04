@@ -2,7 +2,7 @@
 layout: post
 title: "Configuring the Bash Shell"
 author:
-modified:
+modified: 2015-06-05T17:00:00+05:30
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - How to configure BASH Shell"
@@ -172,10 +172,10 @@ Your Cost: $5.00
 
 * `'` (Single Quotes) - Inhibit All Expansion
 * `"` (Double Quotes) - Inhibit All Expansion Except
-* `\` (Backslash)		-	Single Character Inhibition
-* `$` (Doller Sign)	-	Variable Expansion
-* `\`` (Back Quotes)	-	Command Substitution
-* `!` (Exclamation Point)	-	History Substitution
+  * \ (Backslash)		-	Single Character Inhibition
+  * $ (Doller Sign)	-	Variable Expansion
+  * ` (Back Quotes)	-	Command Substitution
+  * ! (Exclamation Point)	-	History Substitution
 
 
 **Examples:**
