@@ -28,3 +28,4 @@ image:
 15. <a href="/linux/basics/advanced-topics-in-users-groups-and-permissions/"> Advanced Topics in Users Groups and Permissions </a>
 16. <a href="/linux/basics/the-linux-filesystem/"> The Linux Filesystem </a>
 17. <a href="/linux/basics/package-management/"> Package Management </a>
+18. <a href="/linux/basics/system-logs-and-selinux/"> System Logs and SELinux </a>

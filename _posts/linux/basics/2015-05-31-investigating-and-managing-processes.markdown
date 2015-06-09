@@ -2,11 +2,11 @@
 layout: post
 title: "Investigating and Managing Processes"
 author:
-modified:
+modified: 2015-06-09T10:58:23+05:30
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about process management/scheduling, signals and job control"
-tags: [Linux, Basics, PS, JOB, AT, CRON]
+tags: [Linux, Basics, PS, JOB, AT, CRON, CRONTAB]
 image:
   feature:
 date: 2015-05-31T14:30:19+05:30
@@ -339,6 +339,170 @@ job 1 at 2011-08-26 02:00
 0	2	*	*	*	netstat -tulpn | diff - /media/cdrom/baseline
 0	4	*	*	1,3,5	find ~ -name core | xargs rm -f {}
 {% endhighlight %}
+
+##### crontab in details
+
+* The `cron` mechanism is controlled by a process named `crond`.
+* This process runs every minute and determines if an entry in user's cron tables need to be executed.
+
+* The crontabs are stored in `/var/spool/cron/``
+* The root can modify the jobs for other users with `crontab -u username` and any of the other options, such as `-e`.
+
+
+##### Crontab File Format
+* Comment lines begin with #.
+* One entry per line, no limit to line length.
+* Entry consist of five space-delimited fields followed by a command name.
+* Fields are Minute, Hour, Day Of Month, Month, Day Of week.
+* An asterisk (*) in a field represent all valid values.
+* Multiple values are separated by commas.
+* Special Time Specification Nicknames:
+@reboot, @yearly, @annually, @monthly, @weekly, @daily, @hourly
+* See man 5 crontab for more details
+
+**Examples:**
+{% highlight bash %}
+[mitesh@Matrix ~]$ crontab -e
+#Min    Hour    DOM     Month   DOW     Command
+0       0       31      10      *       mail -s "boo" $LOGNAME < boo.txt
+0       2       *       *       *       netstat -tulpn | diff - /media/cdrom/baseline
+0       4       *       *       1,3,5   find ~ -name core | xargs rm -f {}
+
+*/2	*	*	*	*	echo "Every 2 Minutes" &> /dev/tty1
+*/5	*	*	*	*	echo "Every 5 Minutes" &> /dev/tty1
+@reboot					echo "Runs Once After Reboot" &> /dev/tty1
+
+[mitesh@Matrix ~]$ echo '*/15 8-17 * * 1-5 echo Breaktime' | crontab
+{% endhighlight %}
+
+
+##### The Cron Access Control
+<pre>
+/-----------------------------------------------------------------------------------------------------------------------------------------------\
+|	---------------		--------------		Only root can install the crontab files.						|
+|																		|
+|	/etc/cron.allow		--------------		The root & All The Listed users in cron.allow can install the crontab files.		|
+|																		|
+|	---------------		/etc/cron.deny		All The users except The users in cron.deny can install the crontab files.		|
+|																		|
+|	/etc/cron.allow		/etc/cron.deny		The cron.deny file is ignored.								|
+|							The root & All The Listed users in cron.allow can install the crontab files.		|
+\-----------------------------------------------------------------------------------------------------------------------------------------------/
+</pre>
+
+**NOTE!:** Denying A User Through The Use Of Above Files Does Not Disable Their Installed crontab.
+{: .notice}
+
+#### System Crontab Files
+
+* Different Format Than User Crontab Files
+* Default System Crontab File Is `/etc/crontab`
+* The `/etc/cron.d/` Directory Contains The Additional System Crontab Files
+
+**Example:**
+{% highlight bash %}
+[mitesh@Matrix ~]$ cat /etc/crontab
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+HOME=/
+
+#run-parts
+01	*	*	*	*	root	run-parts	/etc/cron.hourly
+02	4	*	*	*	root	run-parts	/etc/cron.daily
+02	4	*	*	0	root	run-parts	/etc/cron.weekly
+42	4	1	*	*	root	run-parts	/etc/cron.monthly
+{% endhighlight %}
+
+
+**NOTE!:** The System Crontab Files Are Different From The Users Crontab Files<br>
+In The System Crontab Files Sixth Field Is A Username, Which will Be Used To Execute The Commands.
+<br><br>
+The run-parts Is A Shell Script (/usr/bin/run-parts).<br>
+The run-parts Shell Scripts Take One Argument - A Directory Name And Invokes All Of The Program In That Directory.
+<br><br>
+Thus, At 4:02 Every Morning, All Of The Executables In The /etc/cron.daily/ Directory Will Be Run As The root User.
+{: .notice}
+
+##### Default Daily Cron Jobs
+
+* The `/etc/cron.daily` Are Usually Used For:
+
+  * Clean Up Temporary Directories
+  * Update mlocate & whatis Database
+  * Perform Other Housekeeping Tasks
+
+  ###### A) The tmpwatch:
+
+  * Deletes All Files In /tmp Directory Which Is Not Accessed For 240 Hours (10 Days)
+  * Deletes All Files In /var/tmp Directory Which Is Not Accessed For 720 Hours (30 Days)
+
+  ###### B) The logrotate:
+
+  * Keeps Log Files From Getting Too Large
+  * Rotates Log Files On
+  * Predefined Intervals (Weekly)
+  * When Reach The Predefined Size
+  * Old Files Are Optionally Compressed
+
+  * Configuration Files:
+    * `/etc/logrotate.conf`	(Global Configuration)
+    * `/etc/logrotate.d/`	(Override Global Configuration)
+
+**Example:**
+The `/var/log/messages` Is Rotated Weekly To `/var/log/messages-yyyymmdd`
+
+
+
+##### The Anacron System
+* The Anacron Runs The Missed Cron Jobs When The System Boots.
+* The Anacron Command Is Used To Run The Missed Daily,Weekly & Monthly Cron Jobs.
+
+**Example:**
+
+* According To The `/etc/crontab` File
+* At 4:02 Every Morning, All Of The Executables In The /etc/cron.daily/ Directory Will Be Run As root User.
+* Now Suppose Your Laptop Is Almost Always Off At The 4:02 AM, Then The mlocate & whatis Database Is Never Be Updated.
+
+**Configuration File**
+
+* `/etc/anacrontab`
+* Field1:	If The Cron Jobs Not Been Run For The Specified No Of Days
+* Field2:	Wait For The Specified No Of Minutes Before Runs
+* Field3:	Job Identifier
+* Field4:	The Cron Job To Run
+
+**Examples:**
+{% highlight bash %}
+[mitesh@Matrix ~]$ cat /etc/anacrontab
+# /etc/anacrontab: configuration file for anacron
+
+# See anacron(8) and anacrontab(5) for details.
+
+SHELL=/bin/sh
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+# the maximal random delay added to the base delay of the jobs
+RANDOM_DELAY=45
+# the jobs will be started during the following hours only
+START_HOURS_RANGE=3-22
+
+# Period In Days	Delay In Minutes	Job-Identifier	Command
+1		5			cron.daily	nice run-parts /etc/cron.daily
+7		25			cron.weekly	nice run-parts /etc/cron.weekly
+@monthly 	45			cron.monthly	nice run-parts /etc/cron.monthly
+{% endhighlight %}
+
+##### How Anacron Works
+
+* According To The `/etc/crontab` File
+* The 1st Command To Run Is 0anacron.
+* The 0anacron Command Sets The Last Run Timestamp In A `/var/spool/anacron/cron.{daily,weekly,monthly}` Files.
+
+* On The System Boot Up, The Anacron Commands Runs.
+* The `/etc/anacrontab` File Specify How Often The Commands In `cron.daily/` `cron.weekly/` and `cron.monthly/` Should Be Runs.
+* If These Commands Are Not Runs In This Time Then
+* The Anacron Command Waits For The Specified No Of Minutes In The `/etc/anacrontab` File & Then Runs The Commands
 
 
 ### 6. Grouping Commands

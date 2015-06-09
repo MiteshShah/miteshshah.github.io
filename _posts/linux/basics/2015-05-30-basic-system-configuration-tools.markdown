@@ -2,7 +2,7 @@
 layout: post
 title: "Basic System Configuration Tools"
 author:
-modified:
+modified: 2015-06-09T11:58:23+05:30
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about Network, DNS and Printer Configuration"
@@ -234,8 +234,8 @@ So be sure to put the fastest and available namesserver at first place.
 
 * Printing on Linux system is handled by the Common Unix Printing System (CUPS).
 * Printers May Be
-* Local (serial, parallel or usb)
-* Networked
+  * Local (serial, parallel or usb)
+  * Networked
 
 #### Supported printer connections
 
@@ -244,6 +244,8 @@ So be sure to put the fastest and available namesserver at first place.
 * Netware print server
 * Windows print server
 * HP JetDirect
+* IPP - Internet Printing Protocol
+
 
 #### Queues
 * Print request are sent to the queues.
@@ -338,6 +340,23 @@ Printer ps@localhost:
 * `pdftotext`:	Converts PDF to Plain Text
 * `enscript`, `a2ps`:	Converts Text to PostScript
 * `mpage`:		Prints multiple pages per sheet
+
+#### Managing Printers With CUPS
+
+* Daemons:	`cups`
+* Services:	`chkconfig cups on | off` & `service cups status | start | stop | restart`
+
+**Configuration Files**
+
+* `/etc/cups/cupsd.conf`
+* `/etc/cups/printers.conf`
+
+**Configuration Tools**
+
+* CLI:  `lpr`	`lpq`	`lprm` 	`lpstat` `lpadmin`	`lpinfo`
+* GUI:  `system-config-printer` `System -> Administration -> Printing`
+* Web Based:	<a href="http://localhost:631"> http://localhost:631 </a>
+
 
 
 ### 3. System's Date and Time
