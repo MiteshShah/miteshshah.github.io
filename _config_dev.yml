@@ -36,8 +36,8 @@ owner:
   facebook:
   google:
     plus: MiteshShah
-    analytics: UA-63994692-1
-    verify: FoXagY8w0AGl6VevPdl9TSY2iEl0MVKdxXfmBSxDeYg
+    analytics: #UA-63994692-1
+    verify: #FoXagY8w0AGl6VevPdl9TSY2iEl0MVKdxXfmBSxDeYg
     ad-client: #ca-pub-6968542502687754
     ad-slot: #2903128824
   bing-verify:
