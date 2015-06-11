@@ -12,3 +12,4 @@ image:
 
 1. <a href="/linux/basics/"> Linux Basics </a>
 1. <a href="/linux/centos/"> CentOS </a>
+1. <a href="/linux/mysql/"> MySQL </a>
