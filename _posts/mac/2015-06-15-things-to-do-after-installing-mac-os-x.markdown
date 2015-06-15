@@ -47,6 +47,17 @@ date: 2015-06-15T14:54:12+05:30
 [mitesh@Matrix ~]$ brew cask install vlc
 {% endhighlight %}
 
+#### Install Caffeine
+
+* Caffeine is a tiny program that puts an icon in the right side of your menu bar.
+* Click it to prevent your Mac from automatically going to sleep, dimming the screen or starting screen savers.
+* Click it again to go back.
+* Right-click (or ⌘-click) the icon to show the menu.
+
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew cask install caffeine
+{% endhighlight %}
+
 #### Install Atom
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew cask install atom

@@ -52,14 +52,14 @@ date: 2015-06-15T13:07:29+05:30
 
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo add-apt-repository -y ppa:shutter/ppa
-[mitesh@Matrix ~]$ sudo apt-get install -y shutter
+[mitesh@Matrix ~]$ sudo apt-get update && sudo apt-get install -y shutter
 {% endhighlight %}
 
 #### Install Hipchat
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo echo "deb http://downloads.hipchat.com/linux/apt stable main" > /etc/apt/sources.list.d/atlassian-hipchat.list
 [mitesh@Matrix ~]$ wget -O - https://www.hipchat.com/keys/hipchat-linux.key | apt-key add -
-[mitesh@Matrix ~]$ sudo apt-get install -y hipchat
+[mitesh@Matrix ~]$ sudo apt-get update && sudo apt-get install -y hipchat
 {% endhighlight %}
 
 #### Install VLC
@@ -75,7 +75,7 @@ date: 2015-06-15T13:07:29+05:30
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 [mitesh@Matrix ~]$ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
-[mitesh@Matrix ~]$ sudo apt-get install -y google-chrome-stable
+[mitesh@Matrix ~]$ sudo apt-get update && sudo apt-get install -y google-chrome-stable
 {% endhighlight %}
 
 
@@ -84,7 +84,7 @@ date: 2015-06-15T13:07:29+05:30
 * Diodon is a simple clipboard manager for GNOME with application indicator support. Aiming to be the best integrated clipboard manager for the Gnome/GTK+ desktop.
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo add-apt-repository ppa:diodon-team/stable
-[mitesh@Matrix ~]$ sudo apt-get install -y diodon
+[mitesh@Matrix ~]$ sudo apt-get update && sudo apt-get install -y diodon
 {% endhighlight %}
 
 #### Install GParted
@@ -96,6 +96,18 @@ date: 2015-06-15T13:07:29+05:30
   * Attempt data rescue from lost partitions
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo apt-get install -y gparted
+{% endhighlight %}
+
+#### Install Caffeine
+
+* Caffeine is a tiny program that puts an icon in the right side of your menu bar.
+* Click it to prevent your Ubuntu from automatically going to sleep, dimming the screen or starting screen savers.
+* Click it again to go back.
+* Right-click the icon to show the menu.
+
+{% highlight bash %}
+[mitesh@Matrix ~]$ sudo add-apt-repository ppa:caffeine-developers/ppa
+[mitesh@Matrix ~]$ sudo apt-get update && sudo apt-get install caffeine
 {% endhighlight %}
 
 ### Automate Above Install Steps
