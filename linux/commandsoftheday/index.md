@@ -13,4 +13,4 @@ image:
 
 
 1. <a href="/linux/commandsoftheday/access-website-without-editing-dns/"> Access Website Without Editing DNS </a>
-1. <a href="/linux/commandsoftheday/security-news/"> Display Security Information At Terminal Startup </a>
+1. <a href="/linux/commandsoftheday/display-security-information-at-terminal-startup/"> Display Security Information At Terminal Startup </a>
