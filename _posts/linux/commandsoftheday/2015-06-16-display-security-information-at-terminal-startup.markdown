@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Security News"
+title: "Display Security Information At Terminal Startup"
 author:
 modified:
 comments: true
@@ -9,12 +9,12 @@ excerpt: "Get latest Security News on your Terminal"
 tags: [Linux, CommandLine, CommandOfTheDay]
 image:
   feature: https://cloud.githubusercontent.com/assets/1223371/8183107/4d1d7626-1453-11e5-9bbf-8c9597dc026c.png
-date: 2015-06-16T17:04:43+05:30
+date: 2015-06-16T18:04:43+05:30
 ---
 
-### Security News
+### Display Security Information At Terminal Startup
 
-* Get latest security news on your Terminal.
+* Get latest security Information on your Terminal.
 * Just add following line on your `~/.bashrc` or `~/.zshrc`
 {% highlight bash %}
 dig +short -t txt istheinternetonfire.com
