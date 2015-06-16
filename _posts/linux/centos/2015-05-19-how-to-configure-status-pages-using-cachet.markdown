@@ -8,7 +8,7 @@ excerpt: "Beautiful & simple service status page,
 An open source status page system, for everyone."
 tags: [Status Page, Cachet, CentOS]
 image:
-  feature: cachethq.jpg
+  feature: https://cachethq.io/img/main-interface.jpg
   credit: cachethq.io
   creditlink: https://cachethq.io/img/main-interface.jpg
 date: 2015-05-19T16:19:07+05:30
