@@ -81,8 +81,7 @@ date: 2015-06-15T14:54:12+05:30
 * All above install steps can be automate in following shell scripts.
 
 {% highlight bash %}
-[mitesh@Matrix ~]$ wget -c https://raw.githubusercontent.com/MiteshShah/admin/master/Mac/macosx.sh
-[mitesh@Matrix ~]$ bash macosx.sh
+[mitesh@Matrix ~]$ curl https://raw.githubusercontent.com/MiteshShah/admin/master/Mac/macosx.sh | bash
 {% endhighlight %}
 
 
