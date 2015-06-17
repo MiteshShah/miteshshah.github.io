@@ -62,6 +62,12 @@ date: 2015-06-15T13:07:29+05:30
 [mitesh@Matrix ~]$ sudo apt-get update && sudo apt-get install -y hipchat
 {% endhighlight %}
 
+#### Install Skype
+{% highlight bash %}
+[mitesh@Matrix ~]$ sudo sh -c  'echo "deb http://archive.canonical.com/ubuntu/ $(lsb_release -sc) partner" >> /etc/apt/sources.list.d/canonical_partner.list'
+[mitesh@Matrix ~]$ sudo apt-get update && sudo apt-get install -y skype sni-qt sni-qt:i386
+{% endhighlight %}
+
 #### Install VLC
 
 * VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
