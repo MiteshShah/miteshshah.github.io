@@ -11,3 +11,4 @@ image:
 ---
 
 1. <a href="/mac/things-to-do-after-installing-mac-os-x/"> Things To Do After Installing Mac OS X </a>
+1. <a href="/mac/install-network-tools-on-mac-os-x/"> Install Network Tools on Mac OS X </a>
