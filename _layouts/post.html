@@ -51,9 +51,8 @@ layout: compress
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
-      <h3>Post Navigation</h3>
       {% include _ads-text-only.html %}
-      <br>
+      <h3>Post Navigation</h3>
       {% if page.previous.url %}
         <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
       {% endif %}
