@@ -5,7 +5,7 @@ author:
 modified:
 comments: true
 categories: mac
-excerpt: "All about Finder Hacks"
+excerpt: "All about OS X Hacks"
 tags: [MAC, OS X, Tips, Tricks]
 image:
   feature:
