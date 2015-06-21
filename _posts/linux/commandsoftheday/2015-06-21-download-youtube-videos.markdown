@@ -52,4 +52,10 @@ If you don't have HomeBrew installed then <a href="/mac/things-to-do-after-insta
 [mitesh@Matrix ~]$ brew install youtube-dl
 {% endhighlight %}
 
+#### On Windows Platform
+
+* Download <a href="https://yt-dl.org/latest/youtube-dl.exe"> yotube-dl.exe </a>
+* Place `youtube-dl.exe` in home directory or any other location on `PATH`.
+
+
 **Refer:** <a href="https://github.com/rg3/youtube-dl">https://github.com/rg3/youtube-dl</a> for more information
