@@ -3,7 +3,7 @@ layout: post
 title: "Deadly Linux Commands"
 author:
 modified:
-comments:
+comments: true
 categories: linux/basics
 excerpt: "If you are new to Linux, chances are you will meet a stupid person perhaps in a forum or chat room that can trick you into using commands that will harm your files or even your entire operating system."
 tags: [Linux, Basics, Tutorials]
