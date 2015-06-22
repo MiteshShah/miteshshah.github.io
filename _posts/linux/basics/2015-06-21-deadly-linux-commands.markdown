@@ -15,6 +15,7 @@ date: 2015-06-21T17:16:12+05:30
 {% include _toc.html %}
 
 * If you are new to Linux, chances are you will meet a stupid person perhaps in a forum or chat room that can trick you into using commands that will harm your files or even your entire operating system.
+* Don't run anything without understanding exactly what it does. Look it up (use Google or `man` command) if there's any part of a command you're not clear on.
 * To avoid this dangerous scenario from happening, I have here a list of deadly (Most Dangerous) Linux commands that you should avoid
 
 <img src="https://lh4.googleusercontent.com/-MMmhFydgamw/Tx1OEQeyRII/AAAAAAAABKg/23kyaDUseoo/s256-no/Dead.png">
@@ -48,9 +49,9 @@ date: 2015-06-21T17:16:12+05:30
 # Fill HDD with letter y
 [mitesh@Matrix ~]$ sudo yes > /dev/sda
 # Fill HDD with number zero 0
-[mitesh@Matrix ~]$ dd if=/dev/null of=/dev/sda
+[mitesh@Matrix ~]$ sudo dd if=/dev/null of=/dev/sda
 # Fill HDD with random data
-[mitesh@Matrix ~]$  dd if=/dev/urandom of=/dev/sda
+[mitesh@Matrix ~]$ sudo dd if=/dev/urandom of=/dev/sda
 {% endhighlight %}
 
 ### Delete Boot Entry
