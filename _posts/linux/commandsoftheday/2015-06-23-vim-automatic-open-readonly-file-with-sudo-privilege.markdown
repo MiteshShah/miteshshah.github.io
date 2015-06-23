@@ -12,15 +12,32 @@ image:
 date: 2015-06-23T11:46:30+05:30
 ---
 
-* Most of time I'll open system files with vim and after edit the system file vim says It's readonly file.
-* The following script make my life easy.
+{% include _toc.html %}
 
-### Create Alias
+* Most of time I'll open system files with vim and after edit the system file vim says It's readonly file.
+
+### Method 1
+
+* `:w !sudo tee %`
+* This will ask to provide sudo password and save the file.
+
+### Method 2
+
+{% highlight bash %}
+[mitesh@Matrix ~]$ echo "cmap w!! w !sudo tee > /dev/null %" >> ~/.vimrc
+{% endhighlight %}
+
+* Save readonly file with `:w!!`
+* This will shortcut of Method 1.
+
+### Method 3
+
+#### Create Alias
 {% highlight bash %}
 [mitesh@Matrix ~]$ echo "alias vim='~/bin/autosudo.sh'" >> ~/.bashrc
 {% endhighlight %}
 
-### Shell Script
+#### Shell Script
 
 * Save the below shell script as `~/bin/autosudo.sh`
 {% highlight bash %}
@@ -37,12 +54,8 @@ else
 fi
 {% endhighlight %}
 
-### Make Shell Script Executable
+#### Make Shell Script Executable
 
 {% highlight bash %}
 [mitesh@Matrix ~]$ chmod a+x ~/bin/autosudo.sh && source ~/.bashrc
 {% endhighlight %}
-
-
-**NOTE!** You can also use `:w !sudo tee %` in case you open readonly file and want to save it.
-{: .notice}
