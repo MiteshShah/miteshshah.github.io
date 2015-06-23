@@ -11,7 +11,7 @@ image:
 ---
 
 
-
+1. <a href="/linux/commandsoftheday/download-youtube-videos/"> Download Youtube Videos </a>
 1. <a href="/linux/commandsoftheday/access-website-without-editing-dns/"> Access Website Without Editing DNS </a>
 1. <a href="/linux/commandsoftheday/display-security-information-at-terminal-startup/"> Display Security Information At Terminal Startup </a>
-1. <a href="/linux/commandsoftheday/download-youtube-videos/"> Download Youtube Videos </a>
+1. <a href="/linux/commandsoftheday/vim-automatic-open-readonly-file-with-sudo-privilege/"> VIM - Automatic Open Readonly File With Sudo Privilege </a>
