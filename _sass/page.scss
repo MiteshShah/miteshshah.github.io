@@ -461,8 +461,9 @@ $button-size: 1.5rem;
 		background-color: $white;
 	}
 }
-/* Table of contents */
-.toc {
+
+/* Subscribe Now */
+.subscribe {
 	font-size: 95%;
 	@media #{$large} {
 		display: block;
@@ -476,6 +477,25 @@ $button-size: 1.5rem;
 		/* Fix OVERVIEW toc when feature image is set */
 		.image-wrap + #main & {
         top: 68.0em;
+    }
+	}
+}
+
+/* Table of contents */
+.toc {
+	font-size: 95%;
+	@media #{$large} {
+		display: block;
+		@include grid(12,2);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+		position: absolute;
+		top: 15.3em;
+		right: 0;
+		background-color: $white;
+		/* Fix OVERVIEW toc when feature image is set */
+		.image-wrap + #main & {
+        top: 76.0em;
     }
 	}
 	header {
