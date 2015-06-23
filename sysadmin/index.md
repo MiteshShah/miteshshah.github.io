@@ -12,3 +12,4 @@ image:
 
 1. <a href="/sysadmin/disable-ipv6/"> Disable IPv6 </a>
 1. <a href="/sysadmin/assign-multiple-ip-address/"> Assign Multiple IP Address </a>
+1. <a href="/sysadmin/how-to-fix-webroot-permissions/"> How to Fix Webroot Permissions </a>
