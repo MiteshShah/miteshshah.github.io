@@ -471,12 +471,12 @@ $button-size: 1.5rem;
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
 		position: absolute;
-		top: 7.3em;
+		top: 12.0em;
 		right: 0;
 		background-color: $white;
 		/* Fix OVERVIEW toc when feature image is set */
 		.image-wrap + #main & {
-        top: 68.0em;
+        top: 73.0em;
     }
 	}
 }
@@ -490,12 +490,12 @@ $button-size: 1.5rem;
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
 		position: absolute;
-		top: 15.3em;
+		top: 20.0em;
 		right: 0;
 		background-color: $white;
 		/* Fix OVERVIEW toc when feature image is set */
 		.image-wrap + #main & {
-        top: 76.0em;
+        top: 81.0em;
     }
 	}
 	header {
