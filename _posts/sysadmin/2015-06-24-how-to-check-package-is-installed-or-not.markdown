@@ -76,11 +76,19 @@ rc  htop                             1.0.2-3                          amd64     
 
 * Let's fix the `dpkg -l` command to get only installed package.
 
+#### Method 1
 {% highlight bash %}
 [mitesh@Matrix ~]$ dpkg --get-selections | grep -v deinstall | grep htop
 [mitesh@Matrix ~]$ echo $?
 1
 {% endhighlight %}
 
-**NOTE!**: As above command return 0 only if that package is installed on your system. <br>
+#### Method 2
+{% highlight bash %}
+[mitesh@Matrix ~]$ apt-cache policy htop | grep Installed | grep -v none
+[mitesh@Matrix ~]$ echo $?
+1
+{% endhighlight %}
+
+**NOTE!**: As above commands return 0 only if that package is installed on your system. <br>
 {: .notice}
