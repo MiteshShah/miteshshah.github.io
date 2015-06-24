@@ -12,4 +12,4 @@ image:
 
 
 
-1. <a href="/linux/mysql/mysql-basics/"> MySQL Basics</a>
+1. <a href="/linux/mysql/mysql-basics/"> MySQL Basics </a>

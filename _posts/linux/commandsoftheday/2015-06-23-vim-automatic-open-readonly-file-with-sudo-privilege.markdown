@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/commandsoftheday
 excerpt: "Most of time I'll open system files with vim and after edit the system file vim says It's readonly file."
-tags: [Linux, commandsoftheday, VIM]
+tags: [Linux, CommandLine, CommandOfTheDay, VIM]
 image:
   feature:
 date: 2015-06-23T11:46:30+05:30

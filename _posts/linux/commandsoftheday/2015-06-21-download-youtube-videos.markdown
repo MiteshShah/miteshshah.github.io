@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/commandsoftheday
 excerpt: "How to Download Youtube Videos with single command"
-tags: [Linux, MAC, OS X, Youtube]
+tags: [Linux, CommandLine, CommandOfTheDay, MAC, OS X, Youtube]
 image:
   feature:
 date: 2015-06-21T12:44:35+05:30

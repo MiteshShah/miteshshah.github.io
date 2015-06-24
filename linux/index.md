@@ -14,4 +14,5 @@ image:
 1. <a href="/linux/ubuntu/"> Ubuntu </a>
 1. <a href="/linux/centos/"> CentOS </a>
 1. <a href="/linux/mysql/"> MySQL </a>
+1. <a href="/linux/nginx/"> NGINX </a>
 1. <a href="/linux/commandsoftheday/"> Commands Of The Day</a>
