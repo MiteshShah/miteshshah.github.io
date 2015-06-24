@@ -52,6 +52,16 @@ date: 2015-06-21T17:16:12+05:30
 [mitesh@Matrix ~]$ sudo dd if=/dev/null of=/dev/sda
 # Fill HDD with random data
 [mitesh@Matrix ~]$ sudo dd if=/dev/urandom of=/dev/sda
+# Overwrite HDD Data (Multiple Times)
+[mitesh@Matrix ~]$ sudo shred /dev/sda
+{% endhighlight %}
+
+### Delete /etc Directory
+
+* The following command delete all the linux configuration files.
+{% highlight bash %}
+# Delete /boot Directory
+[mitesh@Matrix ~]$ sudo rm -rf /etc
 {% endhighlight %}
 
 ### Delete Boot Entry
