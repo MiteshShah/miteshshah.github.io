@@ -63,6 +63,11 @@ date: 2015-06-15T14:54:12+05:30
 [mitesh@Matrix ~]$ brew cask install atom
 {% endhighlight %}
 
+#### Install ssh-copy-id command
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew install ssh-copy-id
+{% endhighlight %}
+
 #### Install watch command
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew install watch
