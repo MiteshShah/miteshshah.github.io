@@ -44,6 +44,20 @@ Cvkd(Teawofvzk7
 qN7sZVOI0kwwZ#K
 {% endhighlight %}
 
+#### Generate Random Password Using openssl command
+{% highlight bash %}
+[mitesh@Matrix ~]$ openssl rand -hex 64 | fold -w 15  
+95aeaedcc6b5214
+d0af42129cba416
+c21b28bdf34fc46
+b97302c5255114e
+68baeecb1fbc750
+130bd41520805ba
+8371ba327971627
+a9c51eab84050b0
+97a61595
+{% endhighlight %}
+
 #### Generate Random Password Using pwgen command
 {% highlight text %}
 # Let's install pwgen command
