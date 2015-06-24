@@ -16,6 +16,8 @@ date: 2015-06-21T17:16:12+05:30
 
 * If you are new to Linux, chances are you will meet a stupid person perhaps in a forum or chat room that can trick you into using commands that will harm your files or even your entire operating system.
 * Don't run anything without understanding exactly what it does. Look it up (use Google or `man` command) if there's any part of a command you're not clear on.
+
+* Also you can use <a href="http://explainshell.com/"> http://explainshell.com/</a> to explain what command is.
 * To avoid this dangerous scenario from happening, I have here a list of deadly (Most Dangerous) Linux commands that you should avoid
 
 <img src="https://lh4.googleusercontent.com/-MMmhFydgamw/Tx1OEQeyRII/AAAAAAAABKg/23kyaDUseoo/s256-no/Dead.png">
