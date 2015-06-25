@@ -14,7 +14,7 @@ date: 2015-06-15T13:07:29+05:30
 
 {% include _toc.html %}
 
-### Update System
+### Update Ubuntu System
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo apt-get update && sudo apt-get -y upgrade
 {% endhighlight %}
@@ -30,17 +30,17 @@ date: 2015-06-15T13:07:29+05:30
 
 ### Manually Install Software
 
-#### Install curl
+#### Install curl command
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo apt-get install -y curl
 {% endhighlight %}
 
-#### Install wget
+#### Install wget command
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo apt-get install -y wget
 {% endhighlight %}
 
-#### Install GIT
+#### Install GIT command
 {% highlight bash %}
 [mitesh@Matrix ~]$ sudo apt-get install -y git-core
 {% endhighlight %}
