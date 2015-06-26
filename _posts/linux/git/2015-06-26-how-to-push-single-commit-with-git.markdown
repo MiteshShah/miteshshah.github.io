@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Push Single Commit With Git"
+title: "How to Push Specific Commit With Git"
 author:
 modified:
 comments: true
