@@ -5,7 +5,7 @@ author:
 modified:
 comments: true
 categories: linux/git
-excerpt:
+excerpt: "Sometimes we made lots of commits locally and want to push specific commit to the remote branch. I'll show you how to push specific commit on remote branch"
 tags: [Linux, GIT, Github]
 image:
   feature:
@@ -13,7 +13,7 @@ date: 2015-06-26T17:16:59+05:30
 ---
 
 * Sometimes we made lots of commits locally and want to push specific commit to the remote branch.
-* I'll show you how to push specific commit on remote branch
+* I'll show you how to push specific commit on remote branch.
 
 * First we need to find out the hash of commit which we want to push on remote.
 {% highlight bash %}
