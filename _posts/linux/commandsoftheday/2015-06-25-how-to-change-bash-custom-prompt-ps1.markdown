@@ -20,7 +20,7 @@ date: 2015-06-25T16:33:54+05:30
 
 ### Alert Prompt (PS1)
 
-* Alert Prompt (PS1) chnage your shell color to RED when your previous command exit status is non zero.
+* Alert Prompt (PS1) change your shell color to RED when your previous command exit status is non zero.
 
 {% highlight bash %}
 [root@miteshshah.github.io ~]# PS1="\`if [ \$? = 0 ]; then echo \[\e[34m\]^_^[\u@\h:\w]\\$\[\e[0m\]; else echo \[\e[31m\]O_O[\u@\h:\w]\\$\[\e[0m\]; fi\` "
