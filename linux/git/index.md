@@ -13,4 +13,4 @@ image:
 
 
 1. <a href="/linux/git/how-to-find-github-user-public-keys/">How to Find Github User Public Keys </a>
-1. <a href="/linux/git/how-to-push-single-commit-with-git/"> How to Push Single Commit With Git </a>
+1. <a href="/linux/git/how-to-push-single-commit-with-git/"> How to Push Specific Commit With Git </a>
