@@ -122,7 +122,7 @@ eth0      Link encap:Ethernet  HWaddr ed:f5:ab:9c:6c:6e
 
 ### Windows
 
-* Download and install <a hrf="http://www.belarc.com/de/Programs/advisorinstaller.exe"> Belarc Advisor </a>
+* Download and install <a href="http://www.belarc.com/de/Programs/advisorinstaller.exe"> Belarc Advisor </a>
 * Once Belarc Advisor installed, its open a HTML page which contains all your system information.
 
 <img src="https://cloud.githubusercontent.com/assets/1223371/8204429/3bbb4134-1506-11e5-81e7-5c505bff7a1a.png">
