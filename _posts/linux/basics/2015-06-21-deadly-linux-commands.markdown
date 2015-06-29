@@ -34,6 +34,7 @@ date: 2015-06-21T17:16:12+05:30
 * The following weird looking command is actually function which created copies of itself endlessly.
 * This Fork Bomb quickly use all your system resources like CPU, RAM, etc and cause system crash.
 * This can often lead to corruption of data.
+* For More Detailed Information Refer <a href="https://en.wikipedia.org/wiki/Fork_bomb">https://en.wikipedia.org/wiki/Fork_bomb</a>
 
 {% highlight bash %}
 [mitesh@Matrix ~]$ :(){:|:&};:
