@@ -50,9 +50,7 @@ date: 2015-06-29T11:40:52+05:30
 
 #### Configure t
 {% highlight bash %}
-[mitesh@shah ~]$ t authorised
-Could not find command "authorised".
-root@perk-cache:~# t authorize
+[mitesh@shah ~]$ t authorize
 Welcome! Before you can use t, you'll first need to register an
 application with Twitter. Just follow the steps below:
   1. Sign in to the Twitter Application Management site and click
