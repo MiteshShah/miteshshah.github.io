@@ -5,7 +5,7 @@ author:
 modified:
 comments: true
 categories: linux/Ubuntu
-excerpt: "Newbie Guide - Install Git, OpenSSH-Server, Java, Shutter, Hipchat, VLC and Google Chrome"
+excerpt: "Newbie Guide - Install Git, OpenSSH-Server, Java, Shutter, Hipchat, VLC and Google Chrome on Ubuntu Linux"
 tags: [Linux, Ubuntu]
 image:
   feature:
