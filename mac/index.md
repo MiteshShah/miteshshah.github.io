@@ -10,10 +10,6 @@ image:
   creditlink:
 ---
 
-1. <a href="/mac/things-to-do-after-installing-mac-os-x/"> Things To Do After Installing Mac OS X </a>
-1. <a href="/mac/install-network-tools-on-mac-os-x/"> Install Network Tools on Mac OS X </a>
-1. <a href="/mac/clean-install-of-os-x-yosemite/"> Clean Install of OS X Yosemite </a>
-1. <a href="/mac/disable-startup-chime-on-a-mac/"> Disable Startup Chime on a Mac </a>
-1. <a href="/mac/os-x-tips-and-tricks/"> OS X Tips and Tricks </a>
-1. <a href="/mac/how-to-edit-the-hosts-file-on-mac-os/"> How to Edit the Hosts File on Mac OS </a>
-1. <a href="/mac/how-to-flush-dns-cache-on-mac-os/"> How to Flush DNS Cache on Mac OS </a>
+{% for post in site.categories.mac %}
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}

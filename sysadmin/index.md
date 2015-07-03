@@ -10,10 +10,6 @@ image:
   creditlink:
 ---
 
-1. <a href="/sysadmin/disable-ipv6/"> Disable IPv6 </a>
-1. <a href="/sysadmin/how-to-disable-cpu-cores/"> How to Disable CPU Cores </a>
-1. <a href="/sysadmin/assign-multiple-ip-address/"> Assign Multiple IP Address </a>
-1. <a href="/sysadmin/check-website-performance/"> Check Website Performance </a>
-1. <a href="/sysadmin/how-to-fix-webroot-permissions/"> How to Fix Webroot Permissions </a>
-1. <a href="/sysadmin/how-to-check-package-is-installed-or-not/"> How to Check Package Is Installed or Not </a>
-1. <a href="/sysadmin/security-alert/"> Security Alert - Get SMS Update For Wrong Password </a>
+{% for post in site.categories.sysadmin %}
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}

@@ -10,6 +10,6 @@ image:
   creditlink:
 ---
 
-
-1. <a href="/tips-and-tricks/perform-search-and-replace-on-webpages/"> Perform Search and Replace on Webpages </a>
-1. <a href="/tips-and-tricks/transform-any-browser-window-into-text-editor/"> Transform Any Browser Window Into Text Editor </a>
+{% for post in site.categories.tips-and-tricks %}
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
