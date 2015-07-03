@@ -72,7 +72,7 @@ A kernel is the most fundamental part of an operating system, providing services
 #### 4. Avoid captive user interface
 
 * Interactive command are rare in Linux and UNIX.
-* Most commands except their options and arguments to be typed on the command line when the command is launched.
+* Most commands expect their options and arguments to be typed on the command line when the command is launched.
 * The command completes normally, possibly producing output, or generates an error message and quits. * Interactivity is reserved for programs where it makes sense, for example, text editors (of course, there are non-interactive text editors too.)
 
 #### 5. Configuration data stored in text:
