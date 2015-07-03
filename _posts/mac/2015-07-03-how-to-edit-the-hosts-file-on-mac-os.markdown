@@ -24,7 +24,10 @@ $ sudo vim /private/etc/hosts
 Password:
 {% endhighlight %}
 
-**NOTE!**: If you don't know how to use VIM, You can check <a href="/linux/basics/vim-an-advance-text-editor/">VIM - An Advance Text Editor</a> Guide.
+**NOTE!**: If you still don't get desire result, You have to <a href="/mac/how-to-flush-dns-cache-on-mac-os/">Flush DNS Cache</a> Guide.
+{: .notice}
+
+**NOTE!**: If you don't know how to use VIM, You can check <a href="/linux/basics/vim-an-advance-text-editor/">VIM - An Advance Text Editor</a>
 {: .notice}
 
 ### Edit Hosts File Using Text Editor
@@ -52,3 +55,6 @@ Password:
 
 192.168.0.100   miteshshah.github.io
 {% endhighlight %}
+
+**NOTE!**: If you still don't get desire result, You have to <a href="/mac/how-to-flush-dns-cache-on-mac-os/">Flush DNS Cache</a>
+{: .notice}
