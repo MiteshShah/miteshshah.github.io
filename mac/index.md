@@ -15,3 +15,5 @@ image:
 1. <a href="/mac/clean-install-of-os-x-yosemite/"> Clean Install of OS X Yosemite </a>
 1. <a href="/mac/disable-startup-chime-on-a-mac/"> Disable Startup Chime on a Mac </a>
 1. <a href="/mac/os-x-tips-and-tricks/"> OS X Tips and Tricks </a>
+1. <a href="/mac/how-to-edit-the-hosts-file-on-mac-os/"> How to Edit the Hosts File on Mac OS </a>
+1. <a href="/mac/how-to-flush-dns-cache-on-mac-os/"> How to Flush DNS Cache on Mac OS </a>
