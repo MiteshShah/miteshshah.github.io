@@ -11,6 +11,7 @@ image:
   feature:
 date: 2015-07-06T13:38:21+05:30
 ---
+{% include _toc.html %}
 
 ### GUI Method
 
