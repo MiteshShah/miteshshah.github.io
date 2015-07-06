@@ -5,7 +5,7 @@ author:
 modified:
 comments: true
 categories: sysadmin
-excerpt:
+excerpt: "How to Upgrade Multiple WordPress, WordPress Plugins and WordPress Themes with single command."
 tags: [Linux, SysAdmin, SystemAdmin, WP-CLI, WordPress, ShellScript]
 image:
   feature:
