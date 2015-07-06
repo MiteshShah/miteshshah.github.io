@@ -2,7 +2,7 @@
 layout: post
 title: "Things to Do After Installing Mac OS X"
 author:
-modified:
+modified: 2015-07-06T11:15:12+05:30
 comments: true
 categories: mac
 excerpt: "Newbie Guide - Install Git, OpenSSH-Server, Java, Shutter, Hipchat, VLC and Google Chrome on Mac OS"
@@ -26,25 +26,33 @@ date: 2015-06-15T14:54:12+05:30
 [mitesh@Matrix ~]$ brew install caskroom/cask/brew-cask
 {% endhighlight %}
 
+#### Install ssh-copy-id command
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew install ssh-copy-id
+{% endhighlight %}
+
+#### Install watch command
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew install watch
+{% endhighlight %}
+
 #### Install Google Chrome
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew cask install google-chrome
 [mitesh@Matrix ~]$ brew cask install 1password
 {% endhighlight %}
 
-#### Install Vagrant
-{% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install vagrant
-{% endhighlight %}
-
-#### Install Virtualbox
-{% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install virtualbox
-{% endhighlight %}
-
 #### Install VLC
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew cask install vlc
+{% endhighlight %}
+
+#### Install Skitch
+* See something that sparks an idea? Use Skitch to snap it, mark it up, and send it on in an instant.
+* Your bold ideas stand out even brighter with Skitch.
+
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew cask install skitch
 {% endhighlight %}
 
 #### Install Caffeine
@@ -59,18 +67,22 @@ date: 2015-06-15T14:54:12+05:30
 {% endhighlight %}
 
 #### Install Atom
+
+* A hackable text editor for the 21st Century.
+* Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
+
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew cask install atom
 {% endhighlight %}
 
-#### Install ssh-copy-id command
+#### Install Vagrant
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew install ssh-copy-id
+[mitesh@Matrix ~]$ brew cask install vagrant
 {% endhighlight %}
 
-#### Install watch command
+#### Install Virtualbox
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew install watch
+[mitesh@Matrix ~]$ brew cask install virtualbox
 {% endhighlight %}
 
 #### Install Oh-My-ZSH
