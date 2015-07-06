@@ -13,3 +13,5 @@ image:
 {% for post in site.categories.mac %}
   <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
+
+<li><a href="/how-to-findout-your-system-information/#mac"> How to Findout Your System Information </a></li>

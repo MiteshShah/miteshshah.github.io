@@ -11,3 +11,4 @@ image:
 ---
 
 1. <a href="/linux/tutorials/how-to-edit-the-hosts-file-on-linux/"> How to Edit the Hosts File on Linux </a>
+1. <a href="/how-to-findout-your-system-information/#linux"> How to Findout Your System Information </a>
