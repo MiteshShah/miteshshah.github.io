@@ -98,6 +98,6 @@ Authorization successful.
 * Click on Settings <i class="fa fa-cog"></i>
 * Click on Turn on mobile notifications.
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/8402334/6b4d1a2a-1e58-11e5-84f1-31bf468995ac.png">
+<img src="https://cloud.githubusercontent.com/assets/1223371/8515662/02129d2e-23c5-11e5-8e84-45eb20a9ced2.png">
 
 * Feel free to comment below in case you face any problem.
