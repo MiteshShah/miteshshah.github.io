@@ -11,6 +11,7 @@ image:
 ---
 
 
+1. <a href="/linux/commandsoftheday/useful-bash-commands/"> Useful Bash Commands </a>
 1. <a href="/linux/commandsoftheday/download-youtube-videos/"> Download Youtube Videos </a>
 1. <a href="/linux/commandsoftheday/generate-random-password/"> Generate Random Password </a>
 1. <a href="/linux/commandsoftheday/access-website-without-editing-dns/"> Access Website Without Editing DNS </a>
