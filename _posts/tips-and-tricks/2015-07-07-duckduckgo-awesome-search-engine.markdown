@@ -106,12 +106,13 @@ date: 2015-07-07T22:27:43+05:30
 
 * !g Mitesh Shah Linux
 
-**NOTE!**: If you type above query on DDG then you will get Google Search Result instead of DDG
+**NOTE!**: If you type above query on DDG then you will get Google Search Result instead of DDG<br>
+<a href="https://duckduckgo.com/bang">DuckDuckGo Bang - Search thousands of sites directly from DuckDuckGo</a>
 {: .notice}
 
 
 ### More DuckDuckGO Hack
 
+* <a href="https://duckduckgo.com/bang">DuckDuckGo Bang</a>
 * <a href="https://duckduckgo.com/tour">DuckDuckGO Tour</a>
 * <a href="http://duckduckhack.com/">DuckDuckGO Hacks</a>
-* <a href="https://duckduckgo.com/bang">DuckDuckGo Bang</a>
