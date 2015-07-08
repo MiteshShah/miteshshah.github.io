@@ -84,6 +84,11 @@ date: 2015-07-07T22:27:43+05:30
 * <a href="https://duckduckgo.com/?q=paneer+recipes&ia=recipes">Find Paneer Recipes</a>
 <img alt="Find Recipes" src="https://cloud.githubusercontent.com/assets/1223371/8552254/94ddf1d2-24f9-11e5-92f7-80ecc7875324.png">
 
+### Currency Convertor
+
+* <a href="https://duckduckgo.com/?q=%241+in+inr&ia=currency">Currency Convertor</a>
+<img alt="Currency Convertor" src="https://cloud.githubusercontent.com/assets/1223371/8570617/5001837a-259f-11e5-8db7-5564ae4dcb41.png">
+
 ### Find Information About Place/Person
 
 * <a href="https://duckduckgo.com/?q=India&ia=about&iax=1">Find Information about India</a>
@@ -97,7 +102,16 @@ date: 2015-07-07T22:27:43+05:30
 * <a href="https://duckduckgo.com/?q=weather&ia=weather">Weather Information</a>
 <img alt="Weather Information" src="https://cloud.githubusercontent.com/assets/1223371/8553272/ec37583c-24ff-11e5-8f76-dc548b52fa97.png">
 
+### Search Query On Google instead of DDG
+
+* !g Mitesh Shah Linux
+
+**NOTE!**: If you type above query on DDG then you will get Google Search Result instead of DDG
+{: .notice}
+
+
 ### More DuckDuckGO Hack
 
 * <a href="https://duckduckgo.com/tour">DuckDuckGO Tour</a>
 * <a href="http://duckduckhack.com/">DuckDuckGO Hacks</a>
+* <a href="https://duckduckgo.com/bang">DuckDuckGo Bang</a>
