@@ -42,6 +42,8 @@ Feel free to add those commands in below comments box.
 # Linux/Unix OS
 $ <CTRL+l>
 # MAC OS
+# The following keys not just clear screen but also clear Terminal buffer
+# After <COMMAND+k> you can't able to view previous buffer
 $ <COMMAND+k>
 {% endhighlight %}
 
@@ -99,6 +101,33 @@ $ cd /home/mitesh/shah/miteshshah.github.io/index.html
 # Using !$
 $ cd !$
 $ cd /home/mitesh/shah/miteshshah.github.io/index.html
+{% endhighlight %}
+
+#### Paste Selected Argument
+
+* This comes in handy when you've written a long command with multiple arguments and you want to reuse one of them.
+{% highlight bash %}
+# Use Only 3rd Argument
+$ echo a b c d e
+a b c d e
+$ echo !:3
+echo c
+c
+
+# Used 1-3 Argument Only
+$ echo a b c d e
+a b c d e
+$ echo !:1-3
+echo a b c
+a b c
+
+# If you leave off the first digit and just start with `!:-`
+# then you'll include argument 0, which is the previous command.
+$ echo a b c d e
+a b c d e
+$ echo !:-3
+echo echo a b c
+echo a b c
 {% endhighlight %}
 
 #### Reset Terminal

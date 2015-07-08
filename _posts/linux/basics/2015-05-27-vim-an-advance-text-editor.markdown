@@ -2,7 +2,7 @@
 layout: post
 title: "VIM - an Advance Text Editor"
 author:
-modified:
+modified: 2015-07-08T18:14:22+05:30
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - VIM An Advance Text Editor"
@@ -134,6 +134,13 @@ To exit insert mode, hit the Esc key.
 
 
 **Moving Around (Command Mode)**
+<pre>
+      ^
+      k
+< h       l >
+      j
+      v
+</pre>
 <pre>
 /---------------------------------------------------------------\
 |	Moves by characters	|	Arrow Keys		|
