@@ -126,6 +126,10 @@ cp frontend.c /usr/local/src/project
 [mitesh@Matrix ~]$ export HISTCONTROL=ignoreboth
 {% endhighlight %}
 
+**NOTE!**: `HISTCONTROL=ignorespace` will ignore just the commands that begin with a space.<br>
+Use `HISTCONTROL=ignoreboth` if you also want to ignore duplicates.
+{: .notice}
+
 
 ### Command Line Expansion
 
