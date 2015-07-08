@@ -84,6 +84,10 @@ Hi Mitesh, Hi Shah, Hi Visitor
 $ <SPACE><COMMAND>
 {% endhighlight %}
 
+**NOTE!**: `HISTCONTROL=ignorespace` will ignore just the commands that begin with a space.<br>
+Use `HISTCONTROL=ignoreboth` if you also want to ignore duplicates.
+{: .notice}
+
 #### Paste Last Argument of Most Recent Command
 {% highlight bash %}
 $ cp -v index.html /home/mitesh/shah/miteshshah.github.io/index.html
