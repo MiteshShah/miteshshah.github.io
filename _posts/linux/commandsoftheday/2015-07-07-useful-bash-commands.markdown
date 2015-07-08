@@ -37,15 +37,6 @@ Feel free to add those commands in below comments box.
 \---------------------------------------------------------------/
 </pre>
 
-#### To recall last argument from previous command
-<pre>
-/-----------------------------------------------------------------------\
-|	Esc .		The escape key followed by a period.		|
-|	Alt+.		Hold down alt key while pressing the period.	|
-|	!$		Only valid for last argument			|
-\-----------------------------------------------------------------------/
-</pre>
-
 #### Clear Terminal
 {% highlight bash %}
 # Linux/Unix OS
@@ -89,6 +80,14 @@ Use `HISTCONTROL=ignoreboth` if you also want to ignore duplicates.
 {: .notice}
 
 #### Paste Last Argument of Most Recent Command
+<pre>
+/-----------------------------------------------------------------------\
+|	Esc .		The escape key followed by a period.		|
+|	Alt+.		Hold down alt key while pressing the period.	|
+|	!$		Only valid for last argument			|
+\-----------------------------------------------------------------------/
+</pre>
+
 {% highlight bash %}
 $ cp -v index.html /home/mitesh/shah/miteshshah.github.io/index.html
 # Using ALT Dot
