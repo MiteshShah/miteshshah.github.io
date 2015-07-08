@@ -19,6 +19,33 @@ date: 2015-07-07T13:16:28+05:30
 Feel free to add those commands in below comments box.
 {: .notice}
 
+#### Shortcuts
+<pre>
+/---------------------------------------------------------------------------------------\
+|	!!	Repeat last command							|
+|	!char	Repeat last command That started with char				|
+|	!num	Repeat a command by its number in history output			|
+|										        |
+|	!-n	Repeat a command entered n command back					|
+|	!?abc	Repeat last command that contains (as opposed to ?started with?) abc    |
+\---------------------------------------------------------------------------------------/
+</pre>
+<pre>
+/---------------------------------------------------------------\
+|	UP DOWN Keys	Scroll through previous commands	|
+|	Ctrl+r		Reverse-i-search		  	|
+\---------------------------------------------------------------/
+</pre>
+
+#### To recall last argument from previous command
+<pre>
+/-----------------------------------------------------------------------\
+|	Esc .		The escape key followed by a period.		|
+|	Alt+.		Hold down alt key while pressing the period.	|
+|	!$		Only valid for last argument			|
+\-----------------------------------------------------------------------/
+</pre>
+
 #### Clear Terminal
 {% highlight bash %}
 # Linux/Unix OS
@@ -65,6 +92,9 @@ $ cd <ALT+.>
 $ cd /home/mitesh/shah/miteshshah.github.io/index.html
 # Using Esc Dot
 $ cd <ESC+.>
+$ cd /home/mitesh/shah/miteshshah.github.io/index.html
+# Using !$
+$ cd !$
 $ cd /home/mitesh/shah/miteshshah.github.io/index.html
 {% endhighlight %}
 
