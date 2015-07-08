@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Create Directory & Change Permission With Single Command"
+title: "How to Create Directory and Change Permission With Single Command"
 author:
 modified:
 comments: true
