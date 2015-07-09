@@ -2,7 +2,7 @@
 layout: post
 title: "DuckDuckGo - Awesome Search Engine"
 author:
-modified:
+modified: 2015-07-09T16:05:43+05:30
 comments: true
 categories: tips-and-tricks
 excerpt: "DuckDuckGO - Awesome Search Engine to quickly find required information."
@@ -83,6 +83,11 @@ date: 2015-07-07T22:27:43+05:30
 
 * <a href="https://duckduckgo.com/?q=paneer+recipes&ia=recipes">Find Paneer Recipes</a>
 <img alt="Find Recipes" src="https://cloud.githubusercontent.com/assets/1223371/8552254/94ddf1d2-24f9-11e5-92f7-80ecc7875324.png">
+
+### Display Calendar
+
+* <a href="https://duckduckgo.com/?q=calendar&ia=answer">Display Calendar</a>
+<img alt="Display Calendar" src="https://cloud.githubusercontent.com/assets/1223371/8595077/bcb82468-2664-11e5-8331-3ada56171b3c.png">
 
 ### Currency Convertor
 
