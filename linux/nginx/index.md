@@ -13,3 +13,4 @@ image:
 
 
 1. <a href="/linux/nginx/auto-reload-nginx/"> Auto Reload NGINX </a>
+1. <a href="/linux/nginx/nginx-address-alredy-in-use-error/"> NGINX - Address Alredy in Use Error </a>
