@@ -2,7 +2,7 @@
 layout: post
 title: "How to Create Directory and Change Permission With Single Command"
 author:
-modified:
+modified: 2015-07-10T11:45:02+05:30
 comments: true
 categories: linux/commandsoftheday
 excerpt: "Quiz - How to create new directory and change its Permission with single command"
@@ -34,3 +34,10 @@ $ mkdir quiz ; chmod 600 quiz
 
 **NOTE!**: Answer of this quiz will be updated on 10th July 2015.
 {: .notice}
+
+### Answer
+{% highlight bash %}
+$ mkdir -m 600 quiz
+$ ls -ld quiz/
+drw------- 2 root root 4096 Jul 10 11:36 quiz/
+{% endhighlight %}

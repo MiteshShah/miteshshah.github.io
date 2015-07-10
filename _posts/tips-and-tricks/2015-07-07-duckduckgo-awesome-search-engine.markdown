@@ -94,6 +94,16 @@ date: 2015-07-07T22:27:43+05:30
 * <a href="https://duckduckgo.com/?q=%241+in+inr&ia=currency">Currency Convertor</a>
 <img alt="Currency Convertor" src="https://cloud.githubusercontent.com/assets/1223371/8570617/5001837a-259f-11e5-8db7-5564ae4dcb41.png">
 
+### Stopwatch
+
+* <a href="https://duckduckgo.com/?q=stopwatch&ia=stopwatch">Stopwatch</a>
+<img alt="Stopwatch" src="https://cloud.githubusercontent.com/assets/1223371/8612892/d65e4550-26f5-11e5-82f8-5ec8ab5a411f.png">
+
+### Timer
+
+* <a href="https://duckduckgo.com/?q=timer+10+minutes&ia=timer">Set Timer</a>
+<img alt="Set Timer" src="https://cloud.githubusercontent.com/assets/1223371/8612894/d6fc71d0-26f5-11e5-9fb2-1ef713b6d712.png">
+
 ### Find Information About Place/Person
 
 * <a href="https://duckduckgo.com/?q=India&ia=about&iax=1">Find Information about India</a>
@@ -107,14 +117,21 @@ date: 2015-07-07T22:27:43+05:30
 * <a href="https://duckduckgo.com/?q=weather&ia=weather">Weather Information</a>
 <img alt="Weather Information" src="https://cloud.githubusercontent.com/assets/1223371/8553272/ec37583c-24ff-11e5-8f76-dc548b52fa97.png">
 
-### Search Query On Google instead of DDG
+### DuckDuckGo Bangs
 
-* !g Mitesh Shah Linux
 
-**NOTE!**: If you type above query on DDG then you will get Google Search Result instead of DDG<br>
-<a href="https://duckduckgo.com/bang">DuckDuckGo Bang - Search thousands of sites directly from DuckDuckGo</a>
-{: .notice}
 
+#### Search on Google instead of DDG
+* <a href="https://duckduckgo.com/?q=!g+Mitesh+Shah+Linux">!g Mitesh Shah Linux</a>
+
+#### Get Direction From Source to Destionation on Google Maps
+* <a href="https://duckduckgo.com/?q=!maps+Bangalore+to+Ahmedabad">!maps Bangalore to Ahmedabad</a>
+
+#### Search Shoes on Amazon
+* <a href="https://duckduckgo.com/?q=!a+shoes">!a shoes</a>
+
+#### Want More DuckDuckGo Bangs
+* <a href="https://duckduckgo.com/bang">DuckDuckGo Bang - Search thousands of sites directly from DuckDuckGo</a>
 
 ### More DuckDuckGO Hack
 
