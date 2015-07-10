@@ -33,3 +33,8 @@ date: 2015-07-05T14:05:58+05:30
 ### Note For SSL Website
 **NOTE!**: If your Staging/Dev/Beta Website used SSL the that SSL is replaced by `*.hosts.cx` SSL
 {: .notice}
+
+### You Might Also Like
+
+1. <a href="/linux/tutorials/how-to-edit-the-hosts-file-on-linux/">How to Edit the Hosts File on Linux</a>
+1. <a href="/mac/how-to-edit-the-hosts-file-on-mac-os/">How to Edit the Hosts File on Mac OS</a>

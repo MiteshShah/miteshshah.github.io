@@ -58,3 +58,8 @@ Password:
 
 **NOTE!**: If you still don't get desire result, You have to <a href="/mac/how-to-flush-dns-cache-on-mac-os/">Flush DNS Cache</a>
 {: .notice}
+
+### You Might Also Like
+
+1. <a href="/linux/tutorials/how-to-edit-the-hosts-file-on-linux/">How to Edit the Hosts File on Linux</a>
+1. <a href="/tips-and-tricks/how-to-access-staging-website-without-editing-hosts-files-or-dns/">How to Access Staging Website Without Editing Hosts Files or DNS</a>

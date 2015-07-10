@@ -41,3 +41,8 @@ Password:
 
 **NOTE!**: If you don't know how to use VIM, You can check <a href="/linux/basics/vim-an-advance-text-editor/">VIM - An Advance Text Editor</a>
 {: .notice}
+
+### You Might Also Like
+
+1. <a href="/mac/how-to-edit-the-hosts-file-on-mac-os/">How to Edit the Hosts File on Mac OS</a>
+1. <a href="/tips-and-tricks/how-to-access-staging-website-without-editing-hosts-files-or-dns/">How to Access Staging Website Without Editing Hosts Files or DNS</a>
