@@ -75,14 +75,6 @@ date: 2015-06-21T17:16:12+05:30
 [mitesh@Matrix ~]$ sudo rm -rf /boot/
 {% endhighlight %}
 
-### Move Everything to Blackhole
-
-* This command will move all the files inside your home directory to a `/dev/null` (Blackhole)
-
-{% highlight bash %}
-[mitesh@Matrix ~]$ mv ~/* /dev/null
-[mitesh@Matrix ~]$ mv /home/username/* /dev/null
-{% endhighlight %}
 
 ### Find and Delete configuration files
 {% highlight bash %}
