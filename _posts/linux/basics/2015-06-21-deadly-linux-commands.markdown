@@ -52,7 +52,7 @@ date: 2015-06-21T17:16:12+05:30
 # Fill HDD with letter y
 [mitesh@Matrix ~]$ sudo yes > /dev/sda
 # Fill HDD with number zero 0
-[mitesh@Matrix ~]$ sudo dd if=/dev/null of=/dev/sda
+[mitesh@Matrix ~]$ sudo dd if=/dev/zero of=/dev/sda
 # Fill HDD with random data
 [mitesh@Matrix ~]$ sudo dd if=/dev/urandom of=/dev/sda
 # Overwrite HDD Data (Multiple Times)
