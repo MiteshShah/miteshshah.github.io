@@ -8,6 +8,9 @@ categories: sysadmin
 excerpt: "HTTPie - Command Line HTTP Client, Also Known for cURL and wget command Alternative."
 tags: [Linux, SysAdmin, SystemAdmin, cURL, Wget, HTTPie]
 image:
+  url: https://cloud.githubusercontent.com/assets/1223371/8771230/63389e92-2edc-11e5-8f35-8f96b4cec08f.png
+  alt: HTTPie - cURL and wget Alternative
+  title: HTTPie - cURL and wget Alternative
   feature:
 date: 2015-07-20T12:35:44+05:30
 ---
@@ -18,7 +21,7 @@ date: 2015-07-20T12:35:44+05:30
 * Also known for cURL and wget command Alternative.
 * HTTPie goal is to make CLI interaction with web services as human-friendly as possible.
 
-<img alt="HTTPie - cURL and wget Alternative" src="https://cloud.githubusercontent.com/assets/1223371/8771230/63389e92-2edc-11e5-8f35-8f96b4cec08f.png">
+<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
 
 #### Features
 

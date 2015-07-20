@@ -8,5 +8,8 @@ categories: {{ dir }}
 excerpt:
 tags: []
 image:
+  url:
+  alt:
+  title:
   feature:
 ---
