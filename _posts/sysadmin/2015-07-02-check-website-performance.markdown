@@ -20,7 +20,7 @@ date: 2015-07-02T16:08:28+05:30
   * <a href="#gtmetrix">GTmetrix</a>
   * <a href="#webpage-test">Webpage Test</a>
   * <a href="#pagespeed-insights">PageSpeed Insights</a>
-  * <a href="#pingdom-tools">Pingdom Tools</a
+  * <a href="#pingdom-tools">Pingdom Tools</a>
   * <a href="#yellow-lab-tools">Yellow Lab Tools</a>
 
 ### GTmetrix
