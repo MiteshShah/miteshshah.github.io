@@ -15,3 +15,4 @@ image:
 {% endfor %}
 
 <li><a href="/how-to-findout-your-system-information/#mac"> How to Findout Your System Information </a></li>
+<li><a href="/linux/tutorials/warning-remote-host-identification-has-changed/"> WARNING: Remote Host Identification has Changed </a></li>
