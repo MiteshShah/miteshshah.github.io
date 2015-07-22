@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NGINX - Address Alredy in Use Error"
+title: "NGINX - Address Already in Use Error"
 author:
 modified:
 comments: true
