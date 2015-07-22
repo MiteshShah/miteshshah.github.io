@@ -19,6 +19,7 @@ date: 2015-07-21T16:17:40+05:30
 
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
 
+* Apple <a href="https://www.apple.com/hotnews/thoughts-on-flash/">blocked Adobe Flash on 2010</a>.
 * Recently Mozilla Firefox block Adobe Flash Player.
 * <a href="http://blog.system76.com/post/124110683268/farewell-flash">System76</a> Also removed Adobe Flash Player.
 * Adobe Flash Player is also known for more security holes than Swiss cheese.
