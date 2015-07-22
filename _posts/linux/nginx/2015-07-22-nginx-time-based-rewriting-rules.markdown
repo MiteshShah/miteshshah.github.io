@@ -8,9 +8,9 @@ categories: linux/nginx
 excerpt: "How to tell NGINX to change it's behavior for specific time windows. Extremely useful for lazy system admins like me"
 tags: [Linux, NGINX, Rewrite Rules, HttpLuaModule]
 image:
-  url:
-  alt:
-  title:
+  url: http://wiki.nginx.org/local/nginx-logo.png
+  alt: NGINX - Time Based Rewriting Rules
+  title: NGINX - Time Based Rewriting Rules
   feature:
 date: 2015-07-22T18:20:41+05:30
 ---
