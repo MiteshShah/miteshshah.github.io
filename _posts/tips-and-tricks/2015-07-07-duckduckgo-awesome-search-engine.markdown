@@ -2,7 +2,7 @@
 layout: post
 title: "DuckDuckGo - Awesome Search Engine"
 author:
-modified: 2015-07-09T16:05:43+05:30
+modified:  2015-07-24T14:11:22+05:30
 comments: true
 categories: tips-and-tricks
 excerpt: "DuckDuckGO - Awesome Search Engine to quickly find required information."
@@ -66,6 +66,11 @@ date: 2015-07-07T22:27:43+05:30
 * <a href="https://duckduckgo.com/?q=leakdb+5f4dcc3b5aa765d61d8327deb882cf99&ia=leaks">Find Plain Text Password From Hash 5f4dcc3b5aa765d61d8327deb882cf99</a>
 <img alt="Find Plain Text Password From Hash" src="https://cloud.githubusercontent.com/assets/1223371/8553090/a6db91d2-24fe-11e5-9a38-4c34998cb9d4.png">
 
+### Expand Short URL
+
+* <a href="https://duckduckgo.com/?q=expand+ift.tt%2F1RiLSyT&ia=answer">Expand Short URL</a>
+<img alt="Expand Short URL" src="https://cloud.githubusercontent.com/assets/1223371/8870389/313bf146-320b-11e5-80b5-93a8cf42a8d8.png">
+
 ### Find Cheat Sheet
 
 * <a href="https://duckduckgo.com/?q=regex+cheat+sheet&ia=cheatsheet">Find regrex cheat sheet</a>
@@ -89,6 +94,16 @@ date: 2015-07-07T22:27:43+05:30
 * <a href="https://duckduckgo.com/?q=calendar&ia=answer">Display Calendar</a>
 <img alt="Display Calendar" src="https://cloud.githubusercontent.com/assets/1223371/8595077/bcb82468-2664-11e5-8331-3ada56171b3c.png">
 
+### Calculator
+
+* <a href="https://duckduckgo.com/?q=1000-500%3D&ia=answer">Calculator</a>
+<img alt="Calculator" src="https://cloud.githubusercontent.com/assets/1223371/8870746/e0111168-320d-11e5-9f05-46ecab91830f.png">
+
+#### Loan Calculator
+
+* <a href="https://duckduckgo.com/?q=loan+Rs+60%2C000+at+10%25+with+10%25+down+for+1+year&ia=answer">Loan Calculator</a>
+<img alt="Loan Calculator" src="https://cloud.githubusercontent.com/assets/1223371/8870687/7e1c905e-320d-11e5-8af4-24bc8020031e.png">
+
 ### Currency Convertor
 
 * <a href="https://duckduckgo.com/?q=%241+in+inr&ia=currency">Currency Convertor</a>
@@ -104,6 +119,16 @@ date: 2015-07-07T22:27:43+05:30
 * <a href="https://duckduckgo.com/?q=timer+10+minutes&ia=timer">Set Timer</a>
 <img alt="Set Timer" src="https://cloud.githubusercontent.com/assets/1223371/8612894/d6fc71d0-26f5-11e5-9fb2-1ef713b6d712.png">
 
+### Find Social Media Bio
+
+* <a href="https://duckduckgo.com/?q=%40MiteshShah05&ia=social">Find Social Information About MiteshShah05</a>
+<img alt="Find Social Media Bio" src="https://cloud.githubusercontent.com/assets/1223371/8869858/9261c1a8-3206-11e5-81f1-171d62d5983f.png">
+
+### Find Github Repository
+
+* <a href="https://duckduckgo.com/?q=%40MiteshShah+Github&ia=software">Find Github Repository of MiteshShah</a>
+<img alt="Find Github Repository" src="https://cloud.githubusercontent.com/assets/1223371/8869886/da83b518-3206-11e5-8c2a-cee0445b80c6.png">
+
 ### Find Information About Place/Person
 
 * <a href="https://duckduckgo.com/?q=India&ia=about&iax=1">Find Information about India</a>
@@ -112,14 +137,29 @@ date: 2015-07-07T22:27:43+05:30
 * <a href="https://duckduckgo.com/?q=APJ+Abdul+Kalam&ia=about&iax=1">Find Information About Person</a>
 <img alt="Find Information About Person" src="https://cloud.githubusercontent.com/assets/1223371/8553208/759333e0-24ff-11e5-9cf1-87d703a87671.png">
 
+### Change Case
+
+#### Title Case
+
+* <a href="https://duckduckgo.com/?q=titlecase+MITESH+sHAH&ia=answer">Title Case</a>
+<img alt="Title Case" src="https://cloud.githubusercontent.com/assets/1223371/8870576/bb5b8f66-320c-11e5-977d-b13880b2bda6.png">
+
+#### Lower Case
+
+* <a href="https://duckduckgo.com/?q=lowercase+MITESH+sHAH&ia=answer">Lower Case</a>
+<img alt="WLower Case" src="https://cloud.githubusercontent.com/assets/1223371/8870581/bceca20c-320c-11e5-80e0-28cfe3f2b691.png">
+
+#### Upper Case
+
+* <a href="https://duckduckgo.com/?q=uppercase+mitesh+Shah&ia=answer">Upper Case</a>
+<img alt="Upper Case" src="https://cloud.githubusercontent.com/assets/1223371/8870571/b9aaf7a6-320c-11e5-9079-f77f3547338d.png">
+
 ### Weather Information
 
 * <a href="https://duckduckgo.com/?q=weather&ia=weather">Weather Information</a>
 <img alt="Weather Information" src="https://cloud.githubusercontent.com/assets/1223371/8553272/ec37583c-24ff-11e5-8f76-dc548b52fa97.png">
 
 ### DuckDuckGo Bangs
-
-
 
 #### Search on Google instead of DDG
 * <a href="https://duckduckgo.com/?q=!g+Mitesh+Shah+Linux">!g Mitesh Shah Linux</a>
