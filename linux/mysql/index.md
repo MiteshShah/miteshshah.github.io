@@ -13,3 +13,4 @@ image:
 
 
 1. <a href="/linux/mysql/mysql-basics/"> MySQL Basics </a>
+1. <a href="/linux/mysql/mycli-mysql-mariadb-and-percona-auto-completion-and-syntax-highlighting-tool/"> MyCLI - MySQL MariaDB and Percona Auto-completion and Syntax Highlighting Tool </a>
