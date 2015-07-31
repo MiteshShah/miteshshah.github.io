@@ -5,7 +5,7 @@ author:
 modified:
 comments: true
 categories: mac
-excerpt: How to setup and run Kali Linux with Metasploit tool under the Mac OS X"
+excerpt: "How to setup and run Kali Linux with Metasploit tool under the Mac OS X"
 tags: [Mac, OSX, Kali, Linux, Docker]
 image:
   url: https://www.kali.org/wp-content/uploads/2015/05/kali-linux-docker-images-798x284.png
