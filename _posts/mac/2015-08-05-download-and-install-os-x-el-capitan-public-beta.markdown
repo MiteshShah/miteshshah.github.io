@@ -20,6 +20,7 @@ date: 2015-08-05T18:55:44+05:30
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
 
 ### Download OS X El Capitan Public Beta
+
 #### How to Sign Up for the El Capitan Beta Preview
 
 * Open  <a href="https://beta.apple.com/sp/betaprogram/welcome">Apple Beta Software Program</a> page.
