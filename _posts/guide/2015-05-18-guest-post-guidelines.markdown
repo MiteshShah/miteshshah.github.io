@@ -14,13 +14,6 @@ date: 2015-05-18T17:49:06+05:30
 
 {% include _toc.html %}
 
-## Installation
-
-* Download following file and save as Gemfile
-{% gist MiteshShah/3b2bbb756568fa78ae50 %}
-
-* [Install Bundler](http://bundler.io) `gem install bundler` and Run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), [Octopress](https://github.com/octopress/octopress), etc)
-
 ## Setup Work Directory
 * We need to setup work directory and clone this blog.
 {% highlight bash %}
@@ -28,6 +21,11 @@ mdkir -p ~/Github/
 git clone git@github.com:MiteshShah/miteshshah.github.io.git
 cd ~/Github/miteshshah.github.io
 {% endhighlight %}
+
+## Installation
+
+* [Install Bundler](http://bundler.io) `sudo gem install bundler` and Run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), [Octopress](https://github.com/octopress/octopress), etc)
+
 
 ## Author Override
 * Start by editing `authors.yml` file in the `_data` folder and add your authors using the following format.

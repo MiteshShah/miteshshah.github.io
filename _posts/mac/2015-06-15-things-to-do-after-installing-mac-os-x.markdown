@@ -6,7 +6,7 @@ modified: 2015-07-06T11:15:12+05:30
 comments: true
 categories: mac
 excerpt: "Newbie Guide - Install Git, OpenSSH-Server, Java, Shutter, Hipchat, VLC and Google Chrome on Mac OS"
-tags: [MAC, Yosemite, ]
+tags: [MAC, OSX, Yosemite ]
 image:
   feature:
 date: 2015-06-15T14:54:12+05:30
@@ -29,6 +29,11 @@ date: 2015-06-15T14:54:12+05:30
 #### Install ssh-copy-id command
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew install ssh-copy-id
+{% endhighlight %}
+
+#### Install wget command
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew install wget
 {% endhighlight %}
 
 #### Install watch command
