@@ -111,3 +111,6 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www.example.com [NC]
 RewriteRule ^(.*)$ http://example.com/$1 [L,R=301,NC]
 {% endhighlight %}
+
+**NOTE!**: You can directly test your .htaccess rules at <a href="http://htaccess.madewithlove.be/">http://htaccess.madewithlove.be/</a>
+{: .notice}
