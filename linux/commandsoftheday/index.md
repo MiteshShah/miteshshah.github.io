@@ -22,3 +22,4 @@ image:
 1. <a href="/linux/commandsoftheday/check-website-is-down-for-everyone-or-just-for-me/"> Check Website Is Down for Everyone or Just for Me </a>
 1. <a href="/linux/commandsoftheday/vim-automatic-open-readonly-file-with-sudo-privilege/"> VIM - Automatic Open Readonly File With Sudo Privilege </a>
 1. <a href="/linux/commandsoftheday/how-to-create-directory-and-change-permission-with-single-command/"> How to Create Directory & Change Permission With Single Command </a>
+1. <a href="/linux/commandsoftheday/how-to-add-some-colors-and-emoji-icons-on-command-line-terminal/"> How to Add Some Colors and Emoji Icons on CommandLine/Terminal </a>
