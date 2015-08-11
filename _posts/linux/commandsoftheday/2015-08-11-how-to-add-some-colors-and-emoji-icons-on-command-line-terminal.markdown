@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Add Some Colors and Emoji Icons on CommandLine/terminal
+title: How to Add Some Colors and Emoji Icons on CommandLine/Terminal
 author:
 modified:
 comments: true
