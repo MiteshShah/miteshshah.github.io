@@ -17,6 +17,11 @@ date: 2015-07-07T22:27:43+05:30
 * DuckDuckGo Instant Answer Infrastructure.
 * DuckDuckGo (DDG) is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results.
 
+### Find Screen Resolution
+
+* <a href="https://duckduckgo.com/?q=screen+resolution&ia=answer">Find Screen Resolution</a>
+<img alt="Find Screen Resolution" src="https://cloud.githubusercontent.com/assets/1223371/9197483/2f67351a-4052-11e5-98f1-91635c6bb896.png">
+
 ### Find IP Address
 
 * <a href="https://duckduckgo.com/?q=ip&ia=answer">Find IP Address</a>
