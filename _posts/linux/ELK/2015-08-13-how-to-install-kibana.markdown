@@ -30,8 +30,3 @@ $ cd /opt
 $ sudo wget -c https://download.elastic.co/kibana/kibana/kibana-4.1.1-linux-x64.tar.gz -O /opt/kibana.tar.gz
 $ tar -zxvf kibana.tar.gz && rm kibana.tar.gz
 {% endhighlight %}
-
-### Start Kibana
-{% highlight bash %}
-$ /opt/kibana-4.1.1-linux-x64/bin/kibana 
-{% endhighlight %}

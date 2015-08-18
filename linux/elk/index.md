@@ -39,22 +39,23 @@ image:
 * Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of data.
 
 ### Install Software
-1. <a href="/linux/elk/how-to-install-collectd/"> How to Install Collectd </a>
-1. <a href="/linux/elk/how-to-install-elasticsearch/"> How to Install ElasticSearch </a>
-1. <a href="/linux/elk/how-to-install-logstash/"> How to Install Logstash </a>
-1. <a href="/linux/elk/how-to-install-kibana/"> How to Install Kibana </a>
+1. <a href="/linux/elk/how-to-install-collectd/"> Install Collectd </a>
+1. <a href="/linux/elk/how-to-install-elasticsearch/"> Install ElasticSearch </a>
+1. <a href="/linux/elk/how-to-install-logstash/"> Install Logstash </a>
+1. <a href="/linux/elk/how-to-install-kibana/"> Install Kibana </a>
+
+### Configure Software
+
+1. <a href="/linux/elk/how-to-configure-collectd/"> Configure Collectd </a>
+1. <a href="/linux/elk/how-to-configure-elasticsearch/"> Configure ElasticSearch </a>
+1. <a href="/linux/elk/how-to-configure-logstash/"> Configure Logstash </a>
+1. <a href="/linux/elk/how-to-configure-kibana/"> Configure Kibana </a>
 
 ### TODO
 
 **NOTE!**: The following articles has been under testing and published soon.
 {: .notice}
 
-### Configure Software
-
-1. <a href="#todo"> How to Configure Collectd </a>
-1. <a href="#todo"> How to Configure ElasticSearch </a>
-1. <a href="#todo"> How to Configure Logstash </a>
-1. <a href="#todo"> How to Configure Kibana </a>
 
 ### Setup Kibana Dashboard
 
