@@ -33,7 +33,7 @@ input {
 }
 output {
   elasticsearch {
-    cluster  => logstash # this matches out elasticsearch cluster.name
+    cluster  => Gateway # this matches out elasticsearch cluster.name
     protocol => http
   }
 }
