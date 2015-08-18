@@ -11,6 +11,7 @@ image:
 ---
 
 1. <a href="/linux/git"> GIT </a>
+1. <a href="/linux/elk"> ELK </a>
 1. <a href="/linux/mysql/"> MySQL </a>
 1. <a href="/linux/nginx/"> NGINX </a>
 1. <a href="/linux/ubuntu/"> Ubuntu </a>
