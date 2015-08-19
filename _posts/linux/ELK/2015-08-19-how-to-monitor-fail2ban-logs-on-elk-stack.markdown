@@ -17,7 +17,11 @@ date: 2015-08-19T13:35:52+05:30
 
 {% include _toc.html %}
 
+
 ### Import Fail2Ban Logs on Logstash
+
+**NOTE!** We assume that you already setup/configure <a href="/linux/elk">ELK Stack</a>.
+{: .notice}
 
 * To Import Fail2Ban Logs on Logstash, We have to create configuration file.
 

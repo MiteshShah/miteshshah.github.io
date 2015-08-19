@@ -19,6 +19,10 @@ date: 2015-08-18T18:21:34+05:30
 
 ### Import Squid3 Logs on Logstash
 
+**NOTE!** We assume that you already setup/configure <a href="/linux/elk">ELK Stack</a>.
+{: .notice}
+
+
 * To Import squid3 Logs on Logstash, We have to create configuration file.
 
 {% highlight bash %}
