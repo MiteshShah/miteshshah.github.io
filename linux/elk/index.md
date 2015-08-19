@@ -55,6 +55,10 @@ image:
 
 1. <a href="/linux/elk/how-to-monitor-squid3-logs-on-elk-stack/"> Import Squid3 Logs on ELK Stack </a>
 
+### Import Fail2Ban Logs on ELK Stack
+
+1. <a href="/linux/elk/how-to-monitor-fail2ban-logs-on-elk-stack/"> Import Fail2Ban Logs on ELK Stack </a>
+
 ### TODO
 
 **NOTE!**: The following articles has been under testing and published soon.

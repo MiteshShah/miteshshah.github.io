@@ -9,8 +9,8 @@ excerpt: "Step by step guide to configure Squid3 Logs on ELK Stack."
 tags: [Linux, ELK, Squid3]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9349332/494af7bc-4662-11e5-8f14-b228b92cbb2e.png
-  alt:
-  title:
+  alt: How to Monitor Squid3 Logs on ELK Stack
+  title: How to Monitor Squid3 Logs on ELK Stack
   feature:
 date: 2015-08-18T18:21:34+05:30
 ---
@@ -19,10 +19,10 @@ date: 2015-08-18T18:21:34+05:30
 
 ### Import Squid3 Logs on Logstash
 
-* To Import squid3 Logs on Logstash, We have to create/update Logstash configuration file.
+* To Import squid3 Logs on Logstash, We have to create configuration file.
 
 {% highlight bash %}
-$ vim /etc/logstash/conf.d/logstash.conf
+$ vim /etc/logstash/conf.d/squid.conf
 input {
   file {
     type => "squid"
@@ -37,13 +37,9 @@ filter {
       match => [ "message", "%{POSINT:timestamp}.%{POSINT:timestamp_ms}\s+%{NUMBER:response_time} %{IPORHOST:src_ip} %{WORD:squid_request_status}/%{NUMBER:http_status_code} %{NUMBER:reply_size_include_header} %{WORD:http_method} %{NOTSPACE:request_url} %{NOTSPACE:user} %{WORD:squid}/%{IP:dst_ip} %{NOTSPACE:content_type}" ]
       add_tag => ["squid"]
     }
-  }
-}
-
-output {
-  elasticsearch {
-    cluster  => Gateway # this matches out elasticsearch cluster.name
-    protocol => http
+    geoip {
+      source => "dst_ip"
+    }
   }
 }
 {% endhighlight %}
