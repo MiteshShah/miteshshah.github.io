@@ -51,15 +51,15 @@ image:
 1. <a href="/linux/elk/how-to-configure-logstash/"> Configure Logstash </a>
 1. <a href="/linux/elk/how-to-configure-kibana/"> Configure Kibana </a>
 
+### Import Squid3 Logs on ELK Stack
+
+1. <a href="/linux/elk/how-to-monitor-squid3-logs-on-elk-stack/"> Import Squid3 Logs on ELK Stack </a>
+
 ### TODO
 
 **NOTE!**: The following articles has been under testing and published soon.
 {: .notice}
 
-
-### Setup Kibana Dashboard
-
-### Monitor Squid3 Logs
 
 ### Monitor NGINX Logs
 
