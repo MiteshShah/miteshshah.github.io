@@ -63,7 +63,6 @@ $ cat /etc/logrotate.d/squid3
 #
 /var/log/squid3/*.log {
 	daily
-	create 0644 proxy proxy
 	compress
 	delaycompress
 	rotate 2
@@ -73,6 +72,7 @@ $ cat /etc/logrotate.d/squid3
 	postrotate
 		test ! -e /var/run/squid3.pid || /usr/sbin/squid3 -k rotate
 	endscript
+  create 644 proxy proxy
 }
 {% endhighlight %}
 
