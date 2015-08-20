@@ -96,11 +96,13 @@ $ cat /etc/logrotate.d/Fail2Ban
 $ sudo service logstash restart
 {% endhighlight %}
 
-### Let's Monitor Squid Logs on Kibana
-
-<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
-
+### Configure Kibana
 * Open http://192.168.0.1:5601/
 * Click on Settings > Objects > Import
 
+* Import Dashboard/Visualizations
 <script src="https://gist.github.com/MiteshShah/e2d1152e82455ff0d861.js"></script>
+
+### Let's Monitor Squid Logs on Kibana
+
+<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
