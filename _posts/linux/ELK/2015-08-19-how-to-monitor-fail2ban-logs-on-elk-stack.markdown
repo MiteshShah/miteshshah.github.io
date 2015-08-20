@@ -103,6 +103,6 @@ $ sudo service logstash restart
 * Import Dashboard/Visualizations
 <script src="https://gist.github.com/MiteshShah/e2d1152e82455ff0d861.js"></script>
 
-### Let's Monitor Squid Logs on Kibana
+### Let's Monitor Fail2Ban Logs on Kibana
 
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
