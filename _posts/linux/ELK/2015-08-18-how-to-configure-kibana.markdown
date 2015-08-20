@@ -27,11 +27,8 @@ $ /opt/kibana-4.1.1-linux-x64/bin/kibana
 * Open http://192.168.0.1:5601
 * Click on Settings > Objects > Import
 
-* Import Visualizations
-<script src="https://gist.github.com/MiteshShah/7a67299ec0bf7f94122a.js"></script>
-
-* Import Dashboard
-<script src="https://gist.github.com/MiteshShah/bfcbbef90adc8fa250e5.js"></script>
+* Import Dashboard/Visualizations
+<script src="https://gist.github.com/MiteshShah/eac6b7a4bfcc2e0b277e.js"></script>
 
 ### Kibana Dashboard
 
