@@ -38,7 +38,7 @@ input {
 filter {
   if [type] == "squid" {
     grok {
-      match => [ "message", "%{POSINT:timestamp}.%{POSINT:timestamp_ms}\s+%{NUMBER:response_time} %{IPORHOST:src_ip} %{WORD:squid_request_status}/%{NUMBER:http_status_code} %{NUMBER:reply_size_include_header} %{WORD:http_method} %{NOTSPACE:request_url} %{NOTSPACE:user} %{WORD:squid}/%{IP:dst_ip} %{NOTSPACE:content_type}" ]
+      match => [ "message", "%{POSINT:timestamp}.%{POSINT:timestamp_ms}\s+%{NUMBER:response_time} %{IP:src_ip} %{WORD:squid_request_status}/%{NUMBER:http_status_code} %{NUMBER:reply_size_include_header} %{WORD:http_method} %{WORD:protocol}://%{HOST:dst_host}%{NOTSPACE:request_url} %{NOTSPACE:user} %{WORD:squid}/%{IP:dst_ip} %{NOTSPACE:content_type}" ]
       add_tag => ["squid"]
     }
     geoip {
