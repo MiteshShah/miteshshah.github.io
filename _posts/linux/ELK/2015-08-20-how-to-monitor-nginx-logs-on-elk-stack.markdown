@@ -8,7 +8,7 @@ categories: linux/ELK
 excerpt: "Step by step guide to configure NGINX/WordPress/EasyEngine Logs on ELK Stack."
 tags: [Linux, ELK, NGINX, EasyEngine, WordPress]
 image:
-  url: https://cloud.githubusercontent.com/assets/1223371/9383866/c9519a76-4769-11e5-9a38-78d00e4869f7.png
+  url: https://cloud.githubusercontent.com/assets/1223371/9406579/5707fa08-481f-11e5-848a-d2ac7a184626.png
   alt: NGINX WordPress EasyEngine Logs on ELK Stack
   title: NGINX WordPress EasyEngine Logs on ELK Stack
   feature:
@@ -29,44 +29,30 @@ date: 2015-08-20T18:21:24+05:30
 # http://grokdebug.herokuapp.com/
 $ mkdir /etc/logstash/patterns
 $ cat /etc/logstash/patterns/nginx
-NGUSERNAME [a-zA-Z\.\@\-\+_%]+
-NGUSER %{NGUSERNAME}
-NGINXACCESS %{IPORHOST:visitor_ip} (?:-|(%{WORD}.%{WORD})) %{WORD:nginx_cache_status} \[%{HTTPDATE:timestamp}\] %{HOST:nginx_host} "%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}" %{NUMBER:response} %{NUMBER:bytes} %{QS:ignore} %{QS:referrer}
-NGINXERROR %{DATE} %{TIME} %{GREEDYDATA:msg} limiting requests, excess: %{GREEDYDATA:limit} client: %{IPORHOST:visitor_ip}, server: %{HOST:nginx_host}, request: "%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}", %{GREEDYDATA:msg}
+NGINX_ACCESS %{IPORHOST:visitor_ip} (?:-|(%{WORD}.%{WORD})) %{WORD:nginx_cache_status} \[%{HTTPDATE:timestamp}\] %{HOST:nginx_host} "%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}" %{NUMBER:response} %{NUMBER:bytes} %{QS:ignore} %{QS:referrer}
+NGINX_ERROR %{DATE} %{TIME} %{GREEDYDATA:error} limiting requests, excess: %{GREEDYDATA:limit} client: %{IPORHOST:visitor_ip}, server: %{HOST:nginx_host}, request: "%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}", %{GREEDYDATA:msg}
 
-# Create Logstash configuration file
-$ vim /etc/logstash/conf.d/nginx.conf
-input {
+# Create NGINX Access Log configuration file
+$ input {
   file {
-    type => "nginxaccess"
+    type => "nginx"
     start_position => "beginning"
-    path => [ "/var/log/nginx/*.access.log" ]
+    path => [ "/var/log/nginx/*.log" ]
   }
 }
 filter {
-  if [type] == "nginxaccess" {
+  if [type] == "nginx" {
     grok {
 	patterns_dir => "/etc/logstash/patterns"
-	match => { "message" => "%{NGINXACCESS}" }
+	match => { "message" => "%{NGINX_ACCESS}" }
+	remove_tag => ["_grokparsefailure"]
+	add_tag => ["nginx_access"]
     }
-    geoip {
-      source => "visitor_ip"
-    }
-  }
-}
-
-input {
-  file {
-    type => "nginxerror"
-    start_position => "beginning"
-    path => [ "/var/log/nginx/*.error.log" ]
-  }
-}
-filter {
-  if [type] == "nginxerror" {
     grok {
 	patterns_dir => "/etc/logstash/patterns"
-	match => { "message" => "%{NGINXERROR}" }
+	match => { "message" => "%{NGINX_ERROR}" }
+	remove_tag => ["_grokparsefailure"]
+	add_tag => ["nginx_error"]
     }
     geoip {
       source => "visitor_ip"

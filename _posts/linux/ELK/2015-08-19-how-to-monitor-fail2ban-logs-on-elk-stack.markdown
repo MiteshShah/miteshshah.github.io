@@ -8,7 +8,7 @@ categories: linux/ELK
 excerpt: "Step by step guide to configure Fail2Ban Logs on ELK Stack."
 tags: [Linux, ELK, Fail2Ban]
 image:
-  url: https://cloud.githubusercontent.com/assets/1223371/9351897/9d3674e2-467a-11e5-8513-1d4cff24210e.png
+  url: https://cloud.githubusercontent.com/assets/1223371/9404058/c0e7e3fe-4809-11e5-9685-546ffd44110d.png
   alt: How to Monitor Fail2Ban Logs on ELK Stack
   title: How to Monitor Fail2Ban Logs on ELK Stack
   feature:
