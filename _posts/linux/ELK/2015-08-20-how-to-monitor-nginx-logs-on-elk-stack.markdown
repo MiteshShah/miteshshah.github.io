@@ -31,9 +31,12 @@ $ mkdir /etc/logstash/patterns
 $ cat /etc/logstash/patterns/nginx
 NGINX_ACCESS %{IPORHOST:visitor_ip} (?:-|(%{WORD}.%{WORD})) %{WORD:nginx_cache_status} \[%{HTTPDATE:timestamp}\] %{HOST:nginx_host} "%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}" %{NUMBER:response} %{NUMBER:bytes} %{QS:ignore} %{QS:referrer}
 NGINX_ERROR %{DATE} %{TIME} %{GREEDYDATA:error} limiting requests, excess: %{GREEDYDATA:limit} client: %{IPORHOST:visitor_ip}, server: %{HOST:nginx_host}, request: "%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}", %{GREEDYDATA:msg}
+{% endhighlight %}
 
+{% highlight bash %}
 # Create NGINX Access Log configuration file
-$ input {
+$ vim /etc/logstash/conf.d/nginx.conf
+input {
   file {
     type => "nginx"
     start_position => "beginning"
