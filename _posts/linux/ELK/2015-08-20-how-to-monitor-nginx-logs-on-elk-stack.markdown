@@ -105,8 +105,10 @@ $ sudo service logstash restart
 * Click on Settings > Objects > Import
 
 * Import Dashboard/Visualizations
-<script src="https://gist.github.com/MiteshShah/23bde5446c34751bcf0f.js"></script>
+<script src="https://gist-it.appspot.com/github/MiteshShah/ELK-Stack/blob/master/Nginx.json"></script>
 
 ### Let's Monitor NGINX/WordPress/EasyEngine Logs on Kibana
+
+* Open http://192.168.0.1:5601/#/dashboard/NGINX?_g=()
 
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">

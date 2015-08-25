@@ -8,7 +8,7 @@ categories: linux/ELK
 excerpt: "Step by step guide to configure Squid3 Logs on ELK Stack."
 tags: [Linux, ELK, Squid3]
 image:
-  url: https://cloud.githubusercontent.com/assets/1223371/9349332/494af7bc-4662-11e5-8f14-b228b92cbb2e.png
+  url: https://cloud.githubusercontent.com/assets/1223371/9460285/2dcba382-4b22-11e5-91d8-9c2aac3b5ddc.png
   alt: How to Monitor Squid3 Logs on ELK Stack
   title: How to Monitor Squid3 Logs on ELK Stack
   feature:
@@ -82,8 +82,17 @@ $ cat /etc/logrotate.d/squid3
 $ sudo service logstash restart
 {% endhighlight %}
 
-### Let's Monitor Squid Logs on Kibana
+### Configure Kibana
 
 * Open http://192.168.0.1:5601/
+* Click on Settings > Objects > Import
+
+* Import Dashboard/Visualizations
+<script src="https://gist-it.appspot.com/github/MiteshShah/ELK-Stack/blob/master/Squid.json"></script>
+
+
+### Kibana Dashboard
+
+* Open http://192.168.0.1:5601/#/dashboard/Squid?_g=()
 
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">

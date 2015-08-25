@@ -101,8 +101,10 @@ $ sudo service logstash restart
 * Click on Settings > Objects > Import
 
 * Import Dashboard/Visualizations
-<script src="https://gist.github.com/MiteshShah/e2d1152e82455ff0d861.js"></script>
+<script src="https://gist-it.appspot.com/github/MiteshShah/ELK-Stack/blob/master/Fail2Ban.json"></script>
 
 ### Let's Monitor Fail2Ban Logs on Kibana
+
+* Open http://192.168.0.1:5601/#/dashboard/Fail2Ban?_g=()
 
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">

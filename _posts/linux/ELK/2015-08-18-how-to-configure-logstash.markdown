@@ -23,17 +23,9 @@ date: 2015-08-18T14:27:53+05:30
 
 {% highlight bash %}
 $ cat /etc/logstash/conf.d/logstash.conf
-input {
-  udp {
-    port => 25826         # 25826 matches port specified in collectd.conf
-    buffer_size => 1452   # 1452 is the default buffer size for Collectd
-    codec => collectd { } # specific Collectd codec to invoke
-    type => collectd
-  }
-}
 output {
   elasticsearch {
-    cluster  => Gateway # this matches out elasticsearch cluster.name
+    cluster  => Gateway # This matches out elasticsearch cluster.name
     protocol => http
   }
 }

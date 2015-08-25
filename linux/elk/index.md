@@ -15,6 +15,8 @@ image:
 
 ### Requirements Overview
 
+<img alt="Monitor System With Collectd/ELK Stack" src="https://cloud.githubusercontent.com/assets/1223371/9459720/4b8ab4ea-4b1c-11e5-8ed6-b3fa718b6f0c.jpg">
+
 #### Collectd
 
 * Collectd – The system statistics collection daemon.
@@ -50,6 +52,10 @@ image:
 1. <a href="/linux/elk/how-to-configure-elasticsearch/"> Configure ElasticSearch </a>
 1. <a href="/linux/elk/how-to-configure-logstash/"> Configure Logstash </a>
 1. <a href="/linux/elk/how-to-configure-kibana/"> Configure Kibana </a>
+
+### Monitor System with Collectd/ELK Stack
+
+1. <a href="/linux/elk/how-to-monitor-system-with-elk-stack/"> Import Squid3 Logs on ELK Stack </a>
 
 ### Import Squid3 Logs on ELK Stack
 
