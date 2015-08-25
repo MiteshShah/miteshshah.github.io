@@ -55,7 +55,7 @@ image:
 
 ### Monitor System with Collectd/ELK Stack
 
-1. <a href="/linux/elk/how-to-monitor-system-with-elk-stack/"> Import Squid3 Logs on ELK Stack </a>
+1. <a href="/linux/elk/how-to-monitor-system-with-elk-stack/"> Monitor System with Collectd/ELK Stack </a>
 
 ### Import Squid3 Logs on ELK Stack
 
