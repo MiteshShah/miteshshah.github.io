@@ -33,7 +33,9 @@ F2B_DATE %{YEAR}-%{MONTHNUM}-%{MONTHDAY}[ ]%{HOUR}:?%{MINUTE}(?::?%{SECOND})
 F2B_ACTION (\w+)\.(?:\w+)(\s+)?\:
 F2B_JAIL \[(?<jail>\w+\-?\w+?)\]
 F2B_LEVEL (?<level>\w+)\s+
+{% endhighlight %}
 
+{% highlight bash %}
 # Create Logstash configuration file
 $ vim /etc/logstash/conf.d/fail2ban.conf
 input {
