@@ -21,8 +21,7 @@ date: 2015-07-31T11:31:02+05:30
 
 #### Install Required Softwares
 {% highlight bash %}
-$ brew install boot2docker docker
-$ brew cask install virtualbox
+$ brew cask install dockertoolbox
 {% endhighlight %}
 
 **NOTE!**: Make sure you have installed HomeBrew on your system,
@@ -31,14 +30,12 @@ If you don't have HomeBrew installed then <a href="/mac/things-to-do-after-insta
 
 #### Create Virtual Machine
 {% highlight bash %}
-$ boot2docker init
+$ docker-machine create -d virtualbox kali
 {% endhighlight %}
 
-#### Start Virtual Machine
+#### Export Environment Variables
 {% highlight bash %}
-$ boot2docker start
-# Export Environment Variables
-$ eval "$(boot2docker shellinit)"
+$ eval "$(docker-machine env kali)"
 {% endhighlight %}
 
 #### Setting up a Kali Linux Docker Image
@@ -47,10 +44,14 @@ $ docker pull kalilinux/kali-linux-docker
 $ docker run -t -i kalilinux/kali-linux-docker /bin/bash
 {% endhighlight %}
 
-#### Update Kali Linux & Install Metasploit
+#### Update Kali Linux & Install Metasploit & Other Kali Linux Tools
 {% highlight bash %}
-$ apt-get update && apt-get upgrade && apt-get install metasploit
+$ apt-get update && apt-get upgrade
+
+# Install Metasploit Framework
+$ apt-get install metasploit
 {% endhighlight %}
+
 
 ### Save the Docker Container
 * To commit(save) changes to your image and continue off where you left next time.
