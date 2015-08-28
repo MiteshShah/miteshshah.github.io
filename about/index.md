@@ -17,6 +17,9 @@ I believe in "Stay Lazy" so most of my task is replaced by small scripts :)
 
 * Linux
 * NGINX
+* Ansible
+* ELK Stack
+* Vagrant/Docker
 * Debian/Ubuntu
 * Redhat/CentOS
 * Shell Scripting
