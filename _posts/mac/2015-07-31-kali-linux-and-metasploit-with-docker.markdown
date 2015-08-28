@@ -25,6 +25,10 @@ $ brew install boot2docker docker
 $ brew cask install virtualbox
 {% endhighlight %}
 
+**NOTE!**: Make sure you have installed HomeBrew on your system,
+If you don't have HomeBrew installed then <a href="/mac/things-to-do-after-installing-mac-os-x/#install-homebrew"> Click Here to Install HomeBrew </a>
+{: .notice}
+
 #### Create Virtual Machine
 {% highlight bash %}
 $ boot2docker init

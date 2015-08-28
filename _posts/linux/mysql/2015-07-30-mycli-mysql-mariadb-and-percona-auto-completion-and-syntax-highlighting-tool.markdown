@@ -29,6 +29,10 @@ $ pip install mycli
 $ brew install mycli
 {% endhighlight %}
 
+**NOTE!**: Make sure you have installed HomeBrew on your system,
+If you don't have HomeBrew installed then <a href="/mac/things-to-do-after-installing-mac-os-x/#install-homebrew"> Click Here to Install HomeBrew </a>
+{: .notice}
+
 #### MyCLI Examples
 {% highlight bash %}
 $  mycli DB_NAME
