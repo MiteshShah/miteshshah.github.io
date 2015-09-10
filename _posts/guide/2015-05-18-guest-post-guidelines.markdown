@@ -17,7 +17,7 @@ date: 2015-05-18T17:49:06+05:30
 ## Setup Work Directory
 * We need to setup work directory and clone this blog.
 {% highlight bash %}
-mdkir -p ~/Github/
+mkdir -p ~/Github/
 git clone git@github.com:MiteshShah/miteshshah.github.io.git
 cd ~/Github/miteshshah.github.io
 {% endhighlight %}
