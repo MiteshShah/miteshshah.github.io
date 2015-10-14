@@ -11,5 +11,5 @@ image:
 ---
 
 
-
+1. <a href="/linux/ubuntu/how-to-create-a-bootable-ubuntu-usb/"> How to Create a Bootable Ubuntu USB </a>
 1. <a href="/linux/ubuntu/things-to-do-after-installing-ubuntu-desktop/"> Things To Do After Installing Ubuntu </a>
