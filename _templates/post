@@ -3,13 +3,21 @@ layout: {{ layout }}
 title: {{ title }}
 author:
 modified:
-comments:
+comments: true
 categories: {{ dir }}
 excerpt:
-tags: []
+tags: [{{ dir }}]
 image:
   url:
-  alt:
-  title:
+  alt: {{ title }}
+  title: {{ title }}
   feature:
 ---
+
+{% include _toc.html %}
+
+<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
+
+{% highlight bash %}
+$
+{% endhighlight %}
