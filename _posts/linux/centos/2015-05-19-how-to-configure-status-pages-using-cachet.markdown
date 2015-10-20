@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Configure Status Pages Using Cachet"
-modified: 2015-05-21T16:00:50+05:30
+modified: 2015-10-20T11:00:50+05:30
 comments: true
 categories: linux/centos
 excerpt: "Beautiful & simple service status page,
@@ -141,9 +141,21 @@ server {
 
 #### Restart NGINX and PHP-FPM services
 {% highlight bash %}
-[mitesh@status.example.com ~]$ systemctl restart nginx && systemctl restart php-fpm
+[mitesh@status.example.com ~]$ sudo systemctl restart nginx && sudo systemctl restart php-fpm
 {% endhighlight %}
 
+#### Start NGINX and PHP-FPM After Reboot/Restart
+{% highlight bash %}
+[mitesh@status.example.com ~]$ sudo systemctl is-enabled nginx
+disabled
+[mitesh@status.example.com ~]$ sudo systemctl is-enabled php-fpm
+disabled
+
+[mitesh@status.example.com ~]$ sudo systemctl enable nginx
+ln -s '/usr/lib/systemd/system/nginx.service' '/etc/systemd/system/multi-user.target.wants/nginx.service'
+[mitesh@status.example.com ~]$ sudo systemctl enable php-fpm
+ln -s '/usr/lib/systemd/system/php-fpm.service' '/etc/systemd/system/multi-user.target.wants/php-fpm.service'
+{% endhighlight %}
 
 #### Configure Cachet
 
