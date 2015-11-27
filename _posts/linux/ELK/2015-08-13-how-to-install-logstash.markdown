@@ -32,7 +32,7 @@ $ wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key ad
 
 #### Setup Repository
 {% highlight bash %}
-$ echo "deb http://packages.elasticsearch.org/logstash/1.5/debian stable main" | sudo tee -a /etc/apt/sources.list.d/elk.list
+$ echo "deb http://packages.elastic.co/logstash/2.1/debian stable main" | sudo tee -a /etc/apt/sources.list.d/elk.list
 {% endhighlight %}
 
 #### Install Logstash
@@ -61,9 +61,9 @@ $ rpm --import https://packages.elastic.co/GPG-KEY-elasticsearch
 #### Setup Repository
 {% highlight bash %}
 $ sudo vim /etc/yum.repos.d/elk.repo
-[logstash-1.5]
-name=Logstash repository for 1.5.x packages
-baseurl=http://packages.elastic.co/logstash/1.5/centos
+[logstash-2.1]
+name=Logstash repository for 2.1.x packages
+baseurl=http://packages.elastic.co/logstash/2.1/centos
 gpgcheck=1
 gpgkey=http://packages.elastic.co/GPG-KEY-elasticsearch
 enabled=1

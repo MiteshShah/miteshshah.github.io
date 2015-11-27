@@ -27,6 +27,6 @@ date: 2015-08-13T14:25:53+05:30
 
 {% highlight bash %}
 $ cd /opt
-$ sudo wget -c https://download.elastic.co/kibana/kibana/kibana-4.1.1-linux-x64.tar.gz -O /opt/kibana.tar.gz
+$ sudo wget -c https://download.elastic.co/kibana/kibana/kibana-4.3.0-linux-x64.tar.gz -O /opt/kibana.tar.gz
 $ tar -zxvf kibana.tar.gz && rm kibana.tar.gz
 {% endhighlight %}

@@ -19,7 +19,7 @@ date: 2015-08-18T15:23:21+05:30
 
 ### Start Kibana
 {% highlight bash %}
-$ /opt/kibana-4.1.1-linux-x64/bin/kibana
+$ /opt/kibana-4.3.0-linux-x64/bin/kibana
 {% endhighlight %}
 
 ### Configure kibana4

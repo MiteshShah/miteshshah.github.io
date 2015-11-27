@@ -25,8 +25,9 @@ date: 2015-08-18T14:27:53+05:30
 $ cat /etc/logstash/conf.d/logstash.conf
 output {
   elasticsearch {
-    cluster  => Gateway # This matches out elasticsearch cluster.name
-    protocol => http
+    # Don't required for local ElasticSearch
+    # cluster  => Gateway # This matches out elasticsearch cluster.name
+    # protocol => http
   }
 }
 {% endhighlight %}
