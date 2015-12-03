@@ -45,11 +45,13 @@ The installation may take a little time, so grab a cup of coffee <i class="fa fa
 
 #### Install required packages
 {% highlight bash %}
-[mitesh@status.example.com ~]$ yum --enablerepo=remi,remi-php56 install nginx php-fpm php-common php-mcrypt php-mbstring php-apcu php-xml php-pdo php-intl php-mysql php-cli openssl mysql-community-server vim curl git
+[mitesh@status.example.com ~]$ yum --enablerepo=remi,remi-php56 install nginx php-fpm php-common php-mcrypt php-mbstring php-apcu php-xml php-pdo php-intl php-mysql php-cli php-gd openssl mysql-community-server vim curl git
 {% endhighlight %}
 
 #### Setup MySQL
 {% highlight bash %}
+# Restart MySQL
+[mitesh@status.example.com ~]$ sudo service mysql restart
 # Chnage MySQL root password
 [mitesh@status.example.com ~]$ sudo mysqladmin -u root password ROOT_PASSWORD
 # Store MySQL root password
@@ -69,7 +71,7 @@ The installation may take a little time, so grab a cup of coffee <i class="fa fa
 
 #### Clone cachet repository
 {% highlight bash %}
-[mitesh@status.example.com ~]$ cd /var/www
+[mitesh@status.example.com ~]$ mkdir /var/www && cd /var/www
 [mitesh@status.example.com /var/www]$ git clone https://github.com/cachethq/Cachet.git
 [mitesh@status.example.com /var/www/Cachet]$ cd Cachet && cp -v .env.example .env
 {% endhighlight %}
