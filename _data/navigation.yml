@@ -15,11 +15,11 @@
 - title: SysAdmin
   url: /sysadmin/
 
+- title: DevOps
+  url: /devops/
+
 - title: Tips & Tricks
   url: /tips-and-tricks/
-
-- title: About
-  url: /about/
 
 - title: Feed
   url: /feed.xml
