@@ -55,11 +55,10 @@ layout: compress
       {% include _ads.html %}
       <h3>Post Navigation</h3>
       {% if page.previous.url %}
-        <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+        <a class="btn" href="{{page.previous.url}}"><i class="fa fa-chevron-circle-left"></i> {{page.previous.title}}</a>
       {% endif %}
-      <br>
       {% if page.next.url %}
-        <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+        <a class="btn" href="{{page.next.url}}">{{page.next.title}} <i class="fa fa-chevron-circle-right"></i></a>
       {% endif %}
       <hr />
       <footer role="contentinfo">
