@@ -1,15 +1,15 @@
 # Site navigation links
 
-- title: Posts
+- title: <i class="fa fa-archive" title="All Posts"></i>
   url: /posts/
 
-- title: Linux
+- title: <i class="fa fa-linux" title="All about Linux"></i>
   url: /linux/
 
-- title: Mac
+- title: <i class="fa fa-apple" title="All about Mac"></i>
   url: /mac/
 
-- title: Windows
+- title: <i class="fa fa-windows" title="All about Windows"></i>
   url: /windows/
 
 - title: SysAdmin
@@ -21,8 +21,8 @@
 - title: Tips & Tricks
   url: /tips-and-tricks/
 
-- title: Feed
-  url: /feed.xml
-
-- title: Subscribe
+- title: <i class="fa fa-envelope" title="Subscribe Me"></i>
   url: /subscribe/
+
+- title: <i class="fa fa-rss" title="Feed"></i>
+  url: /feed.xml
