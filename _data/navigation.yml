@@ -12,13 +12,13 @@
 - title: <i class="fa fa-windows" title="All about Windows"></i>
   url: /windows/
 
-- title: SysAdmin
+- title: <i class="fa fa-terminal" title="System Admin Stuff"></i>
   url: /sysadmin/
 
-- title: DevOps
+- title: <i class="fa fa-cogs" title="DevOps Tools"></i>
   url: /devops/
 
-- title: Tips & Tricks
+- title: <i class="fa fa-lightbulb-o" title="Tips & Tricks"></i>
   url: /tips-and-tricks/
 
 - title: <i class="fa fa-envelope" title="Subscribe Me"></i>
