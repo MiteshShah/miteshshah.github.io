@@ -1,28 +1,28 @@
 # Site navigation links
 
-- title: <i class="fa fa-archive" title="All Posts"></i>
+- title: <i class="fa fa-archive fa-2x" title="All Posts"></i>
   url: /posts/
 
-- title: <i class="fa fa-linux" title="All about Linux"></i>
+- title: <i class="fa fa-linux fa-2x" title="All about Linux"></i>
   url: /linux/
 
-- title: <i class="fa fa-apple" title="All about Mac"></i>
+- title: <i class="fa fa-apple fa-2x" title="All about Mac"></i>
   url: /mac/
 
-- title: <i class="fa fa-windows" title="All about Windows"></i>
+- title: <i class="fa fa-windows fa-2x" title="All about Windows"></i>
   url: /windows/
 
-- title: <i class="fa fa-terminal" title="System Admin Stuff"></i>
+- title: <i class="fa fa-terminal fa-2x" title="System Admin Stuff"></i>
   url: /sysadmin/
 
-- title: <i class="fa fa-cogs" title="DevOps Tools"></i>
+- title: <i class="fa fa-cogs fa-2x" title="DevOps Tools"></i>
   url: /devops/
 
-- title: <i class="fa fa-lightbulb-o" title="Tips & Tricks"></i>
+- title: <i class="fa fa-lightbulb-o fa-2x" title="Tips & Tricks"></i>
   url: /tips-and-tricks/
 
-- title: <i class="fa fa-envelope" title="Subscribe Me"></i>
+- title: <i class="fa fa-envelope fa-2x" title="Subscribe Me"></i>
   url: /subscribe/
 
-- title: <i class="fa fa-rss" title="Feed"></i>
+- title: <i class="fa fa-rss fa-2x" title="Feed"></i>
   url: /feed.xml
