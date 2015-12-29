@@ -481,6 +481,82 @@ $button-size: 1.5rem;
 	}
 }
 
+/* Table of contents Resume*/
+.resume {
+	font-size: 95%;
+	@media #{$large} {
+		display: block;
+		@include grid(12,2);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+		position: absolute;
+		top: 12.0em;
+		right: 0;
+		background-color: $white;
+		/* Fix OVERVIEW toc when feature image is set */
+		.image-wrap + #main & {
+        top: 65.0em;
+    }
+	}
+	header {
+		background: lighten($black, 10);
+	}
+	h3 {
+		margin: 0;
+		padding: 5px 10px;
+		color: $white;
+		@include font-rem(16);
+		text-transform: uppercase;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	ul {
+		margin: 2px 0 0;
+		padding: 0;
+		line-height: 1;
+	}
+	li {
+		display: block;
+		margin: 0 0 1px 0;
+		padding: 0;
+		font-family: $heading-font;
+		list-style-type: none;
+		&:last-child {
+			border-bottom-width: 0;
+		}
+		a {
+			padding: 10px;
+			display: block;
+			color: $white;
+			text-decoration: none;
+			background: lighten($black, 30);
+			@include opacity(0.7);
+			@include transition(opacity 0.2s ease-in-out);
+			&:hover {
+				@include opacity(1);
+			}
+		}
+		ul {
+			margin: 1px 0 0;
+			li a {
+				padding-left: 20px;
+			}
+		}
+	}
+}
+
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  margin-right: 5px;
+	border-radius: .25em;
+}
+
 /* Table of contents */
 .toc {
 	font-size: 95%;
