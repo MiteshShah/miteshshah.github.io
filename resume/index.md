@@ -4,6 +4,7 @@ title:
 tags: [MiteshShah, Resume, Curriculum Vitae, CV]
 modified: 2015-12-29T17:12:42.12345-05:30
 comments:
+blockads: true
 image:
   feature: https://cloud.githubusercontent.com/assets/1223371/12032909/8342035e-ae43-11e5-9d9e-cb503820c4e9.png
   credit:
