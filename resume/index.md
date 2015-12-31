@@ -23,7 +23,7 @@ image:
 #### Summary
 
 I am passionate about making things easy/automate using shell scripts.<br>
-I believe in "Stay Lazy" so most of my task are replaced by shell scripts :)
+I believe in "Stay Lazy" so most of my tasks are replaced by shell scripts :)
 
 
 #### Experience
@@ -35,7 +35,7 @@ December 2014 – Present | Bengaluru Area, India
 * Server Hardening
 * Patch Critical Security Vulnerability
 * Setup/Manage Git Infrastructure using GitLab
-* Setup/Optimise ELK {ElasticSearch, Logstash, Kibana} Stack
+* Setup/Optimise ELK { ElasticSearch, Logstash, Kibana } Stack
 * Install/Update/Optimise Linux, Mac OS X, Windows Systems
 
 <b>Product Head - EasyEngine</b><br>
@@ -52,10 +52,10 @@ April 2014 – November 2014 | Pune Area, India
 September 2012 – March 2014 | Pune Area, India
 
 * Extensive experience as Linux (Ubuntu, Debian, Fedora, RHEL, CentOS, Backtrack) Server/System Administrator.
-* Expertise in Linux Server/System installation, configuration, administration, troubleshooting, monitoring nd backup & recovery methodologies.
+* Expertise in Linux Server/System installation, configuration, administration, troubleshooting, monitoring and backup & recovery methodologies.
 * Expertise in the web server technologies such as Nginx, Gitolite, SSH, SFTP, IPTables, Fail2Ban, etc
 * Responsible for blocking various websites and content filtering using Squid3 and DansGuardian software.
-* Created EasyEngine (ee) to automate WordPress sertup on Debian/Ubuntu based Linux Servers.
+* Created EasyEngine (ee) to automate WordPress setup on Debian/Ubuntu based Linux Servers.
 
 <b>Linux System Administrator</b><br>
 <a style="color: #428bca" href="">Illuminati Solutions Pvt LTD</a><br>
@@ -63,9 +63,9 @@ September 2010 – July 2012 | Bengaluru Area, India
 
 * Responsible for various hardware and software acquisitions and implementations.
 * Extensive experience as Linux (Ubuntu, Fedora, RHEL, CentOS, Backtrack) System Administrator.
-* Expertise in Linux System installation, configuration, administration, troubleshooting, monitoring and the development and testing of backup and recovery methodologies.
+* Expertise in Linux Server/System installation, configuration, administration, troubleshooting, monitoring and backup & recovery methodologies.
 * Expertise in the support of fundamental technologies such as DNS, SSH, SFTP and FTP, TCP/IP, Samba.
-* Responsible for blocking various websites and content filtering using Squid and DansGuardian software.
+* Responsible for blocking various websites and content filtering using Squid3 and DansGuardian software.
 * Responsible for the implementation, administration and maintenance of company website hosted on local CentOS System.
 
 
@@ -82,12 +82,13 @@ March 2014
 
 <b><a style="color: #428bca" href="https://easyengine.io">EasyEngine (ee)</a></b><br>
 
-* EasyEngine (ee) is a Linux shell-script collection, which makes it easy to manage your WordPress-NGINX sites on an Ubuntu/Debian server.
-* EasyEngine’s simple 1-line commands can do a lot more stuff like:
-  * Set up WordPress sites as well as multisite networks. Also, if need arises plain PHP site and HTML sites can be created using easyengine.
-  * Use different page-cache mechanism. Currently supports w3-total-cache, wp-super-cache and nginx-fastcgi-cache.
-  * Delete unwanted sites with option to delete database and files.
-  * Show useful system information for NGINX & PHP and Mysql. Also support to automatically tweak system variables is on the fly.
+* EasyEngine (ee) is a command line control panel to setup NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
+* EasyEngine’s simple 1-line commands can do following stuff:
+  * Complete Setup - Install NGINX, PHP, MySQL, Postfix and dependencies in a single command.
+  * HHVM & PageSpeed Support - Boost WordPress sites by enabling HHVM and PageSpeed using a single command.
+  * Caching Options - Use W3Total Cache, WP Super Cache & Nginx’s FastCGI Cache.
+  * Config Optimization - Automatically tweaks server configuration as per available hardware resources.
+  * Git-Backed Changes - All config changes are saved using Git so feel free to play with config!
 
 
 <b><a style="color: #428bca" href="https://github.com/rtcamp/media-node">Media Node</a></b><br>
