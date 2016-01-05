@@ -158,7 +158,7 @@ March 2014
 <i class="fa fa-check"></i> Typo Fix & Reported StyleSheet Issue on Django Framework #216
 <br><br>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/nginxinc/nginx-wiki/pull/210">NginxInc/nginx-wiki</a><br>
-<i class="fa fa-check"></i> Updated EasyEngine Defination
+<i class="fa fa-check"></i> Updated EasyEngine Definition
 <br><br>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/Blueliv/elk-config-examples/pull/1">Blueliv/elk-config-examples</a><br>
 <i class="fa fa-check"></i> Fix PDF URL
