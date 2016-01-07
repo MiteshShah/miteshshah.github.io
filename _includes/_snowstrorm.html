@@ -1,0 +1,6 @@
+<!-- Only Snow in December Month -->
+{% assign currentmonth = site.time | date: "%B" %}
+<!--SNOW={{ currentmonth }} -->
+{% if currentmonth == "December" %}
+<script src="/assets/js/vendor/snowstorm.js"></script>
+{% endif %}
