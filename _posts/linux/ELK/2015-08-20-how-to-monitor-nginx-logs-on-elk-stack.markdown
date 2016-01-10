@@ -66,7 +66,7 @@ filter {
 
 ### Fix NGINX Logs Permission
 
-* Let's make Fail2Ban logs are readable by Logstash
+* Let's make NGINX logs are readable by Logstash
 
 {% highlight bash %}
 # Temp Fix
