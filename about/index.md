@@ -9,6 +9,10 @@ image:
   credit: fedobe.com
   creditlink: http://fedobe.com/wp-content/uploads/2011/11/Geek-Lifestyle-Facebook-Profile-Timeline-Cover.jpg
 ---
+<!-- Redirect users to Resume page-->
+<script type="text/javascript">
+  window.location = window.location.toString().replace(/about/, "resume");
+</script>
 
 Mitesh Shah passionate about making things easy/automate using shell scripts. <br>
 I believe in "Stay Lazy" so most of my task is replaced by small scripts :)
