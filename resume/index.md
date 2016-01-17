@@ -12,7 +12,7 @@ image:
 ---
 <section id="table-of-contents" class="resume">
   <header>
-    <h3><i class="fa fa-book"></i> My Resume</h3>
+    <h3><i class="fa fa-book"></i> Mitesh Shah</h3>
   </header>
 <div id="drawer" markdown="1">
 *  Auto generated table of contents
