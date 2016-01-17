@@ -20,6 +20,9 @@ image:
 </div>
 </section>
 
+<!-- PDF Version -->
+<a href="/resume/MiteshShah.pdf"><i class="fa fa-file-pdf-o"> Download as PDF</i></a>
+
 #### Summary
 
 I am passionate about making things easy/automate using shell scripts.<br>
