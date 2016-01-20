@@ -114,6 +114,9 @@ March 2014
 
 #### Skills
 
+<b>Version Control</b><br>
+<span class="label label-keyword">GIT</span>
+<span class="label label-keyword">SVN</span><br><br>
 <b>Web/Application Server</b><br>
 <span class="label label-keyword">NGINX</span>
 <span class="label label-keyword">APACHE</span><br><br>
@@ -126,21 +129,23 @@ March 2014
 <b>Content Management System</b><br>
 <span class="label label-keyword">Jekyll</span>
 <span class="label label-keyword">WordPress</span><br><br>
+<b>Virtualization Platforms</b><br>
+<span class="label label-keyword">Docker</span>
+<span class="label label-keyword">Vagrant</span><br><br>
 <b>Programming Language</b><br>
 <span class="label label-keyword">Shell Scripting</span>
 <span class="label label-keyword">Perl</span>
 <span class="label label-keyword">Python</span><br><br>
+<b>Software</b><br>
+<span class="label label-keyword">ELK Stack</span>
+<span class="label label-keyword">Ansible</span>
+<span class="label label-keyword">OpenVPN</span>
+<span class="label label-keyword">Squid3</span><br><br>
 <b>System Administrator</b><br>
 <span class="label label-keyword">Linux</span>
 <span class="label label-keyword">Debian/Ubuntu</span>
 <span class="label label-keyword">Redhat/CentOS</span>
 <span class="label label-keyword">Mac OS X</span><br><br>
-<b>Software</b><br>
-<span class="label label-keyword">ELK Stack</span>
-<span class="label label-keyword">Ansible</span>
-<span class="label label-keyword">Vagrant</span>
-<span class="label label-keyword">Docker</span>
-<span class="label label-keyword">Squid3</span><br><br>
 <b>Security Tools</b><br>
 <span class="label label-keyword">Nmap</span>
 <span class="label label-keyword">Nikto</span>
