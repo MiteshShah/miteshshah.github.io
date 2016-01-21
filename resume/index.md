@@ -159,6 +159,9 @@ March 2014
 
 #### OpenSource Contribution
 
+<a style="color: #428bca; text-decoration: none" href="https://github.com/appium/appium/pull/6045/files">appium/appium</a><br>
+<i class="fa fa-check"></i> Fixed OpenJDK Java version RegExp
+<br><br>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/mudassir0909/jsonresume-theme-elegant/pull/57">mudassir0909/jsonresume-theme-elegant</a><br>
 <i class="fa fa-check"></i> Added URL in reference section
 <br><br>
