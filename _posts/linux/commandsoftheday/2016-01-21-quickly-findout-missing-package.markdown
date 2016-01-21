@@ -16,8 +16,6 @@ date: 2016-01-21T23:47:23+05:30
 ---
 
 
-{% include _toc.html %}
-
 * Sometimes we need to check installed software on multiple system and install missing software asap.
 
 {% highlight bash %}
