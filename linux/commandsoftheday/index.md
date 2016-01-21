@@ -14,6 +14,7 @@ image:
 1. <a href="/linux/commandsoftheday/useful-bash-commands/"> Useful Bash Commands </a>
 1. <a href="/linux/commandsoftheday/download-youtube-videos/"> Download Youtube Videos </a>
 1. <a href="/linux/commandsoftheday/generate-random-password/"> Generate Random Password </a>
+1. <a href="/linux/commandsoftheday/quickly-findout-missing-package/"> Quickly Findout Missing Package </a>
 1. <a href="/linux/commandsoftheday/access-website-without-editing-dns/"> Access Website Without Editing DNS </a>
 1. <a href="/linux/commandsoftheday/how-to-change-bash-custom-prompt-ps1/"> How to Change Bash Custom Prompt (PS1) </a>
 1. <a href="/linux/commandsoftheday/run-commands-without-login-into-user-shell/"> Run Commands Without Login Into User Shell </a>
