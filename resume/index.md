@@ -87,7 +87,7 @@ March 2014
 
 * EasyEngine (ee) is a command line control panel to setup NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
 * EasyEngine’s simple 1-line commands can do following stuff:
-  * Complete Setup - Install NGINX, PHP, MySQL, Postfix and dependencies in a single command.
+  * Complete Setup - Install NGINX, PHP, MySQL, Mail Server and dependencies in a single command.
   * HHVM & PageSpeed Support - Boost WordPress sites by enabling HHVM and PageSpeed using a single command.
   * Caching Options - Use W3Total Cache, WP Super Cache & Nginx’s FastCGI Cache.
   * Config Optimization - Automatically tweaks server configuration as per available hardware resources.
