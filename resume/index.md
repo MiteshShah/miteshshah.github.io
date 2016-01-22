@@ -11,23 +11,21 @@ image:
   creditlink:
 ---
 <section id="table-of-contents" class="resume">
-  <header>
-    <h3><i class="fa fa-book"></i> Mitesh Shah</h3>
-  </header>
+<header>
+  <h3><i class="fa fa-book"></i> Mitesh Shah</h3>
+</header>
+<a href="/resume/MiteshShah.pdf"><i class="fa fa-file-pdf-o"></i> Download as PDF</a>
 <div id="drawer" markdown="1">
 *  Auto generated table of contents
 {:toc}
 </div>
 </section>
 
-<!-- PDF Version -->
-<a href="/resume/MiteshShah.pdf"><i class="fa fa-file-pdf-o"> Download as PDF</i></a>
-
 #### Summary
 
 I am passionate about making things easy/automate using shell scripts.<br>
 I believe in "Stay Lazy" so most of my tasks are replaced by shell scripts :)
-
+<br><br>
 
 #### Experience
 
@@ -41,15 +39,18 @@ December 2014 – Present | Bengaluru Area, India
 * Setup/Optimise ELK { ElasticSearch, Logstash, Kibana } Stack
 * Install/Update/Optimise Linux, Mac OS X, Windows Systems
 
+<br>
 <b>Product Head - EasyEngine</b><br>
 <a style="color: #428bca" href="https://EasyEngine.io">EasyEngine.io</a><br>
 April 2014 – November 2014 | Pune Area, India
 
 * EasyEngine written on Shell Scripts (5000+ Lines of Code)
+* EasyEngine (ee) is a command line control panel to setup NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
 * Patch Critical Security Vulnerability - SSL Poodle, Heartbleed etc
 * Maintain NGINX package with custom modules like ngx_pagespeed, lua etc
 * Setup/Manage Continuous Integration (CI) using Jenkins from Scratch - Which start six different virtual machine to test EasyEngine on Debian/Ubuntu 32/64 bit systems.
 
+<br>
 <b>Linux System Administrator</b><br>
 <a style="color: #428bca" href="https://rtCamp.com">rtCamp.com</a><br>
 September 2012 – March 2014 | Pune Area, India
@@ -60,6 +61,7 @@ September 2012 – March 2014 | Pune Area, India
 * Responsible for blocking various websites and content filtering using Squid3 and DansGuardian software.
 * Created EasyEngine (ee) to automate WordPress setup on Debian/Ubuntu based Linux Servers.
 
+<br>
 <b>Linux System Administrator</b><br>
 <a style="color: #428bca" href="">Illuminati Solutions Pvt LTD</a><br>
 September 2010 – July 2012 | Bengaluru Area, India
@@ -70,7 +72,7 @@ September 2010 – July 2012 | Bengaluru Area, India
 * Expertise in the support of fundamental technologies such as DNS, SSH, SFTP and FTP, TCP/IP, Samba.
 * Responsible for blocking various websites and content filtering using Squid3 and DansGuardian software.
 * Responsible for the implementation, administration and maintenance of company website hosted on local CentOS System.
-
+<br><br>
 
 #### Honors & Awards
 
@@ -80,9 +82,11 @@ March 2013<br><br>
 <b>Geekish rtCamper of The Year</b><br>
 <a style="color: #428bca" href="https://rtcamp.com">rtCamp.com</a><br>
 March 2014
+<br><br>
 
 #### Projects
 
+<br>
 <b><a style="color: #428bca" href="https://easyengine.io">EasyEngine (ee)</a></b><br>
 
 * EasyEngine (ee) is a command line control panel to setup NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
@@ -93,12 +97,13 @@ March 2014
   * Config Optimization - Automatically tweaks server configuration as per available hardware resources.
   * Git-Backed Changes - All config changes are saved using Git so feel free to play with config!
 
-
+<br>
 <b><a style="color: #428bca" href="https://github.com/rtcamp/media-node">Media Node</a></b><br>
 
 * A node.js wrapper for ffmpeg.
 * Single command take care of install/setup Node.js & dependency on Debian/Ubuntu/CentOS Servers.
 
+<br>
 <b><a style="color: #428bca" href="https://rtcamp.com/activecollab-gitolite/">activeCollab Gitolite</a></b><br>
 
 * ac_gitolite module connects your activeCollab to gitolite seamlessly.
@@ -106,14 +111,16 @@ March 2014
 * Once a repository gets created all git commands will work directly with gitolite server.
 * All your git tools like netbeans and git-tower will work just right away!
 
+<br>
 <b><a style="color: #428bca" href="https://github.com/EasyEngine/nginx-build">NGINX Custom Package</a></b><br>
 
 * Build/Compile various NGINX flavor which include 3rd party modules like ngx_pagespeed, lua etc
 * Quickly build NGINX stable/mainline by running single command.
-
+<br><br><br>
 
 #### Skills
 
+<br>
 <b>Version Control</b><br>
 <span class="label label-keyword">GIT</span>
 <span class="label label-keyword">SVN</span><br><br>
@@ -136,6 +143,11 @@ March 2014
 <span class="label label-keyword">Shell Scripting</span>
 <span class="label label-keyword">Perl</span>
 <span class="label label-keyword">Python</span><br><br>
+<b>Cloud Service</b><br>
+<span class="label label-keyword">AWS</span>
+<span class="label label-keyword">Linode</span>
+<span class="label label-keyword">SoftLayer</span>
+<span class="label label-keyword">DigitalOcean</span><br><br>
 <b>Software</b><br>
 <span class="label label-keyword">ELK Stack</span>
 <span class="label label-keyword">Ansible</span>
@@ -146,6 +158,15 @@ March 2014
 <span class="label label-keyword">Debian/Ubuntu</span>
 <span class="label label-keyword">Redhat/CentOS</span>
 <span class="label label-keyword">Mac OS X</span><br><br>
+<b>DevOps Tools</b><br>
+<span class="label label-keyword">Docker</span>
+<span class="label label-keyword">Vagrant</span>
+<span class="label label-keyword">Ansible</span>
+<span class="label label-keyword">ELK Stack</span>
+<span class="label label-keyword">Nagios</span>
+<span class="label label-keyword">Monit</span>
+<span class="label label-keyword">GIT</span>
+<span class="label label-keyword">Github</span><br><br>
 <b>Security Tools</b><br>
 <span class="label label-keyword">Nmap</span>
 <span class="label label-keyword">Nikto</span>
@@ -156,9 +177,11 @@ March 2014
 <span class="label label-keyword">Metasploit</span>
 <span class="label label-keyword">Slowloris</span><br><br>
 
+<br><br>
 
 #### OpenSource Contribution
 
+<br>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/appium/appium/pull/6045/files">appium/appium</a><br>
 <i class="fa fa-check"></i> Fixed OpenJDK Java version RegExp
 <br><br>
@@ -187,7 +210,7 @@ March 2014
 <i class="fa fa-check"></i> Nginx now support auto variable, so no need to change that variable when we change server
 <br><br>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/creack/docker-vps/pull/1">creack/docker-vps</a><br>
-<i class="fa fa-check"></i> Automatic Reload NGINX Service When Modify Any Configuration File
+<i class="fa fa-check"></i> Automatic Reload NGINX Service When Modify Any Configuration File under /etc/nginx/sites-available or /etc/nginx/sites-enable
 <br><br>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/bellthoven/bangsh/pull/8">bellthoven/bangsh</a><br>
 <i class="fa fa-check"></i> Fix PATH Issue
@@ -195,8 +218,10 @@ March 2014
 <a style="color: #428bca; text-decoration: none" href="https://github.com/wp-cli/wp-cli/pull/532">wp-cli/wp-cli</a><br>
 <i class="fa fa-check"></i> Fix WordPress SubDomain Issue
 
-#### Recommendations
+<br><br>
 
+
+#### Recommendations
 
 <blockquote>
 Mitesh worked mainly on EasyEngine @rtCamp.<br><br>
@@ -218,6 +243,12 @@ I highly recommend Mitesh for his groundwork experience and exceptional skills.<
 </blockquote>
 <br>
 <blockquote>
+Mitesh is good at Shell Scripting and Linux System administration. He is capable of handling the whole team, There were around 10-15 developers, and he was able to help each one of them whenever required.<br>
+He developed the "EasyEngine- CLI tool to manage WordPress and other PHP hosting" and handled all the support and other tasks related to it. He is really good at Server administration. I wish him best for his future endeavours. :)<br><br>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/umeshsingla">Umesh Kumar</a></footer>
+</blockquote>
+<br>
+<blockquote>
 Mitesh is a proactive and tireless contributor who would make a great addition to any team. He is a Top Notch Linux System Administrator and server security expert. He makes routine server tasks very easy by automating them with shell script. EasyEngine is best example for his shell scripting.<br>
 Exploring to new technologies is his best feature. He is best at using NGINX, Pagespeed.<br>
 Solving problems by analysing logs is strength he got. And the last but not least he is OpenSource lover, so he contributes to opensource projects.<br><br>
@@ -229,11 +260,6 @@ If it's Linux, there is Mitesh.<br><br>
 
 Mitesh has extraordinary skills for system administration. He is a product head and lead developer of the EasyEngine project developed by rtCamp. He is very helpful to the colleagues and one will certainly enjoy and be benefited working with him.<br><br>
 <footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/ankitgade">ANKIT GADE</a></footer>
-</blockquote>
-<br>
-<blockquote>
-Mitesh is good at Shell Scripting and Linux System administration. He is capable of handling the whole team, There were around 10-15 developers, and he was able to help each one of them whenever required. He developed the "EasyEngine- CLI tool to manage WordPress and other PHP hosting" and handled all the support and other tasks related to it. He is really good at Server administration. I wish him best for his future endeavours. :)<br><br>
-<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/umeshsingla">Umesh Kumar</a></footer>
 </blockquote>
 <br>
 <blockquote>

@@ -13,6 +13,10 @@ body {
    ========================================================================== */
 
 .navigation-wrapper {
+	/* Printer Friendly */
+	@media print {
+		display: none;
+	}
 	@include container;
 	padding: 2em 0 1em;
 	font-family: $heading-font;
@@ -285,6 +289,10 @@ $button-size: 1.5rem;
 
 /* Large feature header image */
 .image-wrap {
+	/* Printer Friendly */
+	@media print {
+		display: none;
+	}
 	position: relative;
 	margin-bottom: 2em;
 	@include clearfix;
@@ -377,6 +385,19 @@ $button-size: 1.5rem;
 		max-width: 110px;
 		@include rounded(150px);
 	}
+	@media print {
+		display: block;
+		.bio-photo {
+			display: block;
+			@include grid(14,4);
+			@include prefix(14,0.2);
+			@include suffix(14,0.2);
+			@include rounded(250px);
+		}
+		.author-social {
+			display: inline;
+		}
+	}
 	@media #{$small} {
 		display: block;
 		@include grid(12,2);
@@ -450,6 +471,10 @@ $button-size: 1.5rem;
 /* Google custom search */
 .googlesearch {
 	font-size: 95%;
+	/* Printer Friendly */
+	@media print {
+	  display: none;
+	}
 	@media #{$large} {
 		display: block;
 		@include grid(12,2);
@@ -480,10 +505,20 @@ $button-size: 1.5rem;
     }
 	}
 }
-
+/* Shareaholic Share Button */
+.shareaholic-share-button-container {
+	/* Printer Friendly */
+	@media print {
+	display: none;
+}
+}
 /* Table of contents Resume*/
 .resume {
 	font-size: 95%;
+	/* Printer Friendly */
+	@media print {
+		display: none;
+	}
 	@media #{$large} {
 		display: block;
 		@include grid(12,2);
