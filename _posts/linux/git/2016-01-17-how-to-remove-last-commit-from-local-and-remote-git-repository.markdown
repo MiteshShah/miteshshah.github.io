@@ -29,8 +29,13 @@ date: 2016-01-17T16:33:33+05:30
 * Now I want to delete last commit `037d772391792ff85b394e1e43f5f04bb7515e11`
 
 {% highlight bash %}
+# Delete last commit
 [mitesh@shah ~]$ git reset --hard HEAD^
 HEAD is now at 8f2cc3d Minor Update on Resume
+
+# Delete last two commits
+[mitesh@shah ~]$  git reset --hard HEAD~2
+HEAD is now at 9e57e45 HTTPS version in Author Bio
 
 [mitesh@shah ~]$ git push -f
 Total 0 (delta 0), reused 0 (delta 0)
