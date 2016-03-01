@@ -19,7 +19,11 @@ date: 2016-01-21T23:47:23+05:30
 * Sometimes we need to check installed software on multiple system and install missing software asap.
 
 {% highlight bash %}
+# Debin/Ubuntu
 $ dpkg-query -Wf='${package}\n' | grep php
+
+# Redhat/CentOS
+$ rpm -qa --qf "%{NAME}\n" | grep php
 {% endhighlight %}
 
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
