@@ -266,3 +266,8 @@ Mitesh has extraordinary skills for system administration. He is a product head 
 Mitesh`s shell scripting skills are really great and he is very good at it. He has always helped in fixing issues related to servers of large traffic websites. "EasyEngine" was developed from scratch by Mitesh single handedly and it has made the life of Wordpress developers very easy. +1 to Mitesh for this awesome creation :-)<br><br>
 <footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/chiragswadia">Chirag Swadia</a></footer>
 </blockquote>
+<br>
+<blockquote>
+Mitesh was the most geekish guy in the company. Go to him with any linux based problem and he would solve it in a jiffy. He paved the pioneer code for EasyEngine product for rtCamp. He was also responsible for the IT administration for the company and server maintenance for all the client server. He did a pretty good job at rtCamp.<br><br>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/desaiuditd">Udit Desai</a></footer>
+</blockquote>
