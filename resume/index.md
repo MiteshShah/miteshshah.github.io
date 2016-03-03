@@ -232,42 +232,47 @@ From hiring, training to mentoring - he managed his team very well. At the same 
 
 Apart from EasyEngine, Mitesh's knowledge on linux and security helped rtCamp in many areas. rtCamp is honored to have Mitesh working with us.<br><br>
 
-<footer>— <a style="color: #428bca" href="https://rtcamp.com">Rahul Bansal - Founder & CEO</a></footer>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/rahul286">Rahul Bansal</a><br>Founder & CEO - rtCamp.com</footer>
 </blockquote>
 <br>
 <blockquote>
 Mitesh is a very proactive person and is very professional and friendly to work with. His skills in Ubuntu, System administration and Nginx is exceptional. He spearheaded one of the prime products at rtCamp called "EasyEngine". He actively developed & maintained the product based on developer and community feedback.<br>
 Mitesh is very helpful and resourceful and essentially a good team player. He helped me at various instances while EasyEngine was in it's baby steps. He also helped with production environment setups. He is creative and simplistic in his approach to solve problems and focuses on automation.<br>
 I highly recommend Mitesh for his groundwork experience and exceptional skills.<br><br>
-<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/harshmalewar/">Harsh Malewar</a></footer>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/harshmalewar/">Harsh Malewar</a><br>Web Developer - rtCamp.com</footer>
 </blockquote>
 <br>
 <blockquote>
 Mitesh is good at Shell Scripting and Linux System administration. He is capable of handling the whole team, There were around 10-15 developers, and he was able to help each one of them whenever required.<br>
 He developed the "EasyEngine- CLI tool to manage WordPress and other PHP hosting" and handled all the support and other tasks related to it. He is really good at Server administration. I wish him best for his future endeavours. :)<br><br>
-<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/umeshsingla">Umesh Kumar</a></footer>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/umeshsingla">Umesh Kumar</a><br>Web Developer - rtCamp.com</footer>
 </blockquote>
 <br>
 <blockquote>
 Mitesh is a proactive and tireless contributor who would make a great addition to any team. He is a Top Notch Linux System Administrator and server security expert. He makes routine server tasks very easy by automating them with shell script. EasyEngine is best example for his shell scripting.<br>
 Exploring to new technologies is his best feature. He is best at using NGINX, Pagespeed.<br>
 Solving problems by analysing logs is strength he got. And the last but not least he is OpenSource lover, so he contributes to opensource projects.<br><br>
-<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/harshad-yeola-54367b69">Harshad Yeola</a></footer>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/harshad-yeola-54367b69">Harshad Yeola</a><br>System Administrator - rtCamp.com</footer>
 </blockquote>
 <br>
 <blockquote>
 If it's Linux, there is Mitesh.<br><br>
 
 Mitesh has extraordinary skills for system administration. He is a product head and lead developer of the EasyEngine project developed by rtCamp. He is very helpful to the colleagues and one will certainly enjoy and be benefited working with him.<br><br>
-<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/ankitgade">ANKIT GADE</a></footer>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/ankitgade">ANKIT GADE</a><br>Web Developer - rtCamp.com</footer>
 </blockquote>
 <br>
 <blockquote>
 Mitesh`s shell scripting skills are really great and he is very good at it. He has always helped in fixing issues related to servers of large traffic websites. "EasyEngine" was developed from scratch by Mitesh single handedly and it has made the life of Wordpress developers very easy. +1 to Mitesh for this awesome creation :-)<br><br>
-<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/chiragswadia">Chirag Swadia</a></footer>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/chiragswadia">Chirag Swadia</a><br>Web Developer - rtCamp.com</footer>
 </blockquote>
 <br>
 <blockquote>
 Mitesh was the most geekish guy in the company. Go to him with any linux based problem and he would solve it in a jiffy. He paved the pioneer code for EasyEngine product for rtCamp. He was also responsible for the IT administration for the company and server maintenance for all the client server. He did a pretty good job at rtCamp.<br><br>
-<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/desaiuditd">Udit Desai</a></footer>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/desaiuditd">Udit Desai</a><br>Web Developer - rtCamp.com</footer>
+</blockquote>
+<br>
+<blockquote>
+I can say Mitesh is a Technical giant and always keeps updating himself with latest technologies. I always like his approach while scrutinizing the issue and providing multiple solutions. He will be a critical piece to any company, especially for startups.<br><br>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/venkatbatchu">Venkat Batchu</a><br>QA Lead - Perk.com</footer>
 </blockquote>
