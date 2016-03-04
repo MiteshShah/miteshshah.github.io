@@ -1,0 +1,1 @@
+var adsense = true;
