@@ -10,6 +10,6 @@ image:
   creditlink:
 ---
 
-
-1. <a href="/linux/ubuntu/how-to-create-a-bootable-ubuntu-usb/"> How to Create a Bootable Ubuntu USB </a>
 1. <a href="/linux/ubuntu/things-to-do-after-installing-ubuntu-desktop/"> Things To Do After Installing Ubuntu </a>
+1. <a href="/linux/ubuntu/how-to-create-a-bootable-ubuntu-usb/"> How to Create a Bootable Ubuntu USB </a>
+1. <a href="/linux/ubuntu/how-to-fix-failed-to-fetch-google-chrome-apt-error/"> How to Fix 'Failed to Fetch' Google Chrome Apt Error </a>
