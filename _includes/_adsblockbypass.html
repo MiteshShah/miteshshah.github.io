@@ -6,19 +6,22 @@ var donateBtn = '
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_donations">
     <input type="hidden" name="business" value="Mr.Miteshah@gmail.com">
-    <input type="hidden" name="lc" value="US"><input type="hidden" name="item_name" value="Donation to Mr.Miteshah@gmail.com">
+    <input type="hidden" name="lc" value="US"><input type="hidden" name="item_name" value="Donation to https://miteshshah.github.io">
     <input type="hidden" name="no_note" value="0">
     <input type="hidden" name="currency_code" value="USD">
     <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
     <input align="left" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
   </form>
 </div>
-<a href="https://amazon.in/gp/join-and-earn?encoding=UTF8&ref=mrp_refl_cp_clbd_ind_snp_lnd&refcust=FL3CXG4S7VANYXSJ5CKGB6ZK4E">
+<!-- <a href="https://amazon.in/gp/join-and-earn?encoding=UTF8&ref=mrp_refl_cp_clbd_ind_snp_lnd&refcust=FL3CXG4S7VANYXSJ5CKGB6ZK4E">
 <img src="https://cloud.githubusercontent.com/assets/1223371/13526373/81a9a722-e22d-11e5-98ab-f9ce5b58f52e.jpg" width="213">
-</a>';
+</a>-->';
 
+<!-- If Disaply Donate Button if Adblock Enable Else Disaply Donate Button if Adblock Disable -->
 if(typeof adsense === 'undefined') {
-    document.write(donateBtn);
+  document.write(donateBtn);
+} else {
+  document.write(donateBtn);
 }
 </script>
 {% endif %}
