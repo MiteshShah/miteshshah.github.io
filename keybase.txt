@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/mitesh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://miteshshah.github.io
+  * I am mitesh (https://keybase.io/mitesh) on keybase.
+  * I have a public key with fingerprint B25F 836E 2806 CEF2 0F11  D421 D914 014B EC9D 4E62
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c417104d9f3be62af2274532802b998bab5c9d7f6dcc87a25ecd7fb2cb35ae760a",
+            "fingerprint": "b25f836e2806cef20f11d421d914014bec9d4e62",
+            "host": "keybase.io",
+            "key_id": "d914014bec9d4e62",
+            "kid": "0101c417104d9f3be62af2274532802b998bab5c9d7f6dcc87a25ecd7fb2cb35ae760a",
+            "uid": "0acac46730c99c1c3e101a3c3646b619",
+            "username": "mitesh"
+        },
+        "service": {
+            "hostname": "miteshshah.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458317720,
+    "expire_in": 157680000,
+    "prev": "4fa82e56a612e2f94f37debd93ce06c6a9d750c3a3fed4e495409185d8560143",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMIoAnicrZJdSBVBFMevaVKKYT1YYZ+bZILJfsx+XcTICDPF6sHI0C4zs7P3Lurd
+6+5qmZklGFKaBSrRhwY9ChGWUImWYqEISfVQQaRFUH6QaCVmkc1qPQQ9Ni/Dmfmf
+35zzn9MXE+6JCmutb9j+2nsyPmyw51qp5+BE0qUKBplaOeOtYArJwkaKNGI7vkJD
+Y7wMy7EcBpzMsUBTdQERiYc6z8tAFHiF5ZGqKggiEauarEsaxooMeZFgGiEeI0GE
+RJZYyCQzuhH0EytkGUGHYhEv6oogEcqQMNF5Vuc4DfCcpnKA5QAiFAjoWzQxYNpu
+Bi0OQZukGCY9o4Fvobx/6P9z3aWLOIghBpIssFhVMYcFQvlQwIIEJCRxqiu0iRWE
+xYSqiw2H2AGmMpmhZ2UGJq6tbh9/3dsBGEjxG06gFC12FbJMx8RmEVUEHCdke12C
+Ux5yU44S5PsN8yEjqFE3aUYZsWzDDDJejiqxY7h0DoiKwMkyzyYz5FjIsIjPcBWi
+LCksXe47pIwigQ4VnogSlDie8LoKdEHWCNJUARP6KxKk3ogsFqCgE2ouUEXAqpwi
+aoooUc8Fxm2vJGgyXkDLhH6KtA1/EDqlFmEqex/mR3jCojyRS5e4U+aJWh77Z/a0
+m8s87VkVtSAhdrIxratnYlu63z8ek9T1bOeUeOVT1Y93EWJcSVFi/UjbSNtchkdV
+v/OzTp7v6JHZd+eaj08/WrV7fqA9vPziit6zl6P3NTZUzV39MJPzcrb48I7ayY5q
+7/gTHn1ZE5k3vXl1/9ljNbnNgyeH0iY3Nt2rrn1r7Roazn5gzuy3TlV2D3Q8zWno
+GR3bc8g3mPoirXNDX2d0Qm3r3s8nRvtf3SlYmX5/19COu4/DPPmZp29lLTHepKKa
+lqHgt7oPzxHztVqr78q+oRWa3blrbyfWdE+d37KpMH1r0rrh8LqPGb73TXEXEjP7
+MsT1862DLeZMffyBloLcFnDmuvhz7Bd2HEjF
+=BJIW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mitesh
+
+==================================================================
+
