@@ -14,4 +14,5 @@ image:
 
 1. <a href="/linux/git/how-to-find-github-user-public-keys/">How to Find Github User Public Keys </a>
 1. <a href="/linux/git/how-to-push-single-commit-with-git/"> How to Push Specific Commit With Git </a>
+1. <a href="/linux/git/how-to-use-apache-instead-of-built-in-nginx-in-gitlab-ce/"> How to Use Apache Instead of Built-in NGINX in Gitlab CE </a>
 1. <a href="/linux/git/how-to-remove-last-commit-from-local-and-remote-git-repository/"> How to Remove Last Commit From Local & Remote Git Repository </a>
