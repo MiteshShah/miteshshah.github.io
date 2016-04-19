@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "How to Flush DNS Cache on Mac OS"
-tags: [MAC, OS X, Tips, Tricks, Terminal, DNS]
+tags: [MAC OS X, Tips, Tricks, Terminal, DNS]
 image:
   feature:
 date: 2015-07-03T16:53:49+05:30

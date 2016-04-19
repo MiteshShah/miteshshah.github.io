@@ -6,7 +6,7 @@ comments: true
 categories: linux/centos
 excerpt: "Beautiful & simple service status page,
 An open source status page system, for everyone."
-tags: [Status Page, Cachet, CentOS]
+tags: [Linux, Cachet, CentOS]
 image:
   feature: https://cachethq.io/img/main-interface.jpg
   credit: cachethq.io

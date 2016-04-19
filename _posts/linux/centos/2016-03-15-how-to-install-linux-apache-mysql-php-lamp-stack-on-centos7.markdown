@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/centos
 excerpt: "A LAMP (Linux, Apache, MySQL, PHP) stack is a common web stack used for hosting web content. This guide shows you how to install a LAMP stack on a CentOS 7 server."
-tags: [linux, centos, apache, httpd, mysql, mariadb, php]
+tags: [Linux, CentOS, Apache, Httpd, MySql, Mariadb, PHP]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/13773008/2300f0f2-eabd-11e5-8593-9679e124524a.png
   alt: How to Install Linux Apache MySQL PHP (LAMP) Stack on CentOS7

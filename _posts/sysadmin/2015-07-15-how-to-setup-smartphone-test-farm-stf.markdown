@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "Smartphone Test Farm (STF) is a web application for debugging smartphones, smartwatches and other gadgets remotely, from the comfort of your browser."
-tags: [Linux, SysAdmin, SystemAdmin, STF, Android, Ubuntu]
+tags: [Linux, SysAdmin, STF, Android, Ubuntu]
 image:
   feature:
 date: 2015-07-15T16:11:32+05:30

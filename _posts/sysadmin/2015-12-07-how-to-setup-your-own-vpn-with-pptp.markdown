@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "A Point-To-Point Tunneling Protocol (PPTP) allows you to implement your own VPN very quickly, and is compatible with most mobile devices. Even though PPTP is less secure than OpenVPN, it is also faster and uses less CPU resources."
-tags: [sysadmin]
+tags: [SysAdmin]
 image:
   url:
   alt: How to Setup Your Own VPN With PPTP
@@ -54,7 +54,7 @@ By setting `*` in IP addresses field, you specify that you would accept username
 
 ##### Add DNS Server
 {% highlight bash %}
-$ vim /etc/ppp/options.pptpd 
+$ vim /etc/ppp/options.pptpd
 ms-dns 8.8.8.8
 ms-dns 8.8.4.4
 {% endhighlight %}

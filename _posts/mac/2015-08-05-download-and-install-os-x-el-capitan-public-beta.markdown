@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "How to Download and Install OS X El Capitan Public Beta"
-tags: [Mac, OSX, OS X El Capitan]
+tags: [MAC OS X, El Capitan]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9086754/f019c4d4-3ba3-11e5-828f-c1778bdb5213.png
   alt: Download and Install OS X El Capitan Public Beta

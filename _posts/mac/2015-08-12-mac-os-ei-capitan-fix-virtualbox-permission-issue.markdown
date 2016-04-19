@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "How to fix Virtualbox Permission issue on MAC OS EI Capitan"
-tags: [MAC, OSX, Virtualbox]
+tags: [MAC OS X, Virtualbox]
 image:
   url:
   alt:

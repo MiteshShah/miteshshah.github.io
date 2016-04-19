@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "How to reset files and directory Permissions with single command"
-tags: [Linux, SysAdmin, SystemAdmin, Permissions]
+tags: [Linux, SysAdmin, Permissions]
 image:
   feature:
 date: 2015-06-23T11:11:59+05:30

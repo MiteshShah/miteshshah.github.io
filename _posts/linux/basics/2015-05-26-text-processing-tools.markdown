@@ -5,7 +5,7 @@ comments: true
 modified:
 categories: linux/basics
 excerpt: "Newbie Guide - Text Processing Guide"
-tags: [Linux, Basics, Tutorials]
+tags: [Linux, Linux Basics, Tutorials]
 image:
   feature:
 date: 2015-05-26T12:39:00+05:30

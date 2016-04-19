@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "Each time you start a Mac, you'll hear a familiar start-up chime. I'll show you how to  mute the Mac start up chime completely."
-tags: [MAC, Startup, Tips, Tricks]
+tags: [MAC OS X, Startup, Tips, Tricks]
 image:
   feature:
 date: 2015-06-19T17:45:45+05:30

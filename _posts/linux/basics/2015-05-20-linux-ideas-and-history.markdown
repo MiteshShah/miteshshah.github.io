@@ -5,7 +5,7 @@ comments: true
 modified:
 categories: linux/basics
 excerpt: "History behind Linux and OpenSource"
-tags: [Linux, Basics, Tutorials, History]
+tags: [Linux, Linux Basics, Tutorials]
 image:
   feature:
 date: 2015-05-20T15:04:00+05:30

@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/ubuntu
 excerpt: "How to fix Google Chrome unable to find expected entry ‘main/binary-i386/Packages’ in Release file"
-tags: [linux/ubuntu]
+tags: [Linux, Ubuntu]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/13633091/119fc2a6-e613-11e5-8e1a-697afff7448d.jpg
   alt: How to Fix 'Failed to Fetch' Google Chrome Apt Error

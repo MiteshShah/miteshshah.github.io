@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about Linux system boot sequence"
-tags: [Linux, Boot, Kernel]
+tags: [Linux, Linux Basics, Boot, Kernel]
 image:
   feature:
 date: 2015-06-10T12:29:33+05:30

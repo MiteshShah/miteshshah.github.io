@@ -6,7 +6,7 @@ modified:
 comments:
 categories: sysadmin
 excerpt: "How to Assign Multiple IP Address to Single LAN Card using IP Aliasing"
-tags: [Linux, SysAdmin, SystemAdmin, Network, NIC]
+tags: [Linux, SysAdmin, Network, NIC]
 image:
   feature:
 date: 2015-06-21T18:08:23+05:30

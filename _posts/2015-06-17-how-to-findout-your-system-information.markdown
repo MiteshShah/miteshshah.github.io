@@ -6,7 +6,7 @@ modified:
 comments: true
 categories:
 excerpt: "This article will teach you how to find out system information, such as Operating System, Serial Number, Processor, RAM and MAC Address"
-tags: [Howto, System Information, Linux, Mac, Windows]
+tags: [System Information, Linux, MAC OS X, Windows]
 image:
   feature:
 date: 2015-06-17T13:53:20+05:30

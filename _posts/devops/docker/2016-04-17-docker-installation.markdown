@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: devops/docker
 excerpt: "Step by step guide to install Docker on Ubuntu, Debian & CentOS"
-tags: [devops, docker]
+tags: [Devops, Docker]
 image:
   url:
   alt: Docker - Installation

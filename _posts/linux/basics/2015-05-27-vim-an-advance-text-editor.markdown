@@ -6,7 +6,7 @@ modified: 2015-07-08T18:14:22+05:30
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - VIM An Advance Text Editor"
-tags: [Linux, Basics, Tutorials, VIM]
+tags: [Linux, Linux Basics, Tutorials, VIM]
 image:
   feature:
 date: 2015-05-27T15:41:22+05:30

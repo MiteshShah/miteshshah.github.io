@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about system logs, Network Time Protocol (NTP) and SELinux"
-tags: [Linux, Basics, Logs, NTP, SELinux]
+tags: [Linux, Linux Basics, Logs, NTP, SELinux]
 image:
   feature:
 date: 2015-06-09T10:58:23+05:30

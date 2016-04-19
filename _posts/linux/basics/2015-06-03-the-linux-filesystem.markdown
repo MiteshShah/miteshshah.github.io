@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about Filesystem Partition, Management, HardLinks, Softlinks and Compress Data"
-tags: [Linux, Basics, Filesystem, Compress]
+tags: [Linux, Linux Basics, Filesystem, Compress]
 image:
   feature:
 date: 2015-06-03T19:32:32+05:30

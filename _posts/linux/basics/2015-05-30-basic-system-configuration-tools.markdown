@@ -6,7 +6,7 @@ modified: 2015-06-09T11:58:23+05:30
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about Network, DNS and Printer Configuration"
-tags: [Linux, Basics, Network, DNS, Printer]
+tags: [Linux, Linux Basics, Network, DNS, Printer]
 image:
   feature:
 date: 2015-05-30T14:09:28+05:30

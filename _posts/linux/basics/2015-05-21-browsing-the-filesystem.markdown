@@ -5,7 +5,7 @@ comments: true
 modified:
 categories: linux/basics
 excerpt: "Newbie Guide - Basic Linux Commands & Filesystem Details"
-tags: [Linux, Basics, Tutorials]
+tags: [Linux, Linux Basics, Tutorials]
 image:
   feature:
 date: 2015-05-21T20:57:59+05:30

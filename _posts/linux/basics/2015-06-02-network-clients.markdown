@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about network clients such as web-browsers, emails & messaging applications, SSH & FTP clients and network diagnostic tools"
-tags: [Linux, Basics, Network, SSH, FTP]
+tags: [Linux, Linux Basics, Network, SSH, FTP]
 image:
   feature:
 date: 2015-06-02T18:03:42+05:30

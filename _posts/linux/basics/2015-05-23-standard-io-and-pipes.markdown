@@ -5,7 +5,7 @@ comments: true
 modified:
 categories: linux/basics
 excerpt: "Newbie Guide - Standard Input/Output & Pipes"
-tags: [Linux, Standard IO, Pipes]
+tags: [Linux, Linux Basics, Standard IO, Pipes]
 image:
   feature:
 date: 2015-05-23T23:20:24+05:30

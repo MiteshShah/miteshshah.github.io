@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about locate and find command"
-tags: [Linux, Basics, Find, Locate]
+tags: [Linux, Linux Basics, Find, Locate]
 image:
   feature:
 date: 2015-06-01T14:10:40+05:30

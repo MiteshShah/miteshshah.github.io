@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "The Hosts file is used to map Hostname to IP address."
-tags: [MAC, OS X, Tips, Tricks, Terminal]
+tags: [MAC OS X, Tips, Tricks, Terminal]
 image:
   feature:
 date: 2015-07-03T16:00:08+05:30

@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "Sometimes, We need to block Social Networking websites like Facebook to deal with slow internet."
-tags: [IPTABLE,Facebook]
+tags: [IPTABLE, Facebook, SysAdmin]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9797567/756886b6-5819-11e5-9a1f-d652b4237eec.png
   alt: Block Facebook

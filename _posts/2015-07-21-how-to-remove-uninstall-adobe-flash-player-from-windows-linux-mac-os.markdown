@@ -6,7 +6,7 @@ modified:
 comments: true
 categories:
 excerpt: "A Step By Step Guide to Remove/Uninstall Adobe Flash Player On Windows/Linux/Mac OS and Block Adobe Flash Player on Google Chrome/Firefox/IE Web Browsers."
-tags: [Windows, Linux, MAC, Google Chrome, Firefox, IE]
+tags: [Windows, Linux, MAC OS X, Google Chrome, Firefox, IE]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/8800113/944d3d70-2fcd-11e5-9037-28b536cec2ee.png
   alt: Remove Adobe Flash Player

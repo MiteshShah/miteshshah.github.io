@@ -5,7 +5,7 @@ comments: true
 modified: 2015-05-21T15:20:50+05:30
 categories: linux/basics
 excerpt: "Newbie Guide - How to run commands & get help on Linux"
-tags: [Linux, Basics, Tutorials, Commands]
+tags: [Linux, Linux Basics, Tutorials, Commands]
 image:
   feature:
 date: 2015-05-21T11:20:50+05:30

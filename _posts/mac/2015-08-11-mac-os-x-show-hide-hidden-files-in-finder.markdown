@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "MAC OS X - Show/Hide Hidden Files in Finder"
-tags: [MAC, OSX, Finder, Automater, ShellScript]
+tags: [MAC OS X, Finder, Automater, ShellScripting]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9196364/41ac3568-4048-11e5-8deb-a3e28939a1ab.png
   alt: MAC OS X - Show/Hide Hidden Files in Finder

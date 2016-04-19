@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "All about OS X Hacks"
-tags: [MAC, OS X, Tips, Tricks]
+tags: [MAC OS X, Tips, Tricks]
 image:
   feature:
 date: 2015-06-20T14:21:52+05:30

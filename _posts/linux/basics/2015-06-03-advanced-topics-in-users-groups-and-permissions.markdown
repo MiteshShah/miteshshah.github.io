@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about manage users, groups and permissions"
-tags: [Linux, Basics, Users, Group, Permissions]
+tags: [Linux, Linux Basics, User, Group, Permissions]
 image:
   feature:
 date: 2015-06-03T13:06:44+05:30

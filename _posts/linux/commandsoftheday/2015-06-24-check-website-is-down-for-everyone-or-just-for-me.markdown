@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/commandsoftheday
 excerpt: "Sometimes we need to check weather some Website is down for everyone or It's just for me."
-tags: [Linux, CommandLine, CommandOfTheDay, Curl]
+tags: [Linux, CommandLine, CommandOfTheDay, CURL]
 image:
   feature:
 date: 2015-06-24T20:48:24+05:30

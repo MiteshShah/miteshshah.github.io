@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/tutorials
 excerpt: "Linux doesn't provide native support to exFAT File System. In this tutorial I'll show you how to access the exFAT File System in Linux."
-tags: [Linux, Ubuntu, exFAT, Tutorials,]
+tags: [Linux, Ubuntu, EXFAT, Tutorials,]
 image:
   feature:
 date: 2015-07-15T15:05:27+05:30

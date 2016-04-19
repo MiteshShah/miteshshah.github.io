@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "As a Linux System Admin I'm always need to monitor system logs for any unauthorized activity like brute force attack or co-worker trying to guess the server passwords."
-tags: [Linux, SysAdmin, SystemAdmin, Password, Twitter]
+tags: [Linux, SysAdmin, Password, Twitter]
 image:
   feature:
 date: 2015-06-29T11:40:52+05:30

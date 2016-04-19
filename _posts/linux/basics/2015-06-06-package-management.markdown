@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about manage package using yum and rpm commands"
-tags: [Linux, Basics, Package, Yum, RPM]
+tags: [Linux, Linux Basics, Package, Yum, RPM]
 image:
   feature:
 date: 2015-06-06T16:15:25+05:30

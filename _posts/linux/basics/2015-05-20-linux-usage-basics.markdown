@@ -5,7 +5,7 @@ comments: true
 modified:
 categories: linux/basics
 excerpt: "Newbie Guide - How to use Linux"
-tags: [Linux, Basics, Tutorials]
+tags: [Linux, Linux Basics, Tutorials]
 image:
   feature:
 date: 2015-05-20T17:50:19+05:30

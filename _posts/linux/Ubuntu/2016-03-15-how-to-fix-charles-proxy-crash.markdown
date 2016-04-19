@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/ubuntu
 excerpt: "Step by step guide to fix charles proxy hang/crash issue on Ubuntu OS"
-tags: [linux, ubuntu, charles, proxy]
+tags: [Linux, Ubuntu, Charles Proxy]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/13756323/6a4aee9a-ea45-11e5-8789-117719037741.png
   alt: How to Fix Charles Proxy Crash

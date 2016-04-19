@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/commandsoftheday
 excerpt: "Findout how many Processors available on your system/servers using the simple command nproc."
-tags: [Linux, CommandLine, CommandOfTheDay, nproc]
+tags: [Linux, CommandLine, CommandOfTheDay, Nproc]
 image:
   url:
   alt:

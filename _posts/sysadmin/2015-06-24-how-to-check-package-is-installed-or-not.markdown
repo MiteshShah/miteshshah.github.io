@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "As a System Admin, I've to check some Package is installed or not. In this article I'll show you how to properly check some package is installed on your system or not."
-tags: [Linux, SysAdmin, SystemAdmin, Debian, Ubuntu]
+tags: [Linux, SysAdmin, Debian, Ubuntu]
 image:
   feature:
 date: 2015-06-24T23:40:22+05:30

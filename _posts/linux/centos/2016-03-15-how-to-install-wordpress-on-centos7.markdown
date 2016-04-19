@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/centos
 excerpt: "In this guide, we will demonstrate how to get a WordPress instance set up with an Apache web server on CentOS 7."
-tags: [linux, centos, WordPress]
+tags: [Linux, CentOS, WordPress]
 image:
   url:
   alt: How to Install WordPress on CentOS7

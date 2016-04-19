@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "Sometime IPv6 slow down internet connections, In this article I'll show you how to disable IPv6."
-tags: [Linux, SysAdmin, SystemAdmin, IPv6]
+tags: [Linux, SysAdmin, IPv6]
 image:
   feature:
 date: 2015-06-21T12:12:47+05:30

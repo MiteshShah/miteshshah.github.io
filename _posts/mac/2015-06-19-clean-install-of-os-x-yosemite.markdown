@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "How to clean install of OS X Yosemite from bootable USB/HDD"
-tags: [Mac, Bootable, Yosemite]
+tags: [MAC OS X, Bootable, Yosemite]
 image:
   feature:
 date: 2015-06-19T14:55:48+05:30

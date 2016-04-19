@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "Sentry provides real-time crash reporting for your web apps, mobile apps, and games."
-tags: [sysadmin]
+tags: [SysAdmin]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/12943884/27d77312-d00a-11e5-9cbc-0a8f0fe4317d.gif
   alt: How to Setup Sentry Logging Server

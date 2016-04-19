@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/basics
 excerpt: "If you are new to Linux, chances are you will meet a stupid person perhaps in a forum or chat room that can trick you into using commands that will harm your files or even your entire operating system."
-tags: [Linux, Basics, Tutorials]
+tags: [Linux, Linux Basics, Tutorials]
 image:
   feature:
 date: 2015-06-21T17:16:12+05:30

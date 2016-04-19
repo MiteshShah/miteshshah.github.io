@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "Augmented Traffic Control (ATC) is a tool to simulate network conditions. It allows controlling the connection that a device has to the internet. Developers can use ATC to test their application across varying network conditions, easily emulating high speed, mobile, and even severely impaired networks."
-tags: [sysadmin]
+tags: [SysAdmin]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/11738228/be286120-a006-11e5-8611-7e09d5ae19c0.png
   alt: How to Setup Augmented Traffic Control (ATC)

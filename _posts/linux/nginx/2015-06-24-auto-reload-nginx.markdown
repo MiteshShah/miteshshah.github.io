@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/nginx
 excerpt: "How to automatic reload NGINX, When some of website configuration files Modify/Created/Deleted."
-tags: [NGINX, Shell Script]
+tags: [NGINX, ShellScripting]
 image:
   feature:
 date: 2015-06-24T18:10:10+05:30

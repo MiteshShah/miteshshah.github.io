@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "Asciinema is a free and open source solution for recording terminal sessions and sharing them on the web."
-tags: [Linux, MAC, Asciinema, Terminal]
+tags: [Linux, MAC OS X, SysAdmin, Asciinema, Terminal]
 image:
   url: https://asciinema.org/a/624fjx2rx7k3pctdozw7m8b24.png
   alt:

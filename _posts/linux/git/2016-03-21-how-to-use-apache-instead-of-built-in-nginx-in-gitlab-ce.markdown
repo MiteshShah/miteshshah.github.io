@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/git
 excerpt: "I wanted to setup additional sites on the server using Apache, but now port 80 was already bound to by GitLab’s built-in Nginx web server."
-tags: [linux, git, Gitlab, NGINX, Apache]
+tags: [Linux, GIT, Gitlab, NGINX, Apache]
 image:
   url: https://about.gitlab.com/images/press/logo/wm_no_bg.svg
   alt: How to Use Apache Instead of Built-in NGINX in Gitlab CE

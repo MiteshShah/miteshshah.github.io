@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "Studies show that users leave a site if it hasn't loaded in 4 seconds; keep your users happy and engaged by providing a fast performing website!"
-tags: []
+tags: [SysAdmin]
 image:
   feature:
 date: 2015-07-02T16:08:28+05:30

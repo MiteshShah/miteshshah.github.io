@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: sysadmin
 excerpt: "How to Disable CPU Cores In Linux Operating System"
-tags: [Linux, SysAdmin, SystemAdmin, CPU]
+tags: [Linux, SysAdmin, CPU]
 image:
   feature:
 date: 2015-06-24T16:42:04+05:30

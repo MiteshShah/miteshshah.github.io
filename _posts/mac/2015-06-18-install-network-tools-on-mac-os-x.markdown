@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "This article will teach you how to install network tools, such as nmap, mtr, nikto and dnsmap"
-tags: [Mac, nmap, mtr, nikto, dnsmap]
+tags: [MAC OS X, Nmap, MTR, Nikto, Dnsmap]
 image:
   feature:
 date: 2015-06-18T16:02:50+05:30
