@@ -6,7 +6,7 @@ comments: true
 modified: 2015-05-22T16:04:52+05:30
 categories: guide
 excerpt: "Setup Jekyll and Write first guest post"
-tags: [Guide, Jekyll, Guest Post]
+tags: [Jekyll Setup]
 image:
   feature:
 date: 2015-05-18T17:49:06+05:30

@@ -5,7 +5,7 @@ author:
 modified:
 comments: true
 excerpt: "First Post"
-tags: [Blog, Posts, Hello-World, 2015]
+tags: []
 ---
 
 Hello World !
