@@ -48,6 +48,11 @@ layout: compress
       {% else %}
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
+      <ul class="taglist">
+        {% for tag in page.tags %}
+          <li class="tag"><a href="/tag/#{{ page.category }}{{ tag | downcase }}">{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
       {% include _reading-time.html %}
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
