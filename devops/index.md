@@ -10,5 +10,9 @@ image:
   creditlink:
 ---
 
+{% for post in site.categories.devops %}
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
 
-1. <a href="/devops/docker"> Docker </a>
+<li><a href="/devops/docker"> Docker </a></li>
+<li><a href="/linux/elk"> ELK Stack </a></li>
