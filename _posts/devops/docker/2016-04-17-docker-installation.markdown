@@ -18,7 +18,6 @@ date: 2016-04-17T23:02:54+05:30
 
 {% include _toc.html %}
 
-<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
 
 ### Installation
 
