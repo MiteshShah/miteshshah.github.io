@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Docker - Getting Started
+title: Docker - Installation
 author: Harshad_Yeola
 modified:
 comments: true
-categories: devops
+categories: devops/docker
 excerpt:
-tags: [devops]
+tags: [devops, docker]
 image:
   url:
-  alt: Docker - Getting Started
-  title: Docker - Getting Started
+  alt: Docker - Installation
+  title: Docker - Installation
   feature:
 date: 2016-04-17T23:02:54+05:30
 ---
@@ -19,13 +19,6 @@ date: 2016-04-17T23:02:54+05:30
 {% include _toc.html %}
 
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
-
-### What is Docker
-Docker is a software with which you can wrap your whole sofware & its environment to deploy it anywhere regardless of host environment.
-
-### Why to use Docker?
-- Easy deploy
-- Quick scale
 
 ### Installation
 Docker Supports almost all Linux Distributions and OS. Here are installation instruction for some popular OS Distributions. You must fullfill following Prerequisites before moving for Installation steps
