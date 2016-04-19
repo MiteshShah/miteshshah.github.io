@@ -1,39 +1,33 @@
 ---
 layout: page
-title: Search By Tags
+title: Tags
 permalink: /tag/
-
-sitemap:
-  priority: .5
-
+description: "An archive of posts sorted by tag."
 ---
-
-Click on a tag to see relevant list of posts.
+<!-- https://github.com/lanyonm/lanyonm.github.io/blob/master/tags.html -->
 
 <ul class="taglist">
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  <li class="tag"><a href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
-{% endfor %}
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+<!-- site_tags: {{ site_tags }} -->
+
+{% assign tag_words = site_tags | split:',' | sort %}
+<!-- tag_words: {{ tag_words }} -->
 </ul>
 
----
+<div id="tags">
+  <ul class="tag-box inline">
+  {% for tag in tag_words) %}
+    <li><a href="#{{ tag | cgi_escape }}">{{ tag }} <span>{{ site.tags[tag] | size }}</span></a></li>
+  {% endfor %}
+  </ul>
 
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-
-<h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h4>
-<ul>
-{% for post in posts %}
-  {% if post.tags contains t %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endif %}
-{% endfor %}
-</ul>
-
----
-
-{% endfor %}
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+  <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
+  <ul class="posts">
+    {% for post in site.tags[this_word] %}{% if post.title != null %}
+    <li itemscope><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span> &raquo; {% if post.category == "speaking" %}<i class="fa fa-microphone"></i> {% endif %}<a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}{% endfor %}
+  </ul>
+  {% endunless %}{% endfor %}
+</div>
