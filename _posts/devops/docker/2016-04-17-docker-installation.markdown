@@ -5,7 +5,7 @@ author: Harshad_Yeola
 modified:
 comments: true
 categories: devops/docker
-excerpt:
+excerpt: "Step by step guide to install Docker on Ubuntu, Debian & CentOS"
 tags: [devops, docker]
 image:
   url:
@@ -21,6 +21,7 @@ date: 2016-04-17T23:02:54+05:30
 <img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
 
 ### Installation
+
 Docker Supports almost all Linux Distributions and OS. Here are installation instruction for some popular OS Distributions. You must fullfill following Prerequisites before moving for Installation steps
 
 #### Prerequisites
