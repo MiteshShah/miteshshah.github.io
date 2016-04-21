@@ -8,6 +8,9 @@ categories: linux/Ubuntu
 excerpt: "Newbie Guide - Install Git, OpenSSH-Server, Java, Shutter, Hipchat, VLC and Google Chrome on Ubuntu 14.04 (Trusty Tahr), Ubuntu 16.04 (Xenial Xerus) Linux"
 tags: [Linux, Ubuntu]
 image:
+  url: http://fossbytes.com/wp-content/uploads/2016/01/ubuntu-16.04.jpg
+  alt: Ubuntu 16.04 (Xenial Xerus)
+  title: Ubuntu 16.04 (Xenial Xerus)
   feature:
 date: 2015-06-15T13:07:29+05:30
 ---
