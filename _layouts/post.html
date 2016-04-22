@@ -50,7 +50,7 @@ layout: compress
       {% endif %}
       <ul class="tag-box">
         {% for tag in page.tags %}
-          <a href="/tag/#{{ page.category }}{{ tag }}">{{ tag }}</a>
+          <a href="/tag/#{{ page.category }}{{ tag | replace: ' ','+' }}">{{ tag }}</a>
         {% endfor %}
       </ul>
       {% include _reading-time.html %}
