@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Docker - Running Containers
-author:
+author: Harshad_Yeola
 modified:
 comments: true
 categories: devops/docker
-excerpt: "Running container through pre-existing docker images"
+excerpt: "Running docker containers in different ways"
 tags: [Devops, Docker]
 image:
   url:
@@ -21,7 +21,7 @@ date: 2016-04-25T12:05:46+05:30
 ### Prerequisites
 For running docker containers you must have docker engine installed. Please refer <a href="/devops/docker/docker-installation/"> Docker Installation </a> section for Installation instructions.
 
-### Runnig containers
+### Running containers
 For running applications inside containers you will need a commad `docker run`. Following format will help you understand running docker containers.
 
 {% highlight bash %}
@@ -36,9 +36,11 @@ Hello world
 {% endhighlight %}
 
 In above example
-*ubuntu* - Is an image you run containers with. you are running command within Ubuntu OS. This image if not present locally is pulled from public image registry **Docker Hub**
 
-*/bin/echo* - Is the command you run inside container running with specified image.
+
+- **ubuntu** - Is an image you run containers with. you are running command within Ubuntu OS. This image if not present locally is pulled from public image registry **Docker Hub**
+
+- **/bin/echo** - Is the command you run inside container running with specified image.
 
 ### Running Interactive containers
 
@@ -55,10 +57,14 @@ $ docker run -t -i ubuntu /bin/bash
 root@af8bae53bdd3:/#
 {% endhighlight %}
 
-In this example
-*-t* - Is the flag which assigns psuedo-tty or terminal inside container.
-*-i* - Is the flag which allows you to run container interactively.
-*/bin/bash* - Launches a bash shell inside container.
+In above example
+
+
+- **-t** - Is the flag which assigns psuedo-tty or terminal inside container.
+
+- **-i** - Is the flag which allows you to run container interactively.
+
+- **/bin/bash** - Launches a bash shell inside container.
 
 Lets run some more commands inside the same container
 
@@ -86,6 +92,8 @@ docker run -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
 {% endhighlight %}
 
 In above example
-*-d* - flag runs the container in the background (to daemonize it).
+
+
+- **-d** - flag runs the container in the background (to daemonize it).
 
 In this post we have studied three different ways to run containers.
