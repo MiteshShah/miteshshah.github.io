@@ -5,7 +5,7 @@ author: Harshad_Yeola
 modified:
 comments: true
 categories: devops/docker
-excerpt: "Step by step guide to install Docker on Ubuntu, Debian & CentOS"
+excerpt: "Step by step guide to install Docker on Ubuntu, Debian ,CentOS & Mac"
 tags: [Devops, Docker]
 image:
   url:
@@ -68,4 +68,14 @@ EOF
 
 $ sudo yum install docker-engine
 $ sudo service docker start
+{% endhighlight %}
+
+#### Install Docker on Mac
+{% highlight bash %}
+$ brew cask install virtualbox
+$ brew install docker
+$ brew install boot2docker
+$ boot2docker init
+$ boot2docker up
+# export DOCKER_HOST=tcp://IP:PORT whatever ip and port given by above command.
 {% endhighlight %}
