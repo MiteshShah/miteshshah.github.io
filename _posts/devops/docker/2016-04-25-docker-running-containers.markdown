@@ -18,10 +18,10 @@ date: 2016-04-25T12:05:46+05:30
 
 {% include _toc.html %}
 
-### Prerequisites
-For running docker containers you must have docker engine installed. Please refer <a href="/devops/docker/docker-installation/"> Docker Installation </a> section for Installation instructions.
+**NOTE!** For running docker containers you must have docker engine installed. We assume that you already installed <a href="/devops/docker/docker-installation/">Docker</a>.
+{: .notice}
 
-### Running containers
+### Docker Containers
 For running applications inside containers you will need a commad `docker run`. Following format will help you understand running docker containers.
 
 {% highlight bash %}
@@ -42,7 +42,7 @@ In above example
 
 - **/bin/echo** - Is the command you run inside container running with specified image.
 
-### Running Interactive containers
+### Docker Interactive Containers
 
 In previous section containers remained active for the time of execution of command specified. So Let's run the containers interactive manner.
 
@@ -77,7 +77,7 @@ bin boot dev etc home lib lib64 media mnt opt proc root run sbin srv sys tmp usr
 
 When completed, run the exit command or enter Ctrl-D to exit the interactive shell. This will also stop the running container.
 
-### Running Daemonized containers
+### Docker Daemonized Containers
 If you want to run your application in daemonized way, you can do this in following manner
 
 {% highlight bash %}
