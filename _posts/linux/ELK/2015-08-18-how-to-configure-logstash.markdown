@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/ELK
 excerpt: "Step by step guide to configure Logstash - Transport and process your logs, events, or other data"
-tags: [Linux, ELK, Logstash]
+tags: [Linux, ELK, Logstash, Devops]
 image:
   url:
   alt:

@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/ELK
 excerpt: "Step by step guide to configure Collectd – The system statistics collection daemon"
-tags: [Linux, ELK, Collectd]
+tags: [Linux, ELK, Collectd, Devops]
 image:
   url:
   alt:

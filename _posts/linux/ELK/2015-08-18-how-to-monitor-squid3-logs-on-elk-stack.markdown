@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/ELK
 excerpt: "Step by step guide to configure Squid3 Logs on ELK Stack."
-tags: [Linux, ELK, Squid3]
+tags: [Linux, ELK, Squid3, Devops]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9460285/2dcba382-4b22-11e5-91d8-9c2aac3b5ddc.png
   alt: How to Monitor Squid3 Logs on ELK Stack

@@ -6,7 +6,7 @@ modified:
 comments:
 categories: linux/ELK
 excerpt: "Step by step guide to Monitor System with ELK Stack."
-tags: [Linux, ELK, Collectd]
+tags: [Linux, ELK, Collectd, Devops]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9403774/7e805fe8-4807-11e5-8fde-4760d1a1f055.png
   alt:

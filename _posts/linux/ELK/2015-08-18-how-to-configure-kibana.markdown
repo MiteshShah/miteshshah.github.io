@@ -6,7 +6,7 @@ modified:
 comments:
 categories: linux/ELK
 excerpt: "Step by step guide to configure Kibana -  An open source data visualization plugin for Elasticsearch."
-tags: [Linux, ELK, Kibana]
+tags: [Linux, ELK, Kibana, Devops]
 image:
   url:
   alt:

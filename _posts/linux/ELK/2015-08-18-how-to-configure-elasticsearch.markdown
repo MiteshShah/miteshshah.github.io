@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/ELK
 excerpt: "Step by step guide to configure ElasticSearch – The Open Source, Distributed, RESTful Search Engine"
-tags: [Linux, ELK, ElasticSearch]
+tags: [Linux, ELK, ElasticSearch, Devops]
 image:
   url:
   alt:

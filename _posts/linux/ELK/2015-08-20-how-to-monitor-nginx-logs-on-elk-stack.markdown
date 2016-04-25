@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/ELK
 excerpt: "Step by step guide to configure NGINX/WordPress/EasyEngine Logs on ELK Stack."
-tags: [Linux, ELK, NGINX, EasyEngine, WordPress]
+tags: [Linux, ELK, NGINX, EasyEngine, WordPress, Devops]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9406579/5707fa08-481f-11e5-848a-d2ac7a184626.png
   alt: NGINX WordPress EasyEngine Logs on ELK Stack
