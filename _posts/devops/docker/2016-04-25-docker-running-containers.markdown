@@ -18,8 +18,6 @@ date: 2016-04-25T12:05:46+05:30
 
 {% include _toc.html %}
 
-<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
-
 ### Prerequisites
 For running docker containers you must have docker engine installed. Please refer <a href="/devops/docker/docker-installation/"> Docker Installation </a> section for Installation instructions.
 
