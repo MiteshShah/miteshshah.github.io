@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Docker"
+author: Harshad_Yeola
 tags: [Linux, ELK, Tutorials, Docker, Devops]
 modified: 2015-05-20T17:10:00.12345-05:30
 comments: true
