@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: devops/docker
 excerpt: "Step by step guide to install Docker on Ubuntu, Debian ,CentOS & Mac"
-tags: [Devops, Docker]
+tags: [Devops, Docker, Ubuntu, Debian, MAC OS X, Homebrew]
 image:
   url:
   alt: Docker - Installation
@@ -25,7 +25,7 @@ date: 2016-04-17T23:02:54+05:30
 
 ### Installation
 
-Docker Supports almost all Linux Distributions and OS. Here are installation instruction for some popular OS Distributions. You must fullfill following Prerequisites before moving for Installation steps
+Docker Supports almost all Linux Distributions and OS. Here are installation instruction for some popular OS Distributions. You must fulfill following Prerequisites before moving for Installation steps
 
 #### Install Docker on Ubuntu
 {% highlight bash %}
@@ -70,12 +70,15 @@ $ sudo yum install docker-engine
 $ sudo service docker start
 {% endhighlight %}
 
-#### Install Docker on Mac
+#### Install Docker on Mac OS X
 {% highlight bash %}
-$ brew cask install virtualbox
-$ brew install docker
 $ brew install boot2docker
+$ brew cask install virtualbox docker
+
 $ boot2docker init
 $ boot2docker up
-# export DOCKER_HOST=tcp://IP:PORT whatever ip and port given by above command.
+$ export DOCKER_HOST=tcp://IP:PORT
 {% endhighlight %}
+
+**NOTE!:** tcp://IP:PORT You have to replace IP:PORT given by above command
+{: .notice }
