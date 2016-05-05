@@ -3,7 +3,7 @@ layout: post
 title: How to Configure Kibana
 author:
 modified:
-comments:
+comments: true
 categories: linux/ELK
 excerpt: "Step by step guide to configure Kibana -  An open source data visualization plugin for Elasticsearch."
 tags: [Linux, ELK, Kibana, Devops]

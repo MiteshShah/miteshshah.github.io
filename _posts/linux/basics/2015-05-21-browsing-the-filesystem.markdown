@@ -238,7 +238,7 @@ cp [OPTION]... SOURCE... DIRECTORY
 * If the destination is a directory, a copy of the source file is placed in that directory with the same name as the source.
 * If the destination is a file, a copy of the source file is created with that destination name.
 
-<a href="#the-root-user" class="btn btn-danger">WARNING</a>
+<a href="#" class="btn btn-danger">WARNING</a>
 THE CP COMMAND ALWAYS OVERWRITES THE DESTINATIONS!!
 {: .notice}
 

@@ -3,7 +3,7 @@ layout: post
 title: "How to Change Bash Custom Prompt (PS1)"
 author:
 modified:
-comments:
+comments: true
 categories: linux/commandsoftheday
 excerpt: "How to change bash custom prompt and make it more usable. Think when you enter wrong command your bash prompt turn into RED."
 tags: [Linux, CommandLine, CommandOfTheDay, PS1]

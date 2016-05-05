@@ -3,7 +3,7 @@ layout: post
 title: "Assign Multiple IP Address"
 author:
 modified:
-comments:
+comments: true
 categories: sysadmin
 excerpt: "How to Assign Multiple IP Address to Single LAN Card using IP Aliasing"
 tags: [Linux, SysAdmin, Network, NIC]

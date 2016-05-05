@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: "Step by Step Guide to Recover/Repair MAC HFS+ HDD on Ubuntu Linux"
-tags: [MAC OS X, HFS+, Recovery, Ubuntu]
+tags: [MAC OS X, HFS, Recovery, Ubuntu]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/10535240/af629b30-73fe-11e5-91ae-2dfd498986f9.png
   alt: Repair/Fix MAC HFS+ Partition Using Ubuntu

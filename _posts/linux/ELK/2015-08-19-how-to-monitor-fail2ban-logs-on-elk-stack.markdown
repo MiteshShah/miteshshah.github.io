@@ -3,7 +3,7 @@ layout: post
 title: How to Monitor Fail2Ban Logs on ELK Stack
 author:
 modified:
-comments:
+comments: true
 categories: linux/ELK
 excerpt: "Step by step guide to configure Fail2Ban Logs on ELK Stack."
 tags: [Linux, ELK, Fail2Ban, Devops]

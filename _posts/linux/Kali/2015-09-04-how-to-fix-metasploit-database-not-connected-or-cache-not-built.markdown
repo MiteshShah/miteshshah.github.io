@@ -3,7 +3,7 @@ layout: post
 title: How to Fix Metasploit Database Not Connected or Cache Not Built
 author:
 modified:
-comments:
+comments: true
 categories: linux/Kali
 excerpt: "This is a short post explaining how to deal with Metasploit instance not connected to its Database"
 tags: [Kali, Linux, Metasploit, PostgreSQL]
