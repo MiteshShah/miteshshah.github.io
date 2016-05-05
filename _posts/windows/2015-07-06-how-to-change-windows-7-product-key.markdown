@@ -31,4 +31,4 @@ C:\Windows\System32> slmgr.vbs -ipk "INSERT-YOUR-PRODUCT-KEY"
 C:\Windows\System32> slmgr.vbs -ato
 {% endhighlight %}
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/8518251/ec0e7efa-23e5-11e5-87a0-9e4a88499247.png">
+<img alt="How to Change Windows 7 Product Key" src="https://cloud.githubusercontent.com/assets/1223371/8518251/ec0e7efa-23e5-11e5-87a0-9e4a88499247.png">

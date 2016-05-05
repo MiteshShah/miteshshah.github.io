@@ -98,6 +98,6 @@ Authorization successful.
 * Click on Settings <i class="fa fa-cog"></i>
 * Click on Turn on mobile notifications.
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/8515662/02129d2e-23c5-11e5-8e84-45eb20a9ced2.png">
+<img alt "Security Alert" src="https://cloud.githubusercontent.com/assets/1223371/8515662/02129d2e-23c5-11e5-8e84-45eb20a9ced2.png">
 
 * Feel free to comment below in case you face any problem.

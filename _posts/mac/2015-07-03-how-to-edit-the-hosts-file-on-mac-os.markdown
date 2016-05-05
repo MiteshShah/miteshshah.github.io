@@ -36,10 +36,10 @@ Password:
 * Click on Finder's Menubar
 * Click on Go > Go to Folder
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/8497943/1bc287d4-219f-11e5-8cfd-b0a1c801440b.png">
+<img alt="Edit the Hosts File" src="https://cloud.githubusercontent.com/assets/1223371/8497943/1bc287d4-219f-11e5-8cfd-b0a1c801440b.png">
 
 * In the box, type `/private/etc/hosts` location and press Enter.
-<img src="https://cloud.githubusercontent.com/assets/1223371/8497942/1bc0d2a4-219f-11e5-9e2d-2775cb4e2844.jpg">
+<img alt="Edit the Hosts File" src="https://cloud.githubusercontent.com/assets/1223371/8497942/1bc0d2a4-219f-11e5-9e2d-2775cb4e2844.jpg">
 
 * Right on `hosts` file and open with your favorite text editor.
 {% highlight bash %}

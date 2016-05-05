@@ -37,7 +37,7 @@ The following script is tested on Single WordPress Only.
 
 
 #### Before Website status
-<img src="https://cloud.githubusercontent.com/assets/1223371/8521910/6aa51ab0-2406-11e5-94d9-7327640b3625.png">
+<img alt="Upgrade Multiple WordPress" src="https://cloud.githubusercontent.com/assets/1223371/8521910/6aa51ab0-2406-11e5-94d9-7327640b3625.png">
 
 #### Execute Shell Script to Upgrade WordPress
 {% highlight bash %}
@@ -101,4 +101,4 @@ Success: Updated 3/3 themes.
 
 #### After Website Status
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/8521950/c091d882-2406-11e5-91e3-6ab171df781e.png">
+<img alt="Upgrade Multiple WordPress" src="https://cloud.githubusercontent.com/assets/1223371/8521950/c091d882-2406-11e5-91e3-6ab171df781e.png">

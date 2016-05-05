@@ -17,7 +17,7 @@ date: 2015-10-08T13:38:13+05:30
 
 {% include _toc.html %}
 
-<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
+<img alt="Realtime Log Monitoring" src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
 
 ### Install Log.io
 
@@ -61,7 +61,7 @@ $ log.io-harvester
 ### Let's Monitor Logs on Browser
 
 * Open <a href="http://localhost:28778">http://localhost:28778</a>
-<img src="https://cloud.githubusercontent.com/assets/1223371/10362215/de197fe6-6dca-11e5-8f60-b0c1ce0e06ce.png">
+<img alt="Realtime Log Monitoring" src="https://cloud.githubusercontent.com/assets/1223371/10362215/de197fe6-6dca-11e5-8f60-b0c1ce0e06ce.png">
 
 ### More Information
 

@@ -89,7 +89,7 @@ eth0      Link encap:Ethernet  HWaddr ed:f5:ab:9c:6c:6e
   * Processor
   * RAM
   * Serial Number
-<img src="https://cloud.githubusercontent.com/assets/1223371/8202592/fcf0d430-14f8-11e5-88a7-63e28e0eacf6.png">
+<img alt="About This MAC" src="https://cloud.githubusercontent.com/assets/1223371/8202592/fcf0d430-14f8-11e5-88a7-63e28e0eacf6.png">
 
 * Click on Storage tab
   * HDD Space
@@ -97,32 +97,32 @@ eth0      Link encap:Ethernet  HWaddr ed:f5:ab:9c:6c:6e
 
 * Click on Memory tab
   * RAM
-<img src="https://cloud.githubusercontent.com/assets/1223371/8202594/fd3e7ffa-14f8-11e5-81f3-146f61d470ff.png">
+<img alt="HDD" src="https://cloud.githubusercontent.com/assets/1223371/8202594/fd3e7ffa-14f8-11e5-81f3-146f61d470ff.png">
 
 * Press `Command ⌘ and space` key
 * Type `System Preferences`
 * Click on Network
-<img src="https://cloud.githubusercontent.com/assets/1223371/8202917/bfc2ddd0-14fb-11e5-9da3-ed62ae937db9.png">
+<img alt="RAM" src="https://cloud.githubusercontent.com/assets/1223371/8202917/bfc2ddd0-14fb-11e5-9da3-ed62ae937db9.png">
 
 * Find out WiFi Mac Address
 
   * Select WiFi and click on Advanced
-<img src="https://cloud.githubusercontent.com/assets/1223371/8202915/bfc219f4-14fb-11e5-9d21-1bf5c51d8a46.png">
+<img alt="WIFI" src="https://cloud.githubusercontent.com/assets/1223371/8202915/bfc219f4-14fb-11e5-9d21-1bf5c51d8a46.png">
 
   * Click on Hardware tab
-<img src="https://cloud.githubusercontent.com/assets/1223371/8202914/bfc015aa-14fb-11e5-8277-85d6f9810f41.png">
+<img alt="Hardware" src="https://cloud.githubusercontent.com/assets/1223371/8202914/bfc015aa-14fb-11e5-8277-85d6f9810f41.png">
 
 * Find out LAN Mac Address
 
   * Select Ethernet and click on Advanced
-<img src="https://cloud.githubusercontent.com/assets/1223371/8202918/bfc2d2f4-14fb-11e5-8cbd-f98c923276b4.png">
+<img "alt=LAN" src="https://cloud.githubusercontent.com/assets/1223371/8202918/bfc2d2f4-14fb-11e5-8cbd-f98c923276b4.png">
 
   * Click on Hardware tab
-<img src="https://cloud.githubusercontent.com/assets/1223371/8202916/bfc26706-14fb-11e5-8fba-5d86cfec1dcf.png">
+<img alt="Hardware"src="https://cloud.githubusercontent.com/assets/1223371/8202916/bfc26706-14fb-11e5-8fba-5d86cfec1dcf.png">
 
 ### Windows
 
 * Download and install <a href="http://www.belarc.com/de/Programs/advisorinstaller.exe"> Belarc Advisor </a>
 * Once Belarc Advisor installed, its open a HTML page which contains all your system information.
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/8204429/3bbb4134-1506-11e5-81e7-5c505bff7a1a.png">
+<img "Windows System Information" src="https://cloud.githubusercontent.com/assets/1223371/8204429/3bbb4134-1506-11e5-81e7-5c505bff7a1a.png">

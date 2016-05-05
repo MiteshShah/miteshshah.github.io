@@ -9,8 +9,8 @@ excerpt: "Step by step guide to Monitor System with ELK Stack."
 tags: [Linux, ELK, Collectd, Devops]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9403774/7e805fe8-4807-11e5-8fde-4760d1a1f055.png
-  alt:
-  title:
+  alt: Monitor System With ELK Stack
+  title: Monitor System With ELK Stack
   feature:
 date: 2015-08-18T16:13:13+05:30
 ---

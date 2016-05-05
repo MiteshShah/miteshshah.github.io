@@ -50,9 +50,9 @@ jQuery('body').html(function(index,html){
 return html.replace(/example.com/g,'mitesh.com');
 });
 {% endhighlight %}
-<img src="https://cloud.githubusercontent.com/assets/1223371/8450837/0e85a5b4-1ffc-11e5-859b-1f785c89f438.png">
+<img alt="Perform Search and Replace on Webpages" src="https://cloud.githubusercontent.com/assets/1223371/8450837/0e85a5b4-1ffc-11e5-859b-1f785c89f438.png">
 
 * Once you press Enter check above code
 * You can see example.com is replaced by mitesh.com just like below image.
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/8450834/08c3a5cc-1ffc-11e5-9894-27f12d30f343.png">
+<img alt="Perform Search and Replace on Webpages" src="https://cloud.githubusercontent.com/assets/1223371/8450834/08c3a5cc-1ffc-11e5-9894-27f12d30f343.png">

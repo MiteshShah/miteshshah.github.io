@@ -25,17 +25,17 @@ date: 2015-10-14T13:17:17+05:30
 
 * Open the dash and search for **Startup Disk Creator**.
 * Select the **Startup Disk Creator** to launch the app.
-<img src="https://cloud.githubusercontent.com/assets/1223371/10477915/927dad62-7277-11e5-8157-48d34d3df7e2.jpg" alt="Startup Disk Creator" title="Startup Disk Creator">
+<img alt="Bootable Ubuntu USB" src="https://cloud.githubusercontent.com/assets/1223371/10477915/927dad62-7277-11e5-8157-48d34d3df7e2.jpg" alt="Startup Disk Creator" title="Startup Disk Creator">
 * Click **Other** to choose the downloaded ISO file.
 * Select the file and click **Open**.
-<img src="https://cloud.githubusercontent.com/assets/1223371/10477992/1b4ed7ba-7278-11e5-8b62-bb6af2e48e36.jpg">
+<img alt="Bootable Ubuntu USB" src="https://cloud.githubusercontent.com/assets/1223371/10477992/1b4ed7ba-7278-11e5-8b62-bb6af2e48e36.jpg">
 * Select the USB stick in the bottom box and click **Make Startup Disk**.
-<img src="https://cloud.githubusercontent.com/assets/1223371/10477993/1bff7890-7278-11e5-9078-cc2b1ed2d378.jpg">
+<img alt="Bootable Ubuntu USB" src="https://cloud.githubusercontent.com/assets/1223371/10477993/1bff7890-7278-11e5-9078-cc2b1ed2d378.jpg">
 * That’s it! When the process completes, you’ll be ready to restart your computer and begin installing Ubuntu.
 
 ### Fix gfxboot.c32 not a com32r image
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/10478112/d742907e-7278-11e5-96c1-8a2b036e64ad.png">
+<img alt="Bootable Ubuntu USB" src="https://cloud.githubusercontent.com/assets/1223371/10478112/d742907e-7278-11e5-96c1-8a2b036e64ad.png">
 
 * Hit `TAB`
 * Then you will see a set of options (live, live install, etc).
