@@ -3,7 +3,7 @@ layout: post
 title: How to Monitor System With ELK Stack
 author:
 modified:
-comments:
+comments: true
 categories: linux/ELK
 excerpt: "Step by step guide to Monitor System with ELK Stack."
 tags: [Linux, ELK, Collectd, Devops]
