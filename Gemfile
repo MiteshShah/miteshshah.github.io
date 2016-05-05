@@ -4,6 +4,6 @@ source 'https://rubygems.org'
 #gem 'jekyll-sitemap'
 #gem 'pygments.rb'
 #gem 'jekyll-gist'
+gem 'octopress'
 gem 'github-pages'
-gem 'octopress', '~> 3.0'
 gem "html-proofer"
