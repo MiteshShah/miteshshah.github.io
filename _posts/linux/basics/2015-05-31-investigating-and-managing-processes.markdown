@@ -6,7 +6,7 @@ modified: 2015-06-09T10:58:23+05:30
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - All about process management/scheduling, signals and job control"
-tags: [Linux, Linux Basics, PS, JOB, CRON, CRONTAB]
+tags: [Linux, Linux Basics, PS, CRON, CRONTAB]
 image:
   feature:
 date: 2015-05-31T14:30:19+05:30
