@@ -29,7 +29,7 @@ Make sure you take back up of your important files before proceeding.
 <img alt="Clean Install of OS X" src="https://cloud.githubusercontent.com/assets/1223371/8250812/bbc7234a-1694-11e5-97e0-f2c9a38169f1.png">
 
 * Provide your Apple ID and Password and click on Sign In
-<img src="https://cloud.githubusercontent.com/assets/1223371/8250813/bbf42fa2-1694-11e5-89ee-402af974021e.png">
+<img alt="Clean Install of OS X" src="https://cloud.githubusercontent.com/assets/1223371/8250813/bbf42fa2-1694-11e5-89ee-402af974021e.png">
 
 
 

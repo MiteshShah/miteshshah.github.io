@@ -22,10 +22,10 @@ date: 2015-07-05T14:05:58+05:30
 * Open <a href="https://hosts.cx/">https://hosts.cx/</a>
 * Enter Your Staging/Dev/Beta Website Server IP Address in Server Address Text Box.
 * Enter Your Staging/Dev/Beta Website name in Website Name Text Box.
-<img src="https://cloud.githubusercontent.com/assets/1223371/8510982/40816f9a-2320-11e5-86a2-391acbba29c8.png">
+<img alt="How to Access Staging Website Without Editing Hosts Files or DNS" src="https://cloud.githubusercontent.com/assets/1223371/8510982/40816f9a-2320-11e5-86a2-391acbba29c8.png">
 
 * Click on GET MY TESTING URL.
-<img src="https://cloud.githubusercontent.com/assets/1223371/8510983/4084688a-2320-11e5-99d1-14425df6b3c7.png">
+<img alt="How to Access Staging Website Without Editing Hosts Files or DNS" src="https://cloud.githubusercontent.com/assets/1223371/8510983/4084688a-2320-11e5-99d1-14425df6b3c7.png">
 
 * Now click on Given URL test your Staging/Dev/Beta Website.
 * Now share given URL with your team mates to test your Staging/Dev/Beta Website.
