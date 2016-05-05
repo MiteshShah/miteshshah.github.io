@@ -26,7 +26,7 @@ date: 2015-06-25T16:33:54+05:30
 [root@miteshshah.github.io ~]# PS1="\`if [ \$? = 0 ]; then echo \[\e[34m\]^_^[\u@\h:\w]\\$\[\e[0m\]; else echo \[\e[31m\]O_O[\u@\h:\w]\\$\[\e[0m\]; fi\` "
 {% endhighlight %}
 
-<img src="https://cloud.githubusercontent.com/assets/1223371/8353379/d71ee752-1b5a-11e5-9017-fd449fc57b73.png">
+<img alt="How to Change Bash Custom Prompt (PS1)" src="https://cloud.githubusercontent.com/assets/1223371/8353379/d71ee752-1b5a-11e5-9017-fd449fc57b73.png">
 
 ### Display Date and Time
 {% highlight bash %}
