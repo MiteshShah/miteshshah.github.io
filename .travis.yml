@@ -1,0 +1,6 @@
+#!/bin/bash
+# halt script on error
+set -e
+
+bundle exec jekyll build
+bundle exec htmlproofer ./_site
