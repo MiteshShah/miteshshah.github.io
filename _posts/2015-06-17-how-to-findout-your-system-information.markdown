@@ -93,16 +93,16 @@ eth0      Link encap:Ethernet  HWaddr ed:f5:ab:9c:6c:6e
 
 * Click on Storage tab
   * HDD Space
-<img src="https://cloud.githubusercontent.com/assets/1223371/8202593/fd183214-14f8-11e5-9d9c-0a33bc6ba920.png">
+<img alt="HDD"src="https://cloud.githubusercontent.com/assets/1223371/8202593/fd183214-14f8-11e5-9d9c-0a33bc6ba920.png">
 
 * Click on Memory tab
   * RAM
-<img alt="HDD" src="https://cloud.githubusercontent.com/assets/1223371/8202594/fd3e7ffa-14f8-11e5-81f3-146f61d470ff.png">
+<img alt="Memory" src="https://cloud.githubusercontent.com/assets/1223371/8202594/fd3e7ffa-14f8-11e5-81f3-146f61d470ff.png">
 
 * Press `Command ⌘ and space` key
 * Type `System Preferences`
 * Click on Network
-<img alt="RAM" src="https://cloud.githubusercontent.com/assets/1223371/8202917/bfc2ddd0-14fb-11e5-9da3-ed62ae937db9.png">
+<img alt="Network" src="https://cloud.githubusercontent.com/assets/1223371/8202917/bfc2ddd0-14fb-11e5-9da3-ed62ae937db9.png">
 
 * Find out WiFi Mac Address
 
