@@ -6,4 +6,4 @@ source 'https://rubygems.org'
 #gem 'jekyll-gist'
 #gem 'octopress'
 gem 'github-pages'
-gem "html-proofer"
+gem 'html-proofer'
