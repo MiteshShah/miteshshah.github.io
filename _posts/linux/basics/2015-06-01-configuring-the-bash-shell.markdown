@@ -6,7 +6,7 @@ modified: 2015-06-05T17:00:00+05:30
 comments: true
 categories: linux/basics
 excerpt: "Newbie Guide - How to configure BASH Shell"
-tags: [Linux, Linux Basics, BASH]
+tags: [Linux, Linux Basics, Bash]
 image:
   feature:
 date: 2015-06-01T10:00:00+05:30

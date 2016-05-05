@@ -5,7 +5,7 @@ comments: true
 modified:
 categories: linux/basics
 excerpt: "Newbie Guide - BASH & Shell Scripting"
-tags: [Linux, Linux Basics, BASH, ShellScripting]
+tags: [Linux, Linux Basics, Bash, ShellScripting]
 image:
   feature:
 date: 2015-05-23T20:57:28+05:30
