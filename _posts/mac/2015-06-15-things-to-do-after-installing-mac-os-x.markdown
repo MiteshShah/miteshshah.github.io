@@ -6,7 +6,7 @@ modified: 2015-07-06T11:15:12+05:30
 comments: true
 categories: mac
 excerpt: "Newbie Guide - Install Git, OpenSSH-Server, Java, Shutter, Hipchat, VLC and Google Chrome on Mac OS"
-tags: [MAC OS X, Yosemite, El Captain, Homebrew]
+tags: [MAC OS X, Yosemite, El Capitan, Homebrew]
 image:
   feature:
 date: 2015-06-15T14:54:12+05:30

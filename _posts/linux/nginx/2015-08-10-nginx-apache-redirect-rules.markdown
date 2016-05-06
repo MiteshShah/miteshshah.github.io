@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/nginx
 excerpt: "All about NGINX and APACHE 301 Moved Permanently."
-tags: [NGINX, APACHE, HTTPD, HTACCESS]
+tags: [NGINX, Apache, Httpd, HTACCESS]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/9169847/9c4574b2-3f7b-11e5-81ec-5ede06b0aa97.jpg
   alt: NGINX/Apache Redirect Rules
