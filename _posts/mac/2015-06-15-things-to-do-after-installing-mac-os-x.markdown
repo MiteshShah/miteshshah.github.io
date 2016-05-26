@@ -21,7 +21,7 @@ date: 2015-06-15T14:54:12+05:30
 [mitesh@Matrix ~]$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 {% endhighlight %}
 
-#### Install HomeBrew  Cash
+#### Install HomeBrew  Cask
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew install caskroom/cask/brew-cask
 {% endhighlight %}
