@@ -276,3 +276,16 @@ Mitesh was the most geekish guy in the company. Go to him with any linux based p
 I can say Mitesh is a Technical giant and always keeps updating himself with latest technologies. I always like his approach while scrutinizing the issue and providing multiple solutions. He will be a critical piece to any company, especially for startups.<br><br>
 <footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/venkatbatchu">Venkat Batchu</a><br>QA Lead - Perk.com</footer>
 </blockquote>
+
+
+<style type="text/css" media="screen">
+  #qrcode { display: block; }
+</style>
+<style type="text/css" media="print">
+  #qrcode { display: block; }
+</style>
+
+<div id="qrcode">
+<img src="http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl={{ site.url }}{{ page.url }}&choe=UTF-8">
+<p>Scan the QR Code to load the page in your browser.</p>
+</div>
