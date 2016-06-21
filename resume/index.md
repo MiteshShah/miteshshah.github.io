@@ -279,7 +279,7 @@ I can say Mitesh is a Technical giant and always keeps updating himself with lat
 
 
 <style type="text/css" media="screen">
-  #qrcode { display: block; }
+  #qrcode { display: none; }
 </style>
 <style type="text/css" media="print">
   #qrcode { display: block; }
