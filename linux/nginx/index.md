@@ -14,5 +14,6 @@ image:
 
 1. <a href="/linux/nginx/auto-reload-nginx/"> Auto Reload NGINX </a>
 1. <a href="/linux/nginx/nginx-apache-redirect-rules/"> NGINX/Apache Redirect Rules </a>
+1. <a href="/linux/nginx/how-to-fix-nginx-reload-issue/"> How to Fix NGINX Reload Issue </a>
 1. <a href="/linux/nginx/nginx-time-based-rewriting-rules/"> NGINX - Time Based Rewriting Rules </a>
 1. <a href="/linux/nginx/nginx-address-alredy-in-use-error/"> NGINX - Address Already in Use Error </a>
