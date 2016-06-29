@@ -12,5 +12,6 @@ image:
 
 1. <a href="/linux/ubuntu/things-to-do-after-installing-ubuntu-desktop/"> Things To Do After Installing Ubuntu </a>
 1. <a href="/linux/ubuntu/how-to-create-a-bootable-ubuntu-usb/"> How to Create a Bootable Ubuntu USB </a>
+1. <a href="/linux/ubuntu/how-to-disable-backlist-package-update/"> How to Disable/Backlist Package Update </a>
 1. <a href="/linux/ubuntu/how-to-fix-charles-proxy-crash/"> How to Fix Charles Proxy Crash/Hang Issue </a>
 1. <a href="/linux/ubuntu/how-to-fix-failed-to-fetch-google-chrome-apt-error/"> How to Fix 'Failed to Fetch' Google Chrome Apt Error </a>
