@@ -20,7 +20,7 @@ date: 2016-07-12T17:07:23+05:30
 
 ### Issue
 
-* Recently, I'd <a href="http://crashchrome.com">Crash Chrome</a>
+* Recently, I'd open <a href="http://crashchrome.com">Crash Chrome</a>
 * Now after Google Chrome crash, I'd check Chrome History and entire Chrome History is full of logs of <a href="http://crashchrome.com">Crash Chrome</a>
 
 ### How Crash Chrome Works
