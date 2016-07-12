@@ -12,7 +12,7 @@ image:
   alt: How to Search/remove Google Chrome History
   title: How to Search/remove Google Chrome History
   feature:
-date: 2016-07-12T17:07:23+05:30
+date: 2016-07-12T11:07:23+05:30
 ---
 
 
@@ -36,7 +36,7 @@ date: 2016-07-12T17:07:23+05:30
 * In Chrome History there is no `select all` button
 * So let's do it little different way
 
-#### Perform Search & Replace
+#### Perform Search & Remove
 
 * Open chrome://history-frame/#q=crashchrome
 * Right click on this page
