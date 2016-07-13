@@ -13,6 +13,5 @@ image:
 
 {% include _toc.html %}
 {% include _subscribe.html %}
-<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
 
 1. <a href="/devops/aws/s3/how-to-find-out-aws-s3-bucket-human-readable-size/"> How to Find Out AWS S3 Bucket Human Readable Size </a>
