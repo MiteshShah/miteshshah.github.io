@@ -14,5 +14,6 @@ image:
   <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 
+<li><a href="/devops/aws"> AWS </a></li>
 <li><a href="/devops/docker"> Docker </a></li>
 <li><a href="/linux/elk"> ELK Stack </a></li>

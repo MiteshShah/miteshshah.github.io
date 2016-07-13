@@ -2,11 +2,11 @@
 layout: page
 title: "Docker"
 author: Harshad_Yeola
-tags: [Linux, ELK, Tutorials, Docker, Devops]
+tags: [Linux, Docker, DevOps]
 modified: 2015-05-20T17:10:00.12345-05:30
 comments: true
 image:
-  feature: https://cloud.githubusercontent.com/assets/7354660/14648078/268bbbee-067e-11e6-9c86-5e56d6eca670.png
+  feature: 
   credit:
   creditlink:
 ---
