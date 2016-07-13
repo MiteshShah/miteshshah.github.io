@@ -80,5 +80,9 @@ $ boot2docker up
 $ export DOCKER_HOST=tcp://IP:PORT
 {% endhighlight %}
 
+**NOTE!**: Make sure you have installed HomeBrew on your system,
+If you don't have HomeBrew installed then <a href="/mac/things-to-do-after-installing-mac-os-x/#install-homebrew"> Click Here to Install HomeBrew </a>
+{: .notice}
+
 **NOTE!:** tcp://IP:PORT You have to replace IP:PORT given by above command
 {: .notice }
