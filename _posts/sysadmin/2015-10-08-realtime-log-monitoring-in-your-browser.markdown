@@ -22,7 +22,13 @@ date: 2015-10-08T13:38:13+05:30
 ### Install Log.io
 
 {% highlight bash %}
+# Ubuntu/Debian
 $ sudo apt-get install nodejs-legacy npm
+
+# CentOS
+$ sudo yum install nodejs npm
+
+# Install log.io
 $ sudo npm install -g log.io --user "ubuntu"
 {% endhighlight %}
 
@@ -39,11 +45,11 @@ exports.config = {
   logStreams: {
     examplecom: [
       "/var/log/nginx/example.com.access.log",
-      "/var/log/nginx/example.com.access.log"
+      "/var/log/nginx/example.com.error.log"
     ],
     miteshcom: [
       "/var/log/nginx/mitesh.com.access.log",
-      "/var/log/nginx/mitesh.com.access.log"
+      "/var/log/nginx/mitesh.com.error.log"
     ]
   },
   server: {
