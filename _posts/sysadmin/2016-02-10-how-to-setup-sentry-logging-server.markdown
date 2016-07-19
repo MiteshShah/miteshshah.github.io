@@ -40,7 +40,7 @@ $ sudo apt-get dist-upgrade
 ### Install Packages
 
 {% highlight bash %}
-$ sudo apt-get install python-setuptools python-pip python-dev libxslt1-dev libxml2-dev libz-dev libffi-dev libssl-dev libpq-dev libyaml-dev redis-server postgresql-9.4 nginx-full
+$ sudo apt-get install python-setuptools python-pip python-dev libxslt1-dev libxml2-dev libz-dev libffi-dev libssl-dev libpq-dev libyaml-dev redis-server postgresql-9.4 nginx-full libjpeg-dev
 {% endhighlight %}
 
 ### Create Sentry User
