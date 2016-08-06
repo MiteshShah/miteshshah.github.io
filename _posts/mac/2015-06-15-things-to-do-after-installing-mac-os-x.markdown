@@ -18,13 +18,9 @@ date: 2015-06-15T14:54:12+05:30
 
 #### Install HomeBrew
 {% highlight bash %}
-[mitesh@Matrix ~]$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+[mitesh@Matrix ~]$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 {% endhighlight %}
 
-#### Install HomeBrew  Cask
-{% highlight bash %}
-[mitesh@Matrix ~]$ brew install caskroom/cask/brew-cask
-{% endhighlight %}
 
 #### Install ssh-copy-id command
 {% highlight bash %}
@@ -45,6 +41,11 @@ date: 2015-06-15T14:54:12+05:30
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew cask install google-chrome
 [mitesh@Matrix ~]$ brew cask install 1password
+{% endhighlight %}
+
+#### Install Firefox
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew cask install firefox
 {% endhighlight %}
 
 #### Install VLC
