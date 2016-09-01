@@ -24,72 +24,80 @@ date: 2016-09-01T17:01:36+05:30
 
 {% highlight bash %}
 # Ubuntu/Debian
-sudo apt-get install wget build-essential apache2 php apache2-mod-php7.0 php-gd libgd-dev unzip apache2-utils
+$ sudo apt-get install wget build-essential apache2 php apache2-mod-php7.0 php-gd libgd-dev unzip apache2-utils
 {% endhighlight %}
 
 ### Adding the Nagios User and Group
 {% highlight bash %}
-useradd nagios
-groupadd nagcmd
-usermod -a -G nagcmd nagios
-usermod -a -G nagios,nagcmd www-data
+$ useradd nagios
+$ groupadd nagcmd
+$ usermod -a -G nagcmd nagios
+$ usermod -a -G nagios,nagcmd www-data
 {% endhighlight %}
 
 
 ### Download Nagios Core and Nagios Plugins Tarballs
 {% highlight bash %}
-cd /tmp
-wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.2.0.tar.gz
-wget http://nagios-plugins.org/download/nagios-plugins-2.1.2.tar.gz
+$ cd /tmp
+$ wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.2.0.tar.gz
+$ wget http://nagios-plugins.org/download/nagios-plugins-2.1.2.tar.gz
 {% endhighlight %}
 
 #### Extract Nagios Core and Nagios Plugins Tarballs
 {% highlight bash %}
-tar zxvf nagios-4.2.0.tar.gz
-tar zxvf nagios-plugins-2.1.2.tar.gz
+$ tar zxvf nagios-4.2.0.tar.gz
+$ tar zxvf nagios-plugins-2.1.2.tar.gz
 {% endhighlight %}
 
 
 ### Nagios Core Installation
 
 {% highlight bash %}
-cd nagios-4.2.0
-./configure  --with-nagios-group=nagios --with-command-group=nagcmd --with-httpd-conf=/etc/apache2/ --prefix=/etc/nagios
+$ cd nagios-4.2.0
+$ ./configure  --with-nagios-group=nagios --with-command-group=nagcmd --with-httpd-conf=/etc/apache2/
 
-make all
-make install
-make install-init
-make install-config
-make install-commandmode
-make install-webconf
+$ make all
+$ make install
+$ make install-init
+$ make install-config
+$ make install-commandmode
+$ make install-webconf
 {% endhighlight %}
 
 #### Copy Nagios Core Files
 
 {% highlight bash %}
-cp -R contrib/eventhandlers/ /etc/nagios/libexec/
-chown -R nagios:nagios /etc/nagios/libexec/eventhandlers
-/etc/nagios/bin/nagios -v /etc/nagios/etc/nagios.cfg
+$ cp -R contrib/eventhandlers/ /usr/local/nagios/libexec/
+$ chown -R nagios:nagios /usr/local/nagios/libexec/eventhandlers
+$ /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 {% endhighlight %}
 
 ### Setup Apache
 
 {% highlight bash %}
-mv /etc/apache2/nagios.conf /etc/apache2/sites-available/
-ln -s /etc/apache2/sites-available/nagios.conf /etc/apache2/sites-enabled/
-sudo a2ensite nagios
-sudo a2enmod rewrite cgi
-htpasswd –c /etc/nagios/etc/htpasswd.users nagiosadmin
+$ mv /etc/apache2/nagios.conf /etc/apache2/sites-available/
+$ ln -s /etc/apache2/sites-available/nagios.conf /etc/apache2/sites-enabled/
+$ sudo a2ensite nagios
+$ sudo a2enmod rewrite cgi
+$ htpasswd –c /etc/nagios/etc/htpasswd.users nagiosadmin
 {% endhighlight %}
 
 ### Nagios Plugins Installation
 
 {% highlight bash %}
-cd /tmp/nagios-plugins-2.1.2
-./configure --with-nagios-user=nagios --with-nagios-group=nagios --prefix=/etc/nagios
-make
-make install
+$ cd /tmp/nagios-plugins-2.1.2
+$ ./configure --with-nagios-user=nagios --with-nagios-group=nagios
+$ make
+$ make install
 {% endhighlight %}
+
+### Restart Services
+
+{% highlight bash %}
+$ service apache2 restart
+$ service nagios restart
+{% endhighlight %}
+
 
 ### Nagios Web Interface
 
