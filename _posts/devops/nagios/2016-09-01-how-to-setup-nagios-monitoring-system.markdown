@@ -36,17 +36,19 @@ $ usermod -a -G nagios,nagcmd www-data
 {% endhighlight %}
 
 
-### Download Nagios Core and Nagios Plugins Tarballs
+### Download Nagios Core, Nagios Plugins & NRPE Tarballs
 {% highlight bash %}
 $ cd /tmp
 $ wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.2.0.tar.gz
 $ wget http://nagios-plugins.org/download/nagios-plugins-2.1.2.tar.gz
+$ wget https://github.com/NagiosEnterprises/nrpe/archive/3.0.tar.gz
 {% endhighlight %}
 
-#### Extract Nagios Core and Nagios Plugins Tarballs
+#### Extract Nagios Core, Nagios Plugins & NRPE Tarballs
 {% highlight bash %}
 $ tar zxvf nagios-4.2.0.tar.gz
 $ tar zxvf nagios-plugins-2.1.2.tar.gz
+$ tar zxvf 3.0.tar.gz
 {% endhighlight %}
 
 
@@ -69,7 +71,6 @@ $ make install-webconf
 {% highlight bash %}
 $ cp -R contrib/eventhandlers/ /usr/local/nagios/libexec/
 $ chown -R nagios:nagios /usr/local/nagios/libexec/eventhandlers
-$ /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 {% endhighlight %}
 
 ### Setup Apache
@@ -89,13 +90,34 @@ $ make
 $ make install
 {% endhighlight %}
 
+
+### Setup NRPE
+{% highlight bash %}
+$ cd /tmp/nrpe-3.0/
+$ ./configure
+$ make all
+$ make install
+$ make install-config
+$ make install-init
+{% endhighlight %}
+
 ### Restart Services
 
 {% highlight bash %}
 $ service apache2 restart
 $ service nagios restart
+$ service nrpe restart
 {% endhighlight %}
 
+
+### Check NRPE & Nagios
+
+{% highlight bash %}
+$ /usr/local/nagios/libexec/check_nrpe -H 127.0.0.1
+NRPE vnrpe-3.0
+
+$ /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+{% endhighlight %}
 
 ### Nagios Web Interface
 
