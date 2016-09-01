@@ -54,7 +54,7 @@ $ tar zxvf nagios-plugins-2.1.2.tar.gz
 
 {% highlight bash %}
 $ cd nagios-4.2.0
-$ ./configure  --with-nagios-group=nagios --with-command-group=nagcmd --with-httpd-conf=/etc/apache2/
+$ ./configure  --with-nagios-group=nagios --with-command-group=nagcmd --with-httpd-conf=/etc/apache2/sites-available/
 
 $ make all
 $ make install
@@ -75,11 +75,9 @@ $ /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 ### Setup Apache
 
 {% highlight bash %}
-$ mv /etc/apache2/nagios.conf /etc/apache2/sites-available/
-$ ln -s /etc/apache2/sites-available/nagios.conf /etc/apache2/sites-enabled/
 $ sudo a2ensite nagios
 $ sudo a2enmod rewrite cgi
-$ htpasswd –c /etc/nagios/etc/htpasswd.users nagiosadmin
+$ htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
 {% endhighlight %}
 
 ### Nagios Plugins Installation
