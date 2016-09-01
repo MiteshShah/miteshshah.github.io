@@ -15,6 +15,7 @@ image:
 {% endfor %}
 
 <li><a href="/devops/aws"> AWS </a></li>
+<li><a href="/devops/nagios"> Nagios </a></li>
 <li><a href="/devops/ansible"> Ansible </a></li>
 <li><a href="/devops/docker"> Docker </a></li>
 <li><a href="/linux/elk"> ELK Stack </a></li>
