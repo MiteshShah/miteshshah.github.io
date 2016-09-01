@@ -13,4 +13,6 @@ image:
 {% include _toc.html %}
 {% include _subscribe.html %}
 
-1. <a href="/devops/nagios/how-to-setup-nagios-monitoring-system/"> How to Setup Nagios Monitoring System </a>
+1. <a href="/devops/nagios/how-to-setup-nagios-monitoring-system/"> Setup Nagios </a>
+1. <a href="/devops/nagios/how-to-configure-nagios-monitoring-system/"> Configure Nagios </a>
+1. <a href="/devops/nagios/how-to-configure-remote-system-for-nagios-monitoring/"> Monitoring Remote System </a>

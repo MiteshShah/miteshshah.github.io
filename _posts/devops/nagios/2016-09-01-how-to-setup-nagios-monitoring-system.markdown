@@ -24,7 +24,7 @@ date: 2016-09-01T17:01:36+05:30
 
 {% highlight bash %}
 # Ubuntu/Debian
-$ sudo apt-get install wget build-essential apache2 php apache2-mod-php7.0 php-gd libgd-dev unzip apache2-utils
+$ sudo apt-get install wget build-essential openssl libssl-dev apache2 php apache2-mod-php7.0 php-gd libgd-dev unzip apache2-utils
 {% endhighlight %}
 
 ### Adding the Nagios User and Group
@@ -109,6 +109,10 @@ $ service nagios restart
 $ service nrpe restart
 {% endhighlight %}
 
+### Enable Services
+{% highlight bash %}
+$ sudo update-rc.d nagios defaults
+{% endhighlight %}
 
 ### Check NRPE & Nagios
 
