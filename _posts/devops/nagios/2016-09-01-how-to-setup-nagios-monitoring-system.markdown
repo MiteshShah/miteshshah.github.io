@@ -85,7 +85,7 @@ $ htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
 
 {% highlight bash %}
 $ cd /tmp/nagios-plugins-2.1.2
-$ ./configure --with-nagios-user=nagios --with-nagios-group=nagios --with-openssl
+$ ./configure --with-nagios-user=nagios --with-nagios-group=nagios --with-openssl --with-ping-command=ping
 $ make
 $ make install
 {% endhighlight %}
