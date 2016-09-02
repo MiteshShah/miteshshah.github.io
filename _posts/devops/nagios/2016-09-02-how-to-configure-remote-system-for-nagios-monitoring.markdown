@@ -82,12 +82,36 @@ $ /usr/local/nagios/libexec/check_nrpe -H 127.0.0.1
 NRPE vnrpe-3.0
 {% endhighlight %}
 
-#### Setup NRPE Config & Plugins
+#### Setup NRPE Config
 
 {% highlight bash %}
 $ mv /usr/local/nagios/etc/nrpe.cfg /usr/local/nagios/etc/nrpe.cfg.bak
-$ wget -O /usr/local/nagios/etc/nrpe.cfg https://gist.githubusercontent.com/MiteshShah/77445d56396691b71ac76fb931c8ecbb/raw/3a60256314a2fb489feaecbcbb79d22b5dacddd9/nrpe.conf
+$ vim /usr/local/nagios/etc/nrpe.cfg log_facility=daemon
+pid_file=/usr/local/nagios/var/nrpe.pid
+server_port=5666
+nrpe_user=nagios
+nrpe_group=nagios
+allowed_hosts=127.0.0.1
+dont_blame_nrpe=0
+allow_bash_command_substitution=0
+debug=0
+command_timeout=60
+connection_timeout=300
 
+command[check_users]=/usr/local/nagios/libexec/check_users -w 5 -c 10
+command[check_load]=/usr/local/nagios/libexec/check_load -w 15,10,5 -c 30,25,20
+command[check_hda1]=/usr/local/nagios/libexec/check_disk -w 20% -c 10% -p /
+command[check_zombie_procs]=/usr/local/nagios/libexec/check_procs -w 5 -c 10 -s Z
+command[check_total_procs]=/usr/local/nagios/libexec/check_procs -w 150 -c 200
+command[check_memory]=/usr/local/nagios/libexec/check_free_mem -w 20 -c 10 -W 5 -C 10
+command[check_nginx]=/usr/local/nagios/libexec/check_nginx.sh -H 127.0.0.1 -p 80 -s nginx_status -N
+command[check_php]=/usr/local/nagios/libexec/check_phpfpm_status.pl -H 127.0.0.1 -u /status
+command[check_mysql]=/usr/local/nagios/libexec/check_mysqld.pl -u root -p eadgwulm -T -a uptime,threads_connected,questions,slow_queries,open_tables -A threads_running,innodb_row_lock_time_avg,show global status  -w ",,,," -c ",,,,1000"
+{% endhighlight %}
+
+#### Setup NRPE Plugins
+
+{% highlight bash %}
 $ wget -O /usr/local/nagios/libexec/check_free_mem https://gist.githubusercontent.com/MiteshShah/65dad7fa814a31d5a8a5d7bc7716c079/raw/5c2693fedfda4eda46e71b93db7c1dcf8db0f2aa/check_free_mem
 $ chmod a+x /usr/local/nagios/libexec/check_free_mem
 

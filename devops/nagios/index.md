@@ -6,7 +6,7 @@ tags: [Linux, Nagios, DevOps]
 modified: 2016-09-01T17:01:36+05:30
 comments: true
 image:
-  feature:
+  feature: https://cloud.githubusercontent.com/assets/1223371/18166139/0917267c-7067-11e6-8efb-58950b52fab4.jpg
   credit:
   creditlink:
 ---
