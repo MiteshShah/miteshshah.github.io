@@ -18,3 +18,4 @@ image:
 1. <a href="/linux/nginx/how-to-fix-nginx-logging-issue/"> How to Fix NGINX Logging Issue </a>
 1. <a href="/linux/nginx/nginx-time-based-rewriting-rules/"> NGINX - Time Based Rewriting Rules </a>
 1. <a href="/linux/nginx/nginx-address-alredy-in-use-error/"> NGINX - Address Already in Use Error </a>
+1. <a href="/linux/nginx/how-to-setup-separate-nginx-fastcgi-cache-for-mobile-and-desktop-users/"> NGINX - Separate FastCGI Cache for Mobile & Desktop Users </a>
