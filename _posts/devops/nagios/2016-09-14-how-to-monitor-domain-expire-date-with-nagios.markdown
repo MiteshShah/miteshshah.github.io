@@ -65,3 +65,5 @@ define command{
 #-a 1 -C /usr/local/nagios/cache -w 30 -c 15
 }
 {% endhighlight %}
+
+<img alt="Domain Expiry" src="https://cloud.githubusercontent.com/assets/1223371/18525079/b0238dfe-7ad8-11e6-939c-8579fe71826c.png">

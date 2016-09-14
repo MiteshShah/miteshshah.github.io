@@ -95,3 +95,9 @@ define command{
         command_line    $USER1$/check_sslscan -H $HOSTADDRESS$ -a 168 #-x
 }
 {% endhighlight %}
+
+<img alt="Monitor HTTPS SSL Certificate" src="https://cloud.githubusercontent.com/assets/1223371/18524866/def2ef18-7ad7-11e6-810d-859ae40c61c3.png">
+
+<img alt="SSL Labs Grade A" src="https://cloud.githubusercontent.com/assets/1223371/18524865/decdebd2-7ad7-11e6-9167-7f4eff5917b0.png">
+
+<img alt="SSL Labs Grade B" src="https://cloud.githubusercontent.com/assets/1223371/18524863/de4248ca-7ad7-11e6-8265-683a13b32ac3.png"> 
