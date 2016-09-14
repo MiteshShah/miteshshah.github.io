@@ -15,4 +15,6 @@ image:
 
 1. <a href="/devops/nagios/how-to-setup-nagios-monitoring-system/"> Setup Nagios </a>
 1. <a href="/devops/nagios/how-to-configure-nagios-monitoring-system/"> Configure Nagios </a>
-1. <a href="/devops/nagios/how-to-configure-remote-system-for-nagios-monitoring/"> Monitoring Remote System </a>
+1. <a href="/devops/nagios/how-to-configure-remote-system-for-nagios-monitoring/"> Monitor Remote System </a>
+1. <a href="/devops/nagios/how-to-monitor-domain-expire-date-with-nagios/"> Monitor Domain Expire Date </a>
+1. <a href="/devops/nagios/how-to-monitor-ssl-and-ssl-labs-summary-with-nagios/"> Monitor SSL Labs Results </a>

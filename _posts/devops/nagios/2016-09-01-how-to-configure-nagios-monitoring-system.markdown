@@ -296,7 +296,7 @@ $ cp -av /usr/local/nagios/etc/objects/commands.cfg /usr/local/nagios/etc/comman
 $ vim /usr/local/nagios/etc/commands/https.cfg
 define command{
         command_name    check_https
-        command_line    $USER1$/check_http -H $HOSTADDRESS$ -C 15
+        command_line    $USER1$/check_http -H $HOSTADDRESS$ -C 15 -sni
 }
 {% endhighlight %}
 
