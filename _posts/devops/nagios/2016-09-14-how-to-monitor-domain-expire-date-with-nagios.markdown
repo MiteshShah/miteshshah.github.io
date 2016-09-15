@@ -21,7 +21,7 @@ date: 2016-09-14T23:36:22+05:30
 ### Prerequisites
 {% highlight bash %}
 $ wget -O /usr/local/nagios/libexec/check_domain.sh https://raw.githubusercontent.com/glensc/monitoring-plugin-check_domain/master/check_domain.sh
-$ chmod  a+x /usr/local/nagios/libexec/check_domain.sh
+$ chmod  a+x /usr/local/nagios/libexec/domain.sh
 {% endhighlight %}
 
 ### Nagios Host Groups
@@ -37,7 +37,7 @@ define hostgroup{
 
 ### Nagios Services
 {% highlight bash %}
-$ vim /usr/local/nagios/etc/services/check_domain.cfg
+$ vim /usr/local/nagios/etc/services/domain.cfg
 define service{
         use                             local-service         ; Name of service template to use
         service_description             Domain Expiry
