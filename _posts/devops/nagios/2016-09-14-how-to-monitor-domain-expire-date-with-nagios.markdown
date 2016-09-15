@@ -27,7 +27,7 @@ $ chmod  a+x /usr/local/nagios/libexec/domain.sh
 ### Nagios Host Groups
 
 {% highlight bash %}
-$ vim /usr/local/nagios/etc/hostgroups/check_domain.cfg
+$ vim /usr/local/nagios/etc/hostgroups/domain.cfg
 define hostgroup{
         hostgroup_name  CHECK_DOMAIN
         alias           Domain Expiry Check
