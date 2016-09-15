@@ -62,7 +62,7 @@ define service{
 $ vim /usr/local/nagios/etc/services/ssllabs.cfg
 define service{
         use                             local-service         ; Name of service template to use
-        service_description             SSL Labs Summary
+        service_description             SSL Labs
         is_volatile                     0
         check_period                    24x7
         max_check_attempts              3
@@ -100,4 +100,4 @@ define command{
 
 <img alt="SSL Labs Grade A" src="https://cloud.githubusercontent.com/assets/1223371/18524865/decdebd2-7ad7-11e6-9167-7f4eff5917b0.png">
 
-<img alt="SSL Labs Grade B" src="https://cloud.githubusercontent.com/assets/1223371/18524863/de4248ca-7ad7-11e6-8265-683a13b32ac3.png"> 
+<img alt="SSL Labs Grade B" src="https://cloud.githubusercontent.com/assets/1223371/18524863/de4248ca-7ad7-11e6-8265-683a13b32ac3.png">
