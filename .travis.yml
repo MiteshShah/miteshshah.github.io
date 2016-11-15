@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-  - 2.3
+  - 2.3.0
 
 script:
-  -  rvm --version
+  - rvm --version
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --only-4xx --check-favicon  --disable-external
 env:
