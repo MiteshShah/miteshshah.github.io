@@ -72,6 +72,11 @@ date: 2015-06-15T14:54:12+05:30
 [mitesh@Matrix ~]$ brew cask install caffeine
 {% endhighlight %}
 
+#### Install Calendar
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew cask install itsycal
+{% endhighlight %}
+
 #### Install Atom
 
 * A hackable text editor for the 21st Century.
