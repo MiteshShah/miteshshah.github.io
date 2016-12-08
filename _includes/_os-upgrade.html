@@ -1,15 +1,12 @@
-<div id="browser-detect-alert" class="browser-upgrade alert alert-info" style="display: none;">Life is too short <strong>Don't waste it with Micro$hit Windows </strong>  <a href="http://abetteros.org/">Use better OS</a></div>
+<div id="os-detect-alert" class="browser-upgrade" style="display: none;">Life is too short <strong>Don't waste it with Micro$hit Windows </strong>  <a href="http://abetteros.org/">Use better OS</a></div>
 
 <script type="text/javascript">
 var OSName="Unknown OS";
 if (navigator.appVersion.indexOf("Win")!=-1) {
   OSName="Windows";
-  document.getElementById('browser-detect-alert').style.display = 'block';
+  document.getElementById('os-detect-alert').style.display = 'block';
  }
-if (navigator.appVersion.indexOf("Mac")!=-1) {
-  OSName="MacOS";
-  //document.getElementById('browser-detect-alert').style.display = 'block';
-}
+if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
 if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
 if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
 
