@@ -30,8 +30,48 @@ I believe in "Stay Lazy" so most of my tasks are replaced by shell scripts :)
 #### Experience
 
 <b>System Administrator</b><br>
+<a style="color: #428bca" href="https://coronalabs.com">Corona Labs</a><br>
+August 2016 – Present | Bengaluru Area, India
+
+* Server Hardening
+* Patch Critical Security Vulnerability
+* Setup/Manage Git Infrastructure using GitLab
+* Setup Nagios/Grafana Monitor System And Alerts Emails
+* Setup Centralized Log Management System via Syslog-ng
+* Automate package update task via Ansible on Ubuntu/CentOS servers
+* Optimize The NGINX/Apache/PHP/MySQL & Sysctl for better server performance
+
+<b>Linux Expert</b><br>
+<a style="color: #428bca" href="#">Freelance</a><br>
+April 2016 – Present | Remote
+
+* Server Hardening
+* Patch Critical Security Vulnerability
+* Setup Nagios Monitoring System & Status Pages
+* Automate NGINX/PHP/MySQL & WordPress Setup and Monitor
+* Setup Local Development Environment using Vagrant
+* Automated Hourly/Daily/Weekly Backup and Email Alerts
+* Perform Server Audit/Maintenance/Backup on Weekly basis
+* Automate package update task via Ansible on Ubuntu servers
+
+<br>
+<b>DevOps Engineer</b><br>
+<a style="color: #428bca" href="https://getmoxied.net">Moxie NYC</a><br>
+April 2016 – September 2016 | Remote
+
+* Server Hardening
+* Patch Critical Security Vulnerability
+* Setup Nagios Monitoring System & Status Pages
+* Automate NGINX/PHP/MySQL Setup and Monitor
+* Setup Local Development Environment using Vagrant
+* Automated Hourly/Daily/Weekly Backup and Email Alerts
+* Perform Server Audit/Maintenance/Backup on Weekly basis
+* Automate package update task via Ansible on Ubuntu servers
+
+<br>
+<b>System Administrator</b><br>
 <a style="color: #428bca" href="https://perk.com">Perk.com</a><br>
-December 2014 – Present | Bengaluru Area, India
+December 2014 – July 2016 | Bengaluru Area, India
 
 * Server Hardening
 * Patch Critical Security Vulnerability
