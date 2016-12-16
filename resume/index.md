@@ -327,6 +327,6 @@ I can say Mitesh is a Technical giant and always keeps updating himself with lat
 </style>
 
 <div id="qrcode">
-<img alt="Mitesh Shah Resume QR Code" src="http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl={{ site.url }}{{ page.url }}&choe=UTF-8">
+<img alt="Mitesh Shah Resume QR Code" src="https://chart.apis.google.com/chart?chs=200x200&cht=qr&chl={{ site.url }}{{ page.url }}&choe=UTF-8">
 <p>Scan the QR Code to load the page in your browser.</p>
 </div>
