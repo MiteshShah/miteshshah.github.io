@@ -316,6 +316,14 @@ Mitesh was the most geekish guy in the company. Go to him with any linux based p
 I can say Mitesh is a Technical giant and always keeps updating himself with latest technologies. I always like his approach while scrutinizing the issue and providing multiple solutions. He will be a critical piece to any company, especially for startups.<br><br>
 <footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/venkatbatchu">Venkat Batchu</a><br>QA Lead - Perk.com</footer>
 </blockquote>
+<br>
+<blockquote>
+Mitesh is extremely knowledgable an efficient, not just in Linux, but in how your application relates to Linux. As a contributor to Easy Engine, Mitesh has built many time-saving solutions and understands how best to customize new ones to help meet your needs.<br><br>
+
+We love to lean on Mitesh because we know he is dependable and will do a great job.<br><br>
+
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/thomas-bennett-94765333">Thomans Bennett</a><br>President</footer>
+</blockquote>
 
 
 <!-- QR Code -->
