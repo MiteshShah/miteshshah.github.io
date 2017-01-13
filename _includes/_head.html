@@ -57,7 +57,7 @@
   window.ga_debug = {trace: true};
   ga('create', '{{ site.owner.google.analytics }}', 'auto');
   ga('require', 'GTM-53KGXJ3');
-  if(typeof adsense === 'undefined') {ga('set', 'adblockTracker', {dimensionIndex: 2});}
+  if(typeof adsense === 'undefined') {ga('set', 'dimension2', 'Ads Blocked');}
   ga('send', 'pageview');
 
 </script>
