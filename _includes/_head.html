@@ -54,22 +54,10 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  // Creates an adblock detection plugin.
-  ga('provide', 'adblockTracker', function(tracker, opts) {
-  var ad = document.createElement('ins');
-  ad.className = 'AdSense';
-  ad.style.display = 'block';
-  ad.style.position = 'absolute';
-  ad.style.top = '-1px';
-  ad.style.height = '1px';
-  document.body.appendChild(ad);
-  tracker.set('dimension' + opts.dimensionIndex, !ad.clientHeight);
-  document.body.removeChild(ad);
-  });
-
+  window.ga_debug = {trace: true};
   ga('create', '{{ site.owner.google.analytics }}', 'auto');
   ga('require', 'GTM-53KGXJ3');
-  ga('require', 'adblockTracker', {dimensionIndex: 2});
+  if(typeof adsense === 'undefined') {ga('set', 'adblockTracker', {dimensionIndex: 2});}
   ga('send', 'pageview');
 
 </script>
