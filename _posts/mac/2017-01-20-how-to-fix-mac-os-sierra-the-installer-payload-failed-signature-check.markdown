@@ -5,7 +5,7 @@ author:
 modified:
 comments: true
 categories: mac
-excerpt:
+excerpt: "The installer checks the date on the computer. If the date isn’t current, you get the error above. The fix involves correcting the date on your Mac."
 tags: [MAC OS X, Bootable, Sierra]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/22148225/dd6d4868-df32-11e6-8fc3-9f57783a015a.png
