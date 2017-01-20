@@ -326,7 +326,7 @@ We love to lean on Mitesh because we know he is dependable and will do a great j
 </blockquote>
 <br>
 <blockquote>
-Mitesh has been a lifesaver. I was having some server issues due to poor configurations of previous admins. Mitesh stepped in and resolved things without hesitations. I now have great speed and reliability. He's very responsive and I feel safe in his hands even though I really can't comprehend most of the work he does. He explains it if I ask, but I have now just learned to trust him as an expert. I would definitely recommend Mitesh for your server needs.
+Mitesh has been a lifesaver. I was having some server issues due to poor configurations of previous admins. Mitesh stepped in and resolved things without hesitations. I now have great speed and reliability. He's very responsive and I feel safe in his hands even though I really can't comprehend most of the work he does. He explains it if I ask, but I have now just learned to trust him as an expert. I would definitely recommend Mitesh for your server needs.<br><br>
 <footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/chrisnolte2nd/">Chris Nolte</a><br>Founder - Propel Bikes</footer>
 </blockquote>
 
