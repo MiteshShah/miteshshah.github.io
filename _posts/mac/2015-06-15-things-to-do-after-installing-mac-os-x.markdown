@@ -53,6 +53,11 @@ date: 2015-06-15T14:54:12+05:30
 [mitesh@Matrix ~]$ brew cask install vlc
 {% endhighlight %}
 
+#### Install Flycut
+{% highlight bash %}
+[mitesh@Matrix ~]$ brew cask install flycut
+{% endhighlight %}
+
 #### Install Skitch
 * See something that sparks an idea? Use Skitch to snap it, mark it up, and send it on in an instant.
 * Your bold ideas stand out even brighter with Skitch.
