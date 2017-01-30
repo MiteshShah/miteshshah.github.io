@@ -265,7 +265,7 @@ KudosPlease = (function() {
 
    var url = "?url="+encodeURIComponent(el.getAttribute('data-url'));
    // Open request
-   xhr.open(type, "http://api.kudosplease.com/" + url, true);
+   xhr.open(type, "https://kudos.niels-ole.com/" + url, true);
    xhr.send();
  };
 
