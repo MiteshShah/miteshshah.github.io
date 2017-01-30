@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: linux/centos
 excerpt: "This guide will show you how to add an extra IP address to an existing interface in Red Hat Enterprise Linux / CentOS 7."
-tags: [Linux, CentOS]
+tags: [Linux, CentOS, IP, IP Alias]
 image:
   url:
   alt: How to Add Secondary IP/Alias on Network Interface in RHEL/CentOS7
