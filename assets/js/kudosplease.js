@@ -292,8 +292,8 @@ r(function() {
    duration : 1500,
    persistent : true,
    status : {
-     alpha: 'fa fa-heart',
-     beta:  'fa fa-heart',
+     alpha: 'fa fa-thumbs-o-up',
+     beta:  'fa fa-thumbs-o-up',
      gamma: 'fa fa-heart'
    }
  });
