@@ -67,7 +67,7 @@
     content: attr(data-amount) " Kudos";
     bottom: -1.25em;
     left: 0;
-    width: 6em;
-    text-align: center;
-    line-height: 1em
+    width: 18.5em;
+    text-align: center;;
+    line-height: 9em
 }
