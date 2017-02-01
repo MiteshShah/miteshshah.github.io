@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: mac
 excerpt: " If you are getting an error like `DynamicClientBase: JSONDialog: Error running jsondialog, status`"
-tags: [MAC OS X, El Capitan, OpenVPN]
+tags: [MAC OS X, El Capitan, OpenVPN, Sierra]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/10842475/d9b37bb0-7f17-11e5-8aae-f22b81fdf9c6.png
   alt: How to Solve OpenVPN Problem in OS X El Capitan
