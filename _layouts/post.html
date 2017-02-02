@@ -58,10 +58,11 @@ layout: compress
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
+      {% include _subscribe.html %}
       {% include _kudosplease.html %}
       <br>
-      {% include _subscribe.html %}
       {% include _ads.html %}
+      <br>
       <h3>Post Navigation</h3>
         {% if page.categories %}
           {% assign category = page.categories[0] %}
