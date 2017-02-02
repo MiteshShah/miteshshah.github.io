@@ -1,6 +1,8 @@
 .kudos {
     color: #000;
-    position: relative;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
     width: 6em;
     height: 6em;
     /* margin: .5em auto 1.5em auto; */
@@ -63,11 +65,18 @@
 }
 
 .kudos:after {
-    position: absolute;
-    content: attr(data-amount) " Kudos";
-    bottom: -1.25em;
-    left: 0;
+    position: absolute;;
+    content: attr(data-amount) " KUDOS";
+    bottom: -95px;
+    right: 10px;
     width: 18.5em;
-    text-align: center;;
+    text-align: right;
     line-height: 9em
+}
+@media screen and (max-width: 768px) {
+  .kudos {
+    position: relative;
+    bottom: auto;
+    right: auto;
+  }
 }
