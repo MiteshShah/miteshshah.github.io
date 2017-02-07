@@ -19,7 +19,7 @@ NGINX/EasyEngine/WordPress Expert
 <input type="checkbox" name="checkbox" onclick="showMe('fullymanagedhosting')" > Fully Managed Hosting
 </pre>
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript">
 $(':checkbox').on('change',function(){
  var th = $(this), name = th.prop('name');
