@@ -43,7 +43,9 @@ layout: compress
   <article class="page">
     {% include _ads.html %}
     <br>
+    {% if page.blockads == null %}
     <h1>{{ page.title }}</h1>
+    {% endif %}
     <!-- {% include _reading-time.html %} -->
     <div class="article-wrap">
       {{ content }}

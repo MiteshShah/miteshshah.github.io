@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: Linux, NGINX, WordPress Expert Resume
 tags: [MiteshShah, Resume, Curriculum Vitae, CV]
 modified: 2015-12-29T17:12:42.12345-05:30
 comments:

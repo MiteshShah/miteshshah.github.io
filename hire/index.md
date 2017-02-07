@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: Hire Me
 tags: [MiteshShah, Hire, Hire Me, NGINX, PageSpeed, WordPress, Linux Expert]
 modified: 2017-02-06T18:21:42.12345-05:30
 comments:
@@ -10,23 +10,147 @@ image:
   credit:
   creditlink:
 ---
-<div id="wufoo-zfvfe2h0up5vcu">
-Fill out my <a href="https://miteshshah.wufoo.com/forms/zfvfe2h0up5vcu">online form</a>.
+### Mitesh Shah
+NGINX/EasyEngine/WordPress Expert
+
+<pre>
+<input type="checkbox" name="checkbox" onclick="showMe('serversetup')" > Server Setup
+<input type="checkbox" name="checkbox" onclick="showMe('websitemigration')" > Website Migration
+<input type="checkbox" name="checkbox" onclick="showMe('fullymanagedhosting')" > Fully Managed Hosting
+</pre>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(':checkbox').on('change',function(){
+ var th = $(this), name = th.prop('name');
+ if(th.is(':checked')){
+     $(':checkbox[name="'  + name + '"]').not($(this)).prop('checked',false);
+  }
+});
+
+function showMe (box) {
+    var vis = "none";
+    if (box === "serversetup") {
+      document.getElementById("serversetup").style.display = "block";
+      document.getElementById("websitemigration").style.display = vis;
+      document.getElementById("fullymanagedhosting").style.display = vis;
+    }
+    else if (box === "websitemigration") {
+      document.getElementById("serversetup").style.display = vis;
+      document.getElementById("websitemigration").style.display = "block";
+      document.getElementById("fullymanagedhosting").style.display = vis;
+    }
+    else {
+      document.getElementById("serversetup").style.display = vis;
+      document.getElementById("websitemigration").style.display = vis;
+      document.getElementById("fullymanagedhosting").style.display = "block";
+    }
+}
+</script>
+
+<div id="serversetup" style="display:none">
+<pre>
+Installing <b><a href="//ubuntu.com">Ubuntu</a></b> (Recommended) / <b><a href="//debian.org">Debian</a></b> Operating system on the server
+Installing EasyEngine tool and setup fresh sites
+
+Performance Tuning
+* Database Tweaking
+
+Security Hardening:
+* Fail2ban setup
+* Block all unused ports
+* Free SSL (Let's Encrypt SSL)
+* CalmAV Antivirus with Daily reporting
+* Password-less login for extra security
+
+Backup:
+* Setup daily/weekly Backup on the same server or remote server
+
+Price:
+* Price starts from USD 200 only!
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="64VAFJMLK2B3G">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+</pre>
 </div>
-<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">The easy to use <a href="http://www.wufoo.com/form-builder/">Wufoo form builder</a> helps you make forms easy, fast, and fun.</div>
-<script type="text/javascript">var zfvfe2h0up5vcu;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'miteshshah',
-'formHash':'zfvfe2h0up5vcu',
-'autoResize':true,
-'height':'1793',
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { zfvfe2h0up5vcu = new WufooForm();zfvfe2h0up5vcu.initialize(options);zfvfe2h0up5vcu.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
+
+<div id="websitemigration" style="display:none">
+<pre>
+Installing <b><a href="//ubuntu.com">Ubuntu</a></b> (Recommended) / <b><a href="//debian.org">Debian</a></b> Operating system on the server
+Installing EasyEngine tool and migrating sites from old server to new server
+
+Performance Tuning
+* Database Tweaking
+
+Security Hardening:
+* Fail2ban setup
+* Block all unused ports
+* Free SSL (Let's Encrypt SSL)
+* CalmAV Antivirus with Daily reporting
+* Password-less login for extra security
+
+Backup:
+* Setup daily/weekly Backup on the same server or remote server
+
+Downtime:
+* Zero downtime while migrating from the old server to the new server if old server has root user access
+
+Price:
+* Price starts from USD 350 only!
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="HZMV9PDRWJXZN">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+</pre>
+</div>
+
+<div id="fullymanagedhosting" style="display:none">
+<pre>
+Installing <b><a href="//ubuntu.com">Ubuntu</a></b> (Recommended) / <b><a href="//debian.org">Debian</a></b> Operating system on the server
+Installing EasyEngine tool
+
+Performance Tuning
+* Database Tweaking
+
+Security Hardening:
+* Fail2ban setup
+* Block all unused ports
+* Free SSL (Let's Encrypt SSL)
+* CalmAV Antivirus with Daily reporting
+* Password-less login for extra security
+
+Update Server:
+* Monitor Server CPU/RAM/HDD
+* Fix zeroday security issue on same day
+* WordPress Theme/Plugin Updates weekly
+* Install available Ubuntu/Debian package update weekly
+
+
+Backup:
+* Hourly, Daily, Weekly rotating backups
+* Duplicity Backup for remote server or S3
+
+Downtime:
+* Zero downtime while migrating from the old server to the new server if old server has root user access
+
+Price:
+* Price starts from USD 250 only!
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="CE2TWNW3XXEKG">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+</pre>
+</div>
