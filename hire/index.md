@@ -14,7 +14,7 @@ image:
 NGINX/EasyEngine/WordPress Expert
 
 <pre>
-<input type="checkbox" name="checkbox" onclick="showMe('serversetup')" > Server Setup
+<input type="checkbox" name="checkbox" onclick="showMe('serversetup')" checked> Server Setup
 <input type="checkbox" name="checkbox" onclick="showMe('websitemigration')" > Website Migration
 <input type="checkbox" name="checkbox" onclick="showMe('fullymanagedhosting')" > Fully Managed Hosting
 </pre>
@@ -48,7 +48,7 @@ function showMe (box) {
 }
 </script>
 
-<div id="serversetup" style="display:none">
+<div id="serversetup" style="display:block">
 <pre>
 Installing <b><a href="//ubuntu.com">Ubuntu</a></b> (Recommended) / <b><a href="//debian.org">Debian</a></b> Operating system on the server
 Installing EasyEngine tool and setup fresh sites
