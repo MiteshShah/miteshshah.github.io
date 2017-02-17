@@ -17,14 +17,14 @@
             <a href="{{ item.author_link }}">
               <img src="{{ item.avatar_img }}" class="img-circle" width="100px" height="100px" alt="A photo of {{ item.person }}">
             </a><br><br>
-            <span itemprop="name">{{ item.person }}</span><br>
+            <span itemprop="name"><a style="color: #428bca" href="{{ item.author_link }}">{{ item.person }}</a></span><br>
             <span itemprop="name">{{ item.designation }} at {{ item.company }}</span>
             <br>
         </div>
         <br>
         <div class="review-body" itemprop="reviewBody">
           <p>{{ item.review }}</p>
-          <a href="{{ item.review_at_link }}" target="_blank" rel="nofollow">{{ review_at_link }} Original review on {{ item.review_at }}</a>
+          <a style="color: #428bca" href="{{ item.review_at_link }}" target="_blank" rel="nofollow">{{ review_at_link }} Original review on {{ item.review_at }}</a>
         </div>
       </div>
       {% if forloop.index == 1 %}
