@@ -927,3 +927,157 @@ $button-size: 1.5rem;
   font-size: 10px;
   font-size: 0.625rem;
 }
+
+
+/* Here's where our carousel begins, with the main wrapper being
+relatively positioned, so that our absolutely positioned items are
+in the right place. */
+.carousel-wrapper {
+  position: relative;
+  height: 400px;
+
+  /* Our absolutely positioned carousel items span the width and
+  height of its parent. We're making them transparent by default so
+  that they fade in when we cycle through them using the arrow links. */
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+
+    /* Did you notice the 50px left, right padding up above? It's so
+    we can position our arrow links! Each one will be 50px wide. Also,
+    I'm using empty links with a background image so that the links
+    look like arrows. Make sure you swap out that URL with an actual
+    URL so that your arrow links aren't just transparent rectangles. */
+    .arrow {
+    position: absolute;
+    top: 30px;
+    display: block;
+    width: 30px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("https://cloud.githubusercontent.com/assets/1223371/23063137/f5f79e3a-f52e-11e6-9c39-680277887d9f.png") 50% 50% / 20px no-repeat;
+
+      /* Let's put our arrow to go back on the left. */
+      &.arrow-prev {
+        left: 0;
+      }
+
+      /* And our arrow to go forward on the right. Since I'm using
+      the same arrow image for both my arrows, I'm rotating this one by
+      180 degrees so that it points in the right direction */
+      &.arrow-next {
+        right: 0;
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+      }
+    }
+
+    /* I really like how these carousel items look on a dark image
+    background, so if a .carousel-item div has the class 'light',
+    we'll make its text color white, and use a white arrow instad of
+    a dark gray one. Again, make sure this arrow image exists somewhere */
+    &.light {
+      color: white;
+
+      .arrow {
+        background: url("(https://cloud.githubusercontent.com/assets/1223371/23063138/f5f823d2-f52e-11e6-9ca5-88381a43ff1d.png") 50% 50% / 20px no-repeat;
+      }
+    }
+
+    /* Let's use using some media queries to resize the arrows
+    on smaller devices.*/
+    @media (max-width: 480px) {
+      .arrow, &.light .arrow {
+      	width: 30px;
+        background-size: 10px;
+        background-position: 0px 50%;
+      }
+    }
+  }
+
+@media (max-width: 480px) {
+	.carousel-item{
+        padding: 0px 30px;
+	}
+
+}
+
+
+  /* Let's set our jump link targets display: none; so that we're not
+  making the browser jump to the top of the carousel whenever a user
+  clicks on one of our arrow links. This attribute selector will target
+  any element whose id starts with 'target-item'. */
+  [id^="target-item"] {
+    display: none;
+  }
+
+  /* So, up above we made all our carousel items transparent, which means
+  that on page-load, we'd have a big empty box where our carousel should be.
+  Let's set our first item's opacity to 1 so that it displays instead. Also,
+  we're setting its z-index to 2, so that it's positioned on top of the
+  other carousel items. */
+  .item-1 {
+    z-index: 2;
+    opacity: 1;
+  }
+
+  /* But we don't want the first item to ALAWYS be opacity: 1; otherwise
+  it would peek through when cycling between items two and above. */
+  *:target ~ .item-1 {
+    opacity: 0;
+  }
+
+  /* ...but if #recommendations-1 is targeted, well we do want the first item
+  to show up, so we're selecting it with the ~ sibling selector and
+  setting its opacity to 1 again :-) */
+  #recommendations-1:target ~ .item-1 {
+    opacity: 1;
+  }
+
+  /* If any other recommendations-# is targeted, let's select it using the sibling
+  selector, make it fade in, and place it on top of the pile using z-index: 3.
+  Here's where you'd add more target items if your carousel has more than three
+  items. It might be worth adding like 10 items right off the bat. */
+  #recommendations-2:target ~ .item-2, #recommendations-3:target ~ .item-3, #recommendations-4:target ~ .item-4, #recommendations-5:target ~ .item-5, #recommendations-6:target ~ .item-6, #recommendations-7:target ~ .item-7, #recommendations-8:target ~ .item-8, #recommendations-9:target ~ .item-9, #recommendations-10:target ~ .item-10, #recommendations-11:target ~ .item-11, #recommendations-12:target ~ .item-12, #recommendations-13:target ~ .item-13, #recommendations-14:target ~ .item-14, #recommendations-15:target ~ .item-15, #recommendations-16:target ~ .item-16, #recommendations-17:target ~ .item-17, #recommendations-18:target ~ .item-18, #recommendations-19:target ~ .item-19    {
+    z-index: 3;
+    opacity: 1;
+  }
+}
+
+.review{
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.review-body div {
+	@include font-size(16);
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-style: italic;
+	hyphens: auto;
+    text-align: justify
+}
+
+ .review-body p{
+	font-size: 19px;
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-style: italic;
+	hyphens: auto;
+    text-align: justify
+}
+
+.img-circle {
+    border-radius: 50%;
+}

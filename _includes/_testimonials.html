@@ -1,0 +1,42 @@
+<h4>Recommendations</h4>
+<div class="carousel-wrapper" itemprop="Review" itemscope itemtype="http://schema.org/Review">
+  <div  itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
+    <meta itemprop="name" content="Mitesh Shah - Linux, NGINX, WordPress Expert" />
+      <meta itemprop="url" content="https://miteshshah.github.io"/>
+  </div>
+
+  {% for item in site.data.testimonials.data %}
+    <span id="recommendations-{{ forloop.index }}"></span>
+  {% endfor %}
+
+  {% for item in site.data.testimonials.data %}
+    <div class="carousel-item item-{{ forloop.index }}">
+      <div class="review" style="display:table-cell; vertical-align:middle; text-align:center">
+        <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <meta itemprop="url" content="{{ item.author_link }}"/>
+            <a href="{{ item.author_link }}">
+              <img src="{{ item.avatar_img }}" class="img-circle" width="100px" height="100px" alt="A photo of {{ item.person }}">
+            </a><br><br>
+            <span itemprop="name">{{ item.person }}</span><br>
+            <span itemprop="name">{{ item.designation }} at {{ item.company }}</span>
+            <br>
+        </div>
+        <br>
+        <div class="review-body" itemprop="reviewBody">
+          <p>{{ item.review }}</p>
+          <a href="{{ item.review_at_link }}" target="_blank" rel="nofollow">{{ review_at_link }} Original review on {{ item.review_at }}</a>
+        </div>
+      </div>
+      {% if forloop.index == 1 %}
+        <a class="b-lazy arrow arrow-prev" href="#recommendations-{{ forloop.length }}"></a>
+      {% else %}
+        <a class="b-lazy arrow arrow-prev" href="#recommendations-{{ forloop.index | minus:1 }}"></a>
+      {% endif %}
+      {% if forloop.last == true %}
+        <a class="b-lazy arrow arrow-next" href="#recommendations-1"></a>
+      {% else %}
+        <a class="b-lazy arrow arrow-next" href="#recommendations-{{ forloop.index | plus:1 }}"></a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

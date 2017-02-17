@@ -154,3 +154,5 @@ Price:
 
 </pre>
 </div>
+
+{% include _testimonials.html %}

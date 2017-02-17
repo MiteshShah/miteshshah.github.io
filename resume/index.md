@@ -322,7 +322,7 @@ Mitesh is extremely knowledgable an efficient, not just in Linux, but in how you
 
 We love to lean on Mitesh because we know he is dependable and will do a great job.<br><br>
 
-<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/thomas-bennett-94765333">Thomans Bennett</a><br>President</footer>
+<footer>— <a style="color: #428bca" href="https://www.linkedin.com/in/thomas-bennett-94765333">Thomas Bennett</a><br>President</footer>
 </blockquote>
 <br>
 <blockquote>
