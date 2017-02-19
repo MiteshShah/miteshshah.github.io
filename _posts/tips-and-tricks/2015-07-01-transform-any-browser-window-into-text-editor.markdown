@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: tips-and-tricks
 excerpt: "Transform Google Chrome, Firefox or Safari Web Browser Windows Into Quick Edit Notepad."
-tags: [Tips, Tricks, Chrome, Firefox, Safari]
+tags: [Tips, Tricks, Chrome, Firefox, Safari, TextEditor]
 image:
   feature:
 date: 2015-07-01T13:34:35+05:30

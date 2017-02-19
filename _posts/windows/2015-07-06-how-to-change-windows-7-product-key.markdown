@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: windows
 excerpt: "How to Change Windows 7 Product Key or Activate Windows Using Legal Key"
-tags: []
+tags: [Microsoft, Windows, Windows7, License Key]
 image:
   feature:
 date: 2015-07-06T13:38:21+05:30
