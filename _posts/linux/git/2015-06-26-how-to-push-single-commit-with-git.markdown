@@ -5,7 +5,7 @@ author:
 modified:
 comments: true
 categories: linux/git
-excerpt: "Sometimes we made lots of commits locally and want to push specific commit to the remote branch. I'll show you how to push specific commit on remote branch"
+excerpt: "Sometimes we made lots of commits locally and want to push specific commit to the remote branch. I'll show you how to push specific/single commit on remote branch"
 tags: [Linux, GIT, Github]
 image:
   feature:
@@ -31,6 +31,7 @@ git push <remote name> <commit hash>:<remote branch name>
 * Now I want to push only `f61b48cb8b1877721e2596a6aa65648a68bb605e` commit
 
 {% highlight bash %}
+# Git push only one commit
 [mitesh@Matrix ~]$ git push origin f61b48cb8b1877721e2596a6aa65648a68bb605e:master  
 Counting objects: 10, done.
 Delta compression using up to 4 threads.
