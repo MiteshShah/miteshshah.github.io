@@ -2,11 +2,12 @@
 layout: page
 title: Hire Me
 tags: [MiteshShah, Hire, Hire Me, NGINX, PageSpeed, WordPress, Linux Expert]
+excerpt: "Linux, NGINX, EasyEngine & WordPress Expert"
 modified: 2017-02-06T18:21:42.12345-05:30
 comments:
 blockads: true
 image:
-  feature: 
+  feature:
   credit:
   creditlink:
 ---

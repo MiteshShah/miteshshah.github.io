@@ -2,6 +2,7 @@
 layout: {{ layout }}
 title: {{ title }}
 date: {{ date }}
+excerpt: 
 modified:
 comments:
 excerpt:

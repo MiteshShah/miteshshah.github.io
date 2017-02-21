@@ -2,6 +2,7 @@
 layout: page
 title: Linux, NGINX, WordPress Expert Resume
 tags: [MiteshShah, Resume, Curriculum Vitae, CV]
+excerpt: "Linux, NGINX, EasyEngine & WordPress Expert"
 modified: 2015-12-29T17:12:42.12345-05:30
 comments:
 blockads: true
