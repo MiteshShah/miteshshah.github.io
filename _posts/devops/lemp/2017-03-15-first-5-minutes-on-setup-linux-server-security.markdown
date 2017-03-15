@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: devops/lemp
 excerpt: "My security philosophy is simple: adopt principles that will protect you from the most frequent attack vectors. If you use your first 5 minutes on a server wisely, I believe you secure your server in much better way. "
-tags: [SysAdmin, Devops, LEMP, Ubuntu, Debian,]
+tags: [SysAdmin, Devops, LEMP, Ubuntu, Debian]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/23937334/1300d066-097d-11e7-9a74-df7a6eec2277.jpg
   alt: First 5 Minutes on Setup Linux Server Security
