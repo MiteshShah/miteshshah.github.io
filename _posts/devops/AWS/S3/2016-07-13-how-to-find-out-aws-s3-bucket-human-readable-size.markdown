@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: devops/AWS/S3
 excerpt: "s3cmd is the best command-line tool to manage S3 buckets. Sometimes, you will need to know the size of some of your bucket"
-tags: [DevOps, AWS, S3]
+tags: [Devops, AWS, S3]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/16793780/20cc9308-48f1-11e6-8c9f-242070064a8f.png
   alt: How to Find Out AWS S3 Bucket Human Readable Size

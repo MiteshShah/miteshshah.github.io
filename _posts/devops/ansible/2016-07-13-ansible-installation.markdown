@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: devops/ansible
 excerpt: "Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates."
-tags: [DevOps, Ansible]
+tags: [Devops, Ansible]
 image:
   url:
   alt: Ansible Installation
