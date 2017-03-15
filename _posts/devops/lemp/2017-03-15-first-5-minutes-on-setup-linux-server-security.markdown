@@ -6,7 +6,7 @@ modified:
 comments: true
 categories: devops/lemp
 excerpt: "My security philosophy is simple: adopt principles that will protect you from the most frequent attack vectors. If you use your first 5 minutes on a server wisely, I believe you secure your server in much better way. "
-tags: [DevOps, LEMP, Ubuntu, Debian]
+tags: [SysAdmin, DevOps, LEMP, Ubuntu, Debian,]
 image:
   url: https://cloud.githubusercontent.com/assets/1223371/23937334/1300d066-097d-11e7-9a74-df7a6eec2277.jpg
   alt: First 5 Minutes on Setup Linux Server Security
@@ -36,7 +36,11 @@ $ sudo timedatectl set-timezone Etc/UTC
 
 ### Setup UMASK
 
-* To know more about umask <a href="/linux/basics/advanced-topics-in-users-groups-and-permissions/#default-permissions"> Click Here </a>
+* To know more about UMASK <a href="/linux/basics/advanced-topics-in-users-groups-and-permissions/#default-permissions"> Click Here </a>
+* By default - Ubuntu will allow to go inside another user home directory and read the data.
+* By changing UMASK any new user account home directory permission set from 755 to 750
+* More information - <a href="https://wiki.ubuntu.com/SecurityTeam/Policies#Permissive_Home_Directory_Access"> Permissive Home Directory Access
+ </a>
 
 {% highlight bash %}
 $ sudo echo umask 0027 >> /etc/profile
@@ -88,7 +92,7 @@ $ sudo vim /etc/apt/apt.conf.d/10periodic
 // Automatically upgrade packages from these (origin:archive) pairs
 Unattended-Upgrade::Allowed-Origins {
 //	"${distro_id}:${distro_codename}";
-    "${distro_id}:${distro_codename}-security";
+  	"${distro_id}:${distro_codename}-security";
 //	"${distro_id}:${distro_codename}-updates";
 //	"${distro_id}:${distro_codename}-proposed";
 //	"${distro_id}:${distro_codename}-backports";
