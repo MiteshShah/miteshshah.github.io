@@ -36,7 +36,8 @@ date: 2017-03-15T15:59:34+05:30
 * `/etc/php/7.1/fpm/php-fpm.conf` - PHP7 FPM Related Settings for WWW Pool
 * `/etc/php/7.1/fpm/pool.d/www.conf` - PHP7 WWW Pool Settings
 * `/etc/php/7.1/fpm/pool.d/debug.conf` - PHP7 XDEBUG Pool Settings
-* `/etc/php/7.1/fpm/pool.d/user.conf` - PHP7 Specific User Pool Settings
+* `/etc/php/7.1/fpm/pool.d/user.conf` - PHP7 Specific User (user) Pool Settings `127.0.0.1:9011`
+* `/etc/php/7.1/fpm/pool.d/client.conf` - PHP7 Specific User (client) Pool Settings `127.0.0.1:9012`
 * `/var/log/php/` - PHP7 Log Directory
 
 #### MySQL
@@ -53,3 +54,31 @@ date: 2017-03-15T15:59:34+05:30
 * `/home/user/vhosts/example.com/conf/` - Any `*.conf` file inside this will be added on NGINX Rules
 * `/home/user/vhosts/example.com/ssl/` - SSL Certificate For example.com
 * `/home/user/vhosts/example.com/logs/` - NGINX Logs for example.com
+
+#### Shared Hosting Setup
+
+{% highlight bash %}
+# For user (user) PHP Pool would be `/etc/php/7.1/fpm/pool.d/user.conf` `127.0.0.1:9011`
+# Both website example.com & test.com run under same pool `127.0.0.1:9011`
+/home/user/vhosts/
+                  |-> example.com
+                                |-> logs
+                                |-> ssl
+                                |-> htdocs
+                                |-> conf
+                  |-> test.com
+                                |-> logs
+                                |-> ssl
+                                |-> htdocs
+                                |-> conf
+
+# For user (client) PHP Pool would be `/etc/php/7.1/fpm/pool.d/client.conf` `127.0.0.1:9012`
+# All website under user (client) would be run under same pool `127.0.0.1:9012`
+/home/client/vhosts/
+                  |-> client.com
+                                |-> logs
+                                |-> ssl
+                                |-> htdocs
+                                |-> conf
+
+{% endhighlight %}

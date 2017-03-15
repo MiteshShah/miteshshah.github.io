@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "LEMP Stack"
+title: "LEMP Stack - Shared Hosting Model"
 author:
 tags: [Linux, Devops, LEMP, Linux, NGINX, PHP, MySQL, MariaDB]
 modified: 2017-03-15T12:29:00.12345-05:30
@@ -10,6 +10,14 @@ image:
   credit: lemp.io
   creditlink: https://lemp.io/app/uploads/cropped-lempio.png
 ---
+
+### What's Its Cover?
+
+1. Shared Hosting Model
+1. NGINX Installation & Setup
+1. PHP7 Installation & Setup
+1. MySQL Installation & Setup
+1. WordPress Installation & Setup
 
 ### What is LEMP Stack
 * LEMP is a variation of the ubiquitous LAMP stack used for developing and deploying web applications.
