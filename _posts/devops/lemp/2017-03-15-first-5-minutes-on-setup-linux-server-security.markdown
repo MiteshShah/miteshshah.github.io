@@ -68,14 +68,18 @@ $ sudo chmod 0750 /home/user
 $ sudo echo 'PS1="\`if [ \$? = 0 ]; then echo \[\e[37m\]^_^[\u@\H:\w]\\$ \[\e[0m\]; else echo \[\e[31m\]O_O[\u@\H:\w]\\$ \[\e[0m\]; fi\`"' >> /home/user/.bashrc
 {% endhighlight %}
 
-### Lockdown SSH
+### Disable SSH Password Based Logins
 
-* Configure ssh to prevent password & root logins
+* Make sure your SSH Keys has been added on server.
+{% highlight bash %}
+$ ssh-copy-id root@exaample.com
+{% endhighlight %}
+
+* Configure ssh to prevent password based logins
 
 {% highlight bash %}
 # Change Following Values
 $ sudo vim /etc/ssh/sshd_config
-PermitRootLogin no
 PasswordAuthentication no
 
 # Restart SSH
@@ -98,6 +102,30 @@ Unattended-Upgrade::Allowed-Origins {
 //	"${distro_id}:${distro_codename}-backports";
 };
 {% endhighlight %}
+
+### Install Fail2Ban
+
+{% highlight bash %}
+$ sudo apt-get install Fail2Ban
+{% endhighlight %}
+
+### Firewall Setup
+
+{% highlight bash %}
+# Enable UFW
+$ sudo ufw enable
+# By default Deny Everything
+$ sudo ufw default deny
+# Allow Port 22 SSH
+$ sudo ufw allow 22
+# Allow Port 80 HTTP
+$ sudo ufw allow 80
+# Allow Port 443 HTTPS
+$ sudo ufw allow 443
+# Limit Connections to SSH which slowdown SSH Attacks
+$ sudo ufw limit ssh/tcp
+{% endhighlight %}
+
 
 ### Install Logwatch To Keep An Eye On Things
 
