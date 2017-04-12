@@ -26,7 +26,8 @@ image:
 
 1. <a href="/devops/lemp/first-5-minutes-on-setup-linux-server-security/"> First 5 Minutes on Setup Linux Server Security </a>
 1. <a href="/devops/lemp/lemp-stack-conventions-and-file-system-layout/"> LEMP Stack - Conventions & File System Layout </a>
-1. Publish Soon - <a href="#"> Install & Setup NGINX </a>
+1. <a href="/devops/lemp/setup-user-account/"> Setup User Account </a>
+1. <a href="/devops/lemp/install-and-setup-nginx/"> Install & Setup NGINX </a>
 1. Publish Soon - <a href="#"> Install & Setup PHP7 </a>
 1. Publish Soon - <a href="#"> Install & Setup MariaDB </a>
 1. Publish Soon - <a href="#"> Install & Setup WordPress </a>

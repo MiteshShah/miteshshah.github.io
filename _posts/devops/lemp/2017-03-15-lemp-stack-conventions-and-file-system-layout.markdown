@@ -58,24 +58,24 @@ date: 2017-03-15T15:59:34+05:30
 #### Shared Hosting Setup
 
 {% highlight bash %}
-# For user (user) PHP Pool would be `/etc/php/7.1/fpm/pool.d/user.conf` `127.0.0.1:9011`
-# Both website example.com & test.com run under same pool `127.0.0.1:9011`
-/home/user/vhosts/
-                  |-> example.com
+# For user (mitesh) PHP Pool would be `/etc/php/7.1/fpm/pool.d/mitesh.conf` `127.0.0.1:9011`
+# Both website mitesh.com & mitesh.net run under same pool `127.0.0.1:9011`
+/home/mitesh/vhosts/
+                  |-> mitesh.com
                                 |-> logs
                                 |-> ssl
                                 |-> htdocs
                                 |-> conf
-                  |-> test.com
+                  |-> mitesh.net
                                 |-> logs
                                 |-> ssl
                                 |-> htdocs
                                 |-> conf
 
-# For user (client) PHP Pool would be `/etc/php/7.1/fpm/pool.d/client.conf` `127.0.0.1:9012`
-# All website under user (client) would be run under same pool `127.0.0.1:9012`
-/home/client/vhosts/
-                  |-> client.com
+# For user (shah) PHP Pool would be `/etc/php/7.1/fpm/pool.d/shah.conf` `127.0.0.1:9012`
+# All website under user (shah) would be run under same pool `127.0.0.1:9012`
+/home/shah/vhosts/
+                  |-> shah.com
                                 |-> logs
                                 |-> ssl
                                 |-> htdocs
