@@ -24,8 +24,9 @@ image:
 
 #### Summary
 
-I am passionate about making things easy/automate using shell scripts.<br>
-I believe in "Stay Lazy" so most of my tasks are replaced by shell scripts :)
+I am passionate about Linux and Open Source software.<br>
+I like to create reliable well-automated systems, that require minimal manual mainteinance.
+A good sysadmin is a lazy sysadmin :)
 <br><br>
 
 #### Experience
@@ -162,6 +163,8 @@ March 2014
 #### Skills
 
 <br>
+<b>Configuration Management	</b><br>
+<span class="label label-keyword">Ansible</span><br><br>
 <b>Version Control</b><br>
 <span class="label label-keyword">GIT</span>
 <span class="label label-keyword">SVN</span><br><br>
@@ -182,30 +185,27 @@ March 2014
 <span class="label label-keyword">Vagrant</span><br><br>
 <b>Programming Language</b><br>
 <span class="label label-keyword">Shell Scripting</span>
-<span class="label label-keyword">Perl</span>
-<span class="label label-keyword">Python</span><br><br>
+<span class="label label-keyword">Golang</span><br><br>
 <b>Cloud Service</b><br>
 <span class="label label-keyword">AWS</span>
 <span class="label label-keyword">Linode</span>
 <span class="label label-keyword">SoftLayer</span>
 <span class="label label-keyword">DigitalOcean</span><br><br>
-<b>Software</b><br>
-<span class="label label-keyword">ELK Stack</span>
-<span class="label label-keyword">Ansible</span>
-<span class="label label-keyword">OpenVPN</span>
-<span class="label label-keyword">Squid3</span><br><br>
 <b>System Administrator</b><br>
 <span class="label label-keyword">Linux</span>
 <span class="label label-keyword">Debian/Ubuntu</span>
 <span class="label label-keyword">Redhat/CentOS</span>
 <span class="label label-keyword">Mac OS X</span><br><br>
 <b>DevOps Tools</b><br>
-<span class="label label-keyword">Docker</span>
-<span class="label label-keyword">Vagrant</span>
 <span class="label label-keyword">Ansible</span>
+<span class="label label-keyword">Vagrant</span>
+<span class="label label-keyword">Docker</span>
 <span class="label label-keyword">ELK Stack</span>
+<span class="label label-keyword">Grafana</span>
 <span class="label label-keyword">Nagios</span>
 <span class="label label-keyword">Monit</span>
+<span class="label label-keyword">Squid3</span>
+<span class="label label-keyword">OpenVPN</span>
 <span class="label label-keyword">GIT</span>
 <span class="label label-keyword">Github</span><br><br>
 <b>Security Tools</b><br>
