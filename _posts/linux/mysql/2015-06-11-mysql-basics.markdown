@@ -80,6 +80,11 @@ date: 2015-06-11T11:47:28+05:30
 [mitesh@Matrix ~]$ set password for 'USERNAME'@'localhost' = password('PASSWORD');
 {% endhighlight %}
 
+#### Check Database Character Sets and Collations
+{% highlight bash %}
+[mitesh@Matrix ~]$ SELECT * FROM INFORMATION_SCHEMA.SCHEMATA;
+{% endhighlight %}
+
 #### Backup MySQL Database
 {% highlight bash %}
 [mitesh@Matrix ~]$ mysqldump -u USERNAME -h HOSTNAME -pPASSWORD $DB_NAME
