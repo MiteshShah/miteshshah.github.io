@@ -2,7 +2,7 @@
 layout: page
 title: Linux, NGINX, WordPress Expert Resume
 tags: [MiteshShah, Resume, Curriculum Vitae, CV]
-excerpt: "Linux, NGINX, EasyEngine & WordPress Expert"
+excerpt: "Linux, NGINX, Ansible, EasyEngine & WordPress Expert"
 modified: 2015-12-29T17:12:42.12345-05:30
 comments:
 blockads: true
@@ -26,25 +26,15 @@ image:
 
 I am passionate about Linux and Open Source software.<br>
 I like to create reliable well-automated systems, that require minimal manual mainteinance.
-A good sysadmin is a lazy sysadmin :)
+I believe lazy sysadmin is a good sysadmin ;)
 <br><br>
 
 #### Experience
 
-<b>System Administrator</b><br>
-<a style="color: #428bca" href="https://coronalabs.com">Corona Labs</a><br>
-August 2016 – Present | Bengaluru Area, India
 
-* Server Hardening
-* Patch Critical Security Vulnerability
-* Setup/Manage Git Infrastructure using GitLab
-* Setup Nagios/Grafana Monitor System And Alerts Emails
-* Setup Centralized Log Management System via Syslog-ng
-* Automate package update task via Ansible on Ubuntu/CentOS servers
-* Optimize The NGINX/Apache/PHP/MySQL & Sysctl for better server performance
 
-<b>Linux Expert</b><br>
-<a style="color: #428bca" href="mailto:Mr.Miteshah@gmail.com?subject=Freelance Work - Linux Expert">Freelance</a><br>
+<b>WordPress Hosting Expert</b><br>
+<a style="color: #428bca" href="mailto:Mr.Miteshah@gmail.com?subject=Freelance Work">Freelance</a><br>
 April 2016 – Present | Remote
 
 * Server Hardening
@@ -55,6 +45,17 @@ April 2016 – Present | Remote
 * Automated Hourly/Daily/Weekly Backup and Email Alerts
 * Perform Server Audit/Maintenance/Backup on Weekly basis
 * Automate package update task via Ansible on Ubuntu servers
+
+<br>
+<b>System Admin/DevOps Engineer</b><br>
+<a style="color: #428bca" href="https://premium.wpmudev.org/hosting/">WPMUDEV</a><br>
+Feb 2017 – Present | Remote
+
+* Responsible For Manage WPMUDEV Hosting servers
+* Automate WPMUDEV Hosting Requirement/Setup via Ansible
+* Manage WPMUDEV NGINX & ModSecurity Packages on <a style="color: #428bca" href="https://launchpad.net/~wpmudev">Launchpad</a>
+* Manage Day to Day work with nearly 10K WPMUDEV Hosting Servers.
+* Perform Server Audit/Maintenance/Update on Weekly basis into all 10 region hosted servers.
 
 <br>
 <b>DevOps Engineer</b><br>
@@ -69,6 +70,18 @@ April 2016 – September 2016 | Remote
 * Automated Hourly/Daily/Weekly Backup and Email Alerts
 * Perform Server Audit/Maintenance/Backup on Weekly basis
 * Automate package update task via Ansible on Ubuntu servers
+
+<b>System Administrator</b><br>
+<a style="color: #428bca" href="https://coronalabs.com">Corona Labs</a><br>
+August 2016 – Jan 2017 | Bengaluru Area, India
+
+* Server Hardening
+* Patch Critical Security Vulnerability
+* Setup/Manage Git Infrastructure using GitLab
+* Setup Nagios & Grafana Monitor System And Alerts Emails
+* Setup Centralized Log Management System via Syslog-ng
+* Automate package update task via Ansible on Ubuntu/CentOS servers
+* Optimize The NGINX/Apache/PHP/MySQL & Sysctl for better server performance
 
 <br>
 <b>System Administrator</b><br>
