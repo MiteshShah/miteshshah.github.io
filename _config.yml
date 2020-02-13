@@ -2,7 +2,7 @@
 
 title:            Mitesh Shah
 locale:           en_US
-url:              https://linuxsysadm.in
+url:              https://miteshshah.github.io
 
 
 # Jekyll configuration
@@ -13,7 +13,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
   - jekyll-gist
   - jekyll-sitemap
 
