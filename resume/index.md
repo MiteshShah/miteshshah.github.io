@@ -47,15 +47,15 @@ April 2016 – Present | Remote
 * Automate package update task via Ansible on Ubuntu servers
 
 <br>
-<b>System Admin/DevOps Engineer</b><br>
+<b>System/DevOps Team Lead - </b><br>
 <a style="color: #428bca" href="https://premium.wpmudev.org/hosting/">WPMUDEV</a><br>
 Feb 2017 – Present | Remote
 
 * Responsible For Manage WPMUDEV Hosting servers
 * Automate WPMUDEV Hosting Requirement/Setup via Ansible
 * Manage WPMUDEV NGINX & ModSecurity Packages on <a style="color: #428bca" href="https://launchpad.net/~wpmudev">Launchpad</a>
-* Manage Day to Day work with nearly 10K WPMUDEV Hosting Servers.
-* Perform Server Audit/Maintenance/Update on Weekly basis into all 10 region hosted servers.
+* Manage Day to Day work with nearly 16K WPMUDEV Hosting Servers.
+* Perform Server Audit/Maintenance/Update on Weekly basis into all 12 region hosted servers.
 
 <b>System Administrator</b><br>
 <a style="color: #428bca" href="https://coronalabs.com">Corona Labs</a><br>
