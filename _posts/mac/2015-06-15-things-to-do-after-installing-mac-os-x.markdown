@@ -18,7 +18,7 @@ date: 2015-06-15T14:54:12+05:30
 
 #### Install HomeBrew
 {% highlight bash %}
-[mitesh@Matrix ~]$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+[mitesh@Matrix ~]$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 {% endhighlight %}
 
 
@@ -39,23 +39,23 @@ date: 2015-06-15T14:54:12+05:30
 
 #### Install Google Chrome
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install google-chrome
-[mitesh@Matrix ~]$ brew cask install 1password
+[mitesh@Matrix ~]$ brew install google-chrome
+[mitesh@Matrix ~]$ brew install 1password
 {% endhighlight %}
 
 #### Install Firefox
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install firefox
+[mitesh@Matrix ~]$ brew install firefox
 {% endhighlight %}
 
 #### Install VLC
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install vlc
+[mitesh@Matrix ~]$ brew install vlc
 {% endhighlight %}
 
 #### Install Flycut
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install flycut
+[mitesh@Matrix ~]$ brew install flycut
 {% endhighlight %}
 
 #### Install Skitch
@@ -63,7 +63,7 @@ date: 2015-06-15T14:54:12+05:30
 * Your bold ideas stand out even brighter with Skitch.
 
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install skitch
+[mitesh@Matrix ~]$ brew install skitch
 {% endhighlight %}
 
 #### Install Caffeine
@@ -74,12 +74,12 @@ date: 2015-06-15T14:54:12+05:30
 * Right-click (or ⌘-click) the icon to show the menu.
 
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install caffeine
+[mitesh@Matrix ~]$ brew install caffeine
 {% endhighlight %}
 
 #### Install Calendar
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install itsycal
+[mitesh@Matrix ~]$ brew install itsycal
 {% endhighlight %}
 
 #### Install Atom
@@ -88,17 +88,17 @@ date: 2015-06-15T14:54:12+05:30
 * Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
 
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install atom
+[mitesh@Matrix ~]$ brew install atom
 {% endhighlight %}
 
 #### Install Vagrant
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install vagrant
+[mitesh@Matrix ~]$ brew install vagrant
 {% endhighlight %}
 
 #### Install Virtualbox
 {% highlight bash %}
-[mitesh@Matrix ~]$ brew cask install virtualbox
+[mitesh@Matrix ~]$ brew install virtualbox
 {% endhighlight %}
 
 #### Install Oh-My-ZSH
