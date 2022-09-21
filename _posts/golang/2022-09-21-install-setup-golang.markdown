@@ -25,3 +25,17 @@ $ brew install golang
 $ go version
 go version go1.19.1 darwin/amd64
 {% endhighlight %}
+
+#### hello.go
+{% highlight golang %}
+package main
+import "fmt"
+func main() {
+	fmt.Println("Hello, 世界")
+}
+{% endhighlight %}
+
+{% highlight bash %}
+$ go run hello.go                       
+Hello, 世界
+{% endhighlight %}
