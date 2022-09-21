@@ -3,13 +3,16 @@
 - title: <i class="fa fa-archive fa-2x" title="All Posts"></i>
   url: /posts/
 
-- title: <i class="fa fa-linux fa-2x" title="All about Linux"></i>
+- title: <i class="fa-brands fa-golang fa-2x" title="All about Golang"></i>
+  url: /golang/
+
+- title: <i class="fa-brands fa-linux fa-2x" title="All about Linux"></i>
   url: /linux/
 
-- title: <i class="fa fa-apple fa-2x" title="All about Mac"></i>
+- title: <i class="fa-brands fa-apple fa-2x" title="All about Mac"></i>
   url: /mac/
 
-- title: <i class="fa fa-windows fa-2x" title="All about Windows"></i>
+- title: <i class="fa-brands fa-windows fa-2x" title="All about Windows"></i>
   url: /windows/
 
 - title: <i class="fa fa-terminal fa-2x" title="System Admin Stuff"></i>
