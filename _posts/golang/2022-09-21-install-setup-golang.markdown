@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Install & Setup Golang
+title: Install/Setup & Run simple program in Golang
 author:
 modified:
 comments: true
 categories: golang
-excerpt:
+excerpt: Install/Setup & Run simple program in Golang
 tags: [golang, Setup, Install, HomeBrew]
 image:
   url:
-  alt: Install & Setup Golang
-  title: Install & Setup Golang
+  alt: Install/Setup & Run simple program in Golang
+  title: Install/Setup & Run simple program in Golang
   feature:
 date: 2022-09-21T14:06:37+05:30
 ---
