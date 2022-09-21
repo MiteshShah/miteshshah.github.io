@@ -18,7 +18,7 @@ date: 2022-09-21T14:06:37+05:30
 
 {% include _toc.html %}
 
-<img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}">
+### Install & Setup Golang
 
 {% highlight bash %}
 $ brew install golang
