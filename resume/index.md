@@ -25,7 +25,7 @@ image:
 #### Summary
 
 I am passionate about Linux and Open Source software.<br>
-I like to create reliable well-automated systems, that require minimal manual mainteinance.
+I like to create reliable well-automated systems that require minimal manual maintenance.
 I believe lazy sysadmin is a good sysadmin ;)
 <br><br>
 
@@ -65,9 +65,9 @@ August 2016 – Jan 2017 | Bengaluru Area, India
 * Patch Critical Security Vulnerability
 * Setup/Manage Git Infrastructure using GitLab
 * Setup Nagios & Grafana Monitor System And Alerts Emails
-* Setup Centralized Log Management System via Syslog-ng
+* Setup Centralised Log Management System via Syslog-ng
 * Automate package update task via Ansible on Ubuntu/CentOS servers
-* Optimize The NGINX/Apache/PHP/MySQL & Sysctl for better server performance
+* Optimise The NGINX/Apache/PHP/MySQL & Sysctl for better server performance
 
 <br>
 <b>DevOps Engineer</b><br>
@@ -103,7 +103,7 @@ April 2014 – November 2014 | Pune Area, India
 * EasyEngine (ee) is a command line control panel to setup NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
 * Patch Critical Security Vulnerability - SSL Poodle, Heartbleed etc
 * Maintain NGINX package with custom modules like ngx_pagespeed, lua etc
-* Setup/Manage Continuous Integration (CI) using Jenkins from Scratch - Which start six different virtual machine to test EasyEngine on Debian/Ubuntu 32/64 bit systems.
+* Setup/Manage Continuous Integration (CI) using Jenkins from Scratch - Which starts six different virtual machines to test EasyEngine on Debian/Ubuntu 32/64 bit systems.
 
 <br>
 <b>Linux System Administrator</b><br>
@@ -126,7 +126,7 @@ September 2010 – July 2012 | Bengaluru Area, India
 * Expertise in Linux Server/System installation, configuration, administration, troubleshooting, monitoring and backup & recovery methodologies.
 * Expertise in the support of fundamental technologies such as DNS, SSH, SFTP and FTP, TCP/IP, Samba.
 * Responsible for blocking various websites and content filtering using Squid3 and DansGuardian software.
-* Responsible for the implementation, administration and maintenance of company website hosted on local CentOS System.
+* Responsible for the implementation, administration and maintenance of the company website hosted on the local CentOS System.
 <br><br>
 
 #### Honors & Awards
@@ -149,27 +149,27 @@ March 2014
   * Complete Setup - Install NGINX, PHP, MySQL, Mail Server and dependencies in a single command.
   * HHVM & PageSpeed Support - Boost WordPress sites by enabling HHVM and PageSpeed using a single command.
   * Caching Options - Use W3Total Cache, WP Super Cache & Nginx’s FastCGI Cache.
-  * Config Optimization - Automatically tweaks server configuration as per available hardware resources.
+  * Config Optimisation - Automatically tweaks server configuration as per available hardware resources.
   * Git-Backed Changes - All config changes are saved using Git so feel free to play with config!
 
 <br>
 <b><a style="color: #428bca" href="https://github.com/rtcamp/media-node">Media Node</a></b><br>
 
 * A node.js wrapper for ffmpeg.
-* Single command take care of install/setup Node.js & dependency on Debian/Ubuntu/CentOS Servers.
+* Single command takes care of install/setup Node.js & dependency on Debian/Ubuntu/CentOS Servers.
 
 <br>
 <b><a style="color: #428bca" href="https://rtcamp.com/activecollab-gitolite/">activeCollab Gitolite</a></b><br>
 
 * ac_gitolite module connects your activeCollab to gitolite seamlessly.
 * activeCollab users can create new git repositories, manage SSH keys, read/write access, webhooks and much more, using the intuitive web-interface added in activeCollab.
-* Once a repository gets created all git commands will work directly with gitolite server.
+* Once a repository gets created all git commands will work directly with the gitolite server.
 * All your git tools like netbeans and git-tower will work just right away!
 
 <br>
 <b><a style="color: #428bca" href="https://github.com/EasyEngine/nginx-build">NGINX Custom Package</a></b><br>
 
-* Build/Compile various NGINX flavor which include 3rd party modules like ngx_pagespeed, lua etc
+* Build/Compile various NGINX flavours which include 3rd party modules like ngx_pagespeed, lua etc
 * Quickly build NGINX stable/mainline by running single command.
 <br><br><br>
 
