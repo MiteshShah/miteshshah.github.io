@@ -26,7 +26,7 @@ image:
 
 I am passionate about Linux and Open Source software.<br>
 I like to create reliable well-automated systems that require minimal manual maintenance.
-I believe lazy sysadmin is a good sysadmin ;)
+I believe a lazy sysadmin is a good sysadmin ;)
 <br><br>
 
 #### Experience
@@ -43,7 +43,7 @@ April 2016 – Present | Remote
 * Automate NGINX/PHP/MySQL & WordPress Setup and Monitor
 * Setup Local Development Environment using Vagrant
 * Automated Hourly/Daily/Weekly Backup and Email Alerts
-* Perform Server Audit/Maintenance/Backup on Weekly basis
+* Perform Server Audit/Maintenance/Backup weekly
 * Automate package update task via Ansible on Ubuntu servers
 
 <br>
@@ -51,11 +51,11 @@ April 2016 – Present | Remote
 <a style="color: #428bca" href="https://premium.wpmudev.org/hosting/">WPMUDEV</a><br>
 Feb 2017 – Present | Remote
 
-* Responsible For Manage WPMUDEV Hosting servers
+* Responsible For Managing WPMUDEV Hosting servers
 * Automate WPMUDEV Hosting Requirement/Setup via Ansible
 * Manage WPMUDEV NGINX & ModSecurity Packages on <a style="color: #428bca" href="https://launchpad.net/~wpmudev">Launchpad</a>
-* Manage Day to Day work with nearly 16K WPMUDEV Hosting Servers.
-* Perform Server Audit/Maintenance/Update on Weekly basis into all 12 region hosted servers.
+* Manage Day to Day work with nearly 29K WPMUDEV Hosting Servers.
+* Perform Server Audit/Maintenance/Update weekly into all 12 region-hosted servers.
 
 <b>System Administrator</b><br>
 <a style="color: #428bca" href="https://coronalabs.com">Corona Labs</a><br>
@@ -80,7 +80,7 @@ April 2016 – September 2016 | Remote
 * Automate NGINX/PHP/MySQL Setup and Monitor
 * Setup Local Development Environment using Vagrant
 * Automated Hourly/Daily/Weekly Backup and Email Alerts
-* Perform Server Audit/Maintenance/Backup on Weekly basis
+* Perform Server Audit/Maintenance/Backup weekly
 * Automate package update task via Ansible on Ubuntu servers
 
 <br>
@@ -92,18 +92,18 @@ December 2014 – July 2016 | Bengaluru Area, India
 * Patch Critical Security Vulnerability
 * Setup/Manage Git Infrastructure using GitLab
 * Setup/Optimise ELK { ElasticSearch, Logstash, Kibana } Stack
-* Install/Update/Optimise Linux, Mac OS X, Windows Systems
+* Install/Update/Optimise Linux, Mac OS X and Windows Systems
 
 <br>
 <b>Product Head - EasyEngine</b><br>
 <a style="color: #428bca" href="https://EasyEngine.io">EasyEngine.io</a><br>
 April 2014 – November 2014 | Pune Area, India
 
-* EasyEngine written on Shell Scripts (5000+ Lines of Code)
-* EasyEngine (ee) is a command line control panel to setup NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
-* Patch Critical Security Vulnerability - SSL Poodle, Heartbleed etc
-* Maintain NGINX package with custom modules like ngx_pagespeed, lua etc
-* Setup/Manage Continuous Integration (CI) using Jenkins from Scratch - Which starts six different virtual machines to test EasyEngine on Debian/Ubuntu 32/64 bit systems.
+* EasyEngine has written on Shell Scripts (5000+ Lines of Code)
+* EasyEngine (ee) is a command line control panel to set up the NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
+* Patch Critical Security Vulnerability - SSL Poodle, Heartbleed, etc
+* Maintain NGINX package with custom modules like ngx_pagespeed, lua, etc
+* Setup/Manage Continuous Integration (CI) using Jenkins from Scratch - This starts with six different virtual machines to test EasyEngine on Debian/Ubuntu 32/64-bit systems.
 
 <br>
 <b>Linux System Administrator</b><br>
@@ -144,8 +144,8 @@ March 2014
 <br>
 <b><a style="color: #428bca" href="https://easyengine.io">EasyEngine (ee)</a></b><br>
 
-* EasyEngine (ee) is a command line control panel to setup NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
-* EasyEngine’s simple 1-line commands can do following stuff:
+* EasyEngine (ee) is a command line control panel to set up NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
+* EasyEngine’s simple 1-line commands can do the following stuff:
   * Complete Setup - Install NGINX, PHP, MySQL, Mail Server and dependencies in a single command.
   * HHVM & PageSpeed Support - Boost WordPress sites by enabling HHVM and PageSpeed using a single command.
   * Caching Options - Use W3Total Cache, WP Super Cache & Nginx’s FastCGI Cache.
@@ -169,7 +169,7 @@ March 2014
 <br>
 <b><a style="color: #428bca" href="https://github.com/EasyEngine/nginx-build">NGINX Custom Package</a></b><br>
 
-* Build/Compile various NGINX flavours which include 3rd party modules like ngx_pagespeed, lua etc
+* Build/Compile various NGINX flavors which include 3rd party modules like ngx_pagespeed, lua etc
 * Quickly build NGINX stable/mainline by running single command.
 <br><br><br>
 
