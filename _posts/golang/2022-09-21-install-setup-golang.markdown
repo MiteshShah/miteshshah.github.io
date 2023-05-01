@@ -23,7 +23,7 @@ date: 2022-09-21T14:06:37+05:30
 {% highlight bash %}
 $ brew install golang
 $ go version
-go version go1.19.1 darwin/amd64
+go version go1.20.3 darwin/amd64
 {% endhighlight %}
 
 #### hello.go
