@@ -162,3 +162,12 @@ data:
     author_link: "https://www.linkedin.com/in/rupok/"
     review: "Mitesh is one of the most experienced sysadmins and network engineers I've ever worked with. He is highly passionate about his work and he knows what he is doing really well. He is not only an expert in his field but a very good team player. He is super helpful and always open to discussing new ideas. He always loves to stay updated with the latest technologies and spread his knowledge to others. He never said no whenever he was contacted regarding anything within his domain and he always came up with an innovative and effective solution. I'll strongly recommend him."
     review_at_link: "https://www.linkedin.com/in/miteshshah05"
+
+  - person: Jovan Kitanovic
+    designation: Hosting Support | WordPress Support
+    company: Incsub
+    avatar_img: "/assets/images/JovanKitanovic.jpeg"
+    review_at: Linkedin
+    author_link: "https://www.linkedin.com/in/jovankitanovic/"
+    review: "I had the privilege of working alongside Mitesh as a fellow DevOps and System Administrator. His exceptional technical expertise and meticulous attention to detail significantly contributed to the success of our projects. His problem-solving skills and dedication to optimizing processes were truly impressive. Mitesh is an invaluable asset to any team, and I wholeheartedly recommend him for any future endeavors."
+    review_at_link: "https://www.linkedin.com/in/miteshshah05"
