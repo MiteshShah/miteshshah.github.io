@@ -133,14 +133,28 @@ September 2010 – July 2012 | Bengaluru Area, India
 
 <b>Newbie rtCamper Of The Year</b><br>
 <a style="color: #428bca" href="https://rtcamp.com">rtCamp.com</a><br>
-March 2013<br><br>
-<b>Geekish rtCamper of The Year</b><br>
+March 2013<br>
+<a target="_blank" href="/assets/images/NewbiertCamper.jpeg">
+  <img width="100" height="100" src="/assets/images/NewbiertCamper.jpeg">
+</a>
+
+<br><br><b>Geekish rtCamper of The Year</b><br>
 <a style="color: #428bca" href="https://rtcamp.com">rtCamp.com</a><br>
 March 2014
-<br><br>
-<b>BugBounty Rewards</b><br>
+<br>
+<a target="_blank" href="/assets/images/GeekishrtCamper.jpeg">
+  <img width="100" height="100" src="/assets/images/GeekishrtCamper.jpeg">
+</a>
+
+<br><br><b>BugBounty Rewards</b><br>
 <a style="color: #428bca" href="https://www.hdfcsec.com/">hdfcsec.com</a><br>
 September 2023<br>
+<a target="_blank" href="/assets/images/iPhone15.jpeg">
+  <img width="100" height="100" src="/assets/images/iPhone15.jpeg">
+</a>
+<a target="_blank" href="/assets/images/HDFCSKY.jpeg">
+  <img width="100" height="100" src="/assets/images/HDFCSKY.jpeg">
+</a>
 * Identify AWS Misconfiguration which exposes sensitive information.
 * Found API endpoint leaks sensitive client information without validation.
 * HDFC Security send Iphone 15 along with Certificate :)
