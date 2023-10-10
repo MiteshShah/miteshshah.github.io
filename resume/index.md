@@ -24,38 +24,38 @@ image:
 
 #### Summary
 
-I am passionate about Linux and Open Source software.<br>
-I like to create reliable well-automated systems that require minimal manual maintenance.
-I believe a lazy sysadmin is a good sysadmin ;)
+* Mind behind <b>#EasyEngine #AnsiPress</b> and <b>#WPMUDEV #HOSTING</b><br>
+* Passionate about Linux and Open Source software, with a focus on creating reliable, automated systems to minimize manual maintenance.<br>
+* Experienced in server hardening, security vulnerability patching, and system optimization.<br>
+* I believe lazy sysadmin is a good sysadmin ;)
 <br><br>
 
 #### Experience
 
 
 
-<b>WordPress Hosting Expert</b><br>
-<a style="color: #428bca" href="mailto:Mr.Miteshah@gmail.com?subject=Freelance Work">Freelance</a><br>
-April 2016 – Present | Remote
+<b>Independent Security Consultant</b><br>
+<a style="color: #428bca" href="mailto:Mr.Miteshah@gmail.com?subject=Security Consulting Services ">Security Consulting Services</a><br>
+September 2023 – Present | Remote
 
-* Server Hardening
-* Patch Critical Security Vulnerability
-* Setup Nagios Monitoring System & Status Pages
-* Automate NGINX/PHP/MySQL & WordPress Setup and Monitor
-* Setup Local Development Environment using Vagrant
-* Automated Hourly/Daily/Weekly Backup and Email Alerts
-* Perform Server Audit/Maintenance/Backup weekly
-* Automate package update task via Ansible on Ubuntu servers
+* Proactively identifying security vulnerabilities and weaknesses in web applications, software, and networks.
+* Conducting ethical hacking and penetration testing to assess client system security.
+* Preparing detailed reports on vulnerabilities and recommending mitigation strategies.
+* Collaborating with clients to enhance their security posture.
+* Staying up-to-date with the latest security threats and best practices.
+* Providing advisory services to improve client security.
 
 <br>
-<b>System/DevOps Team Lead - </b><br>
+<b>Product Head - Hosting</b><br>
 <a style="color: #428bca" href="https://premium.wpmudev.org/hosting/">WPMUDEV</a><br>
-Feb 2017 – Present | Remote
+Feb 2017 – Aug 2023 | Remote
 
-* Responsible For Managing WPMUDEV Hosting servers
-* Automate WPMUDEV Hosting Requirement/Setup via Ansible
-* Manage WPMUDEV NGINX & ModSecurity Packages on <a style="color: #428bca" href="https://launchpad.net/~wpmudev">Launchpad</a>
-* Manage Day to Day work with nearly 29K WPMUDEV Hosting Servers.
-* Perform Server Audit/Maintenance/Update weekly into all 12 region-hosted servers.
+* Led the development from scratch to scaling of hosting infrastructure (50000+ servers) for WPMUDEV Hosting.
+* Implemented robust automation strategies using Ansible tags to
+streamline the deployment and setup of WPMUDEV Hosting requirements, resulting in significant time
+and resource savings.
+* Managed latest NGINX and ModSecurity packages for optimal performance via <a style="color: #428bca" href="https://launchpad.net/~wpmudev">Launchpad</a>.
+* Day-to-day management of 50,000+ hosting servers including package upgrade, <a style="color: #428bca" href="https://ubuntu.com/security/cves">CVE patches</a> and other routing Maintenance.
 
 <b>System Administrator</b><br>
 <a style="color: #428bca" href="https://coronalabs.com">Corona Labs</a><br>
@@ -64,14 +64,14 @@ August 2016 – Jan 2017 | Bengaluru Area, India
 * Server Hardening
 * Patch Critical Security Vulnerability
 * Setup/Manage Git Infrastructure using GitLab
-* Setup Nagios & Grafana Monitor System And Alerts Emails
-* Setup Centralised Log Management System via Syslog-ng
+* Setup Nagios/Grafana Monitor System And Alerts Emails
+* Setup Centralized Log Management System via Syslog-ng
 * Automate package update task via Ansible on Ubuntu/CentOS servers
-* Optimise The NGINX/Apache/PHP/MySQL & Sysctl for better server performance
+* Optimize The NGINX/Apache/PHP/MySQL & Sysctl for better server performance
 
 <br>
 <b>DevOps Engineer</b><br>
-<a style="color: #428bca" href="https://getmoxied.net">Moxie NYC</a><br>
+<a style="color: #428bca" href="https://nolte.io/">Nolte</a><br>
 April 2016 – September 2016 | Remote
 
 * Server Hardening
@@ -80,7 +80,7 @@ April 2016 – September 2016 | Remote
 * Automate NGINX/PHP/MySQL Setup and Monitor
 * Setup Local Development Environment using Vagrant
 * Automated Hourly/Daily/Weekly Backup and Email Alerts
-* Perform Server Audit/Maintenance/Backup weekly
+* Perform Server Audit/Maintenance/Backup on Weekly basis
 * Automate package update task via Ansible on Ubuntu servers
 
 <br>
@@ -92,41 +92,41 @@ December 2014 – July 2016 | Bengaluru Area, India
 * Patch Critical Security Vulnerability
 * Setup/Manage Git Infrastructure using GitLab
 * Setup/Optimise ELK { ElasticSearch, Logstash, Kibana } Stack
-* Install/Update/Optimise Linux, Mac OS X and Windows Systems
+* Install/Update/Optimise Linux, Mac OS X, Windows Systems
 
 <br>
 <b>Product Head - EasyEngine</b><br>
 <a style="color: #428bca" href="https://EasyEngine.io">EasyEngine.io</a><br>
 April 2014 – November 2014 | Pune Area, India
 
-* EasyEngine has written on Shell Scripts (5000+ Lines of Code)
+* EasyEngine written on Shell Scripts (5000+ Lines of Code)
 * EasyEngine (ee) is a command line control panel to set up the NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
-* Patch Critical Security Vulnerability - SSL Poodle, Heartbleed, etc
-* Maintain NGINX package with custom modules like ngx_pagespeed, lua, etc
-* Setup/Manage Continuous Integration (CI) using Jenkins from Scratch - This starts with six different virtual machines to test EasyEngine on Debian/Ubuntu 32/64-bit systems.
+* Patch Critical Security Vulnerability - SSL Poodle, Heartbleed etc
+* Maintain NGINX package with custom modules like ngx_pagespeed, lua etc
+* Setup/Manage Continuous Integration (CI) using Jenkins from Scratch - This start with six different virtual machines to test EasyEngine on Debian/Ubuntu 32/64 bit systems.
 
 <br>
 <b>Linux System Administrator</b><br>
 <a style="color: #428bca" href="https://rtCamp.com">rtCamp.com</a><br>
 September 2012 – March 2014 | Pune Area, India
 
-* Extensive experience as Linux (Ubuntu, Debian, Fedora, RHEL, CentOS, Backtrack) Server/System Administrator.
-* Expertise in Linux Server/System installation, configuration, administration, troubleshooting, monitoring and backup & recovery methodologies.
-* Expertise in the web server technologies such as Nginx, Gitolite, SSH, SFTP, IPTables, Fail2Ban, etc
-* Responsible for blocking various websites and content filtering using Squid3 and DansGuardian software.
-* Created EasyEngine (ee) to automate WordPress setup on Debian/Ubuntu based Linux Servers.
+* Extensive experience as a Linux (Ubuntu, Debian, Fedora, RHEL, CentOS, Backtrack) Server/System Administrator.
+* Expertise in Linux Server/System installation, configuration, administration, troubleshooting, monitoring, backup and recovery methodologies.
+* Expertise in web server technologies such as Nginx, Gitolite, SSH, SFTP, IPTables, Fail2Ban, etc
+* Responsible for blocking websites and filtering content using Squid3 and DansGuardian software.
+* Created EasyEngine (ee) to automate WordPress setup on Debian/Ubuntu-based Linux Servers.
 
 <br>
 <b>Linux System Administrator</b><br>
 <a style="color: #428bca" href="">Illuminati Solutions Pvt LTD</a><br>
 September 2010 – July 2012 | Bengaluru Area, India
 
-* Responsible for various hardware and software acquisitions and implementations.
-* Extensive experience as Linux (Ubuntu, Fedora, RHEL, CentOS, Backtrack) System Administrator.
-* Expertise in Linux Server/System installation, configuration, administration, troubleshooting, monitoring and backup & recovery methodologies.
-* Expertise in the support of fundamental technologies such as DNS, SSH, SFTP and FTP, TCP/IP, Samba.
-* Responsible for blocking various websites and content filtering using Squid3 and DansGuardian software.
-* Responsible for the implementation, administration and maintenance of the company website hosted on the local CentOS System.
+* Responsible for various hardware and software acquisitions and seamless implementations.
+* Extensive experience as a Linux (Ubuntu, Fedora, RHEL, CentOS, Backtrack) System Administrator.
+* Expertise in Linux Server/System installation, configuration, administration, troubleshooting, monitoring, backup & and recovery methodologies.
+* Expertise in supporting fundamental technologies such as DNS, SSH, SFTP and FTP, TCP/IP and Samba.
+* Responsible for blocking websites and filtering content using Squid3 and DansGuardian software.
+* Pivotal role in the development, administration, and maintenance of the corporate website hosted on a local CentOS System.
 <br><br>
 
 #### Honors & Awards
@@ -137,6 +137,13 @@ March 2013<br><br>
 <b>Geekish rtCamper of The Year</b><br>
 <a style="color: #428bca" href="https://rtcamp.com">rtCamp.com</a><br>
 March 2014
+<br><br>
+<b>BugBounty Rewards</b><br>
+<a style="color: #428bca" href="https://www.hdfcsec.com/">hdfcsec.com</a><br>
+September 2023<br>
+* Identify AWS Misconfiguration which exposes sensitive information.
+* Found API endpoint leaks sensitive client information without validation.
+* HDFC Security send Iphone 15 along with Certificate :)
 <br><br>
 
 #### Projects
@@ -151,6 +158,11 @@ March 2014
   * Caching Options - Use W3Total Cache, WP Super Cache & Nginx’s FastCGI Cache.
   * Config Optimisation - Automatically tweaks server configuration as per available hardware resources.
   * Git-Backed Changes - All config changes are saved using Git so feel free to play with config!
+
+<br>
+<b><a style="color: #428bca" href="https://github.com/AnsiPress/AnsiPress">AnsiPress</a></b><br>
+
+* AnsiPress - Simple L(Linux) E(NGINX) M(MariaDB) P(PHP) Shared Hosting Setup via Ansible.
 
 <br>
 <b><a style="color: #428bca" href="https://github.com/rtcamp/media-node">Media Node</a></b><br>
@@ -229,6 +241,7 @@ March 2014
 <span class="label label-keyword">Fail2Ban</span>
 <span class="label label-keyword">IPTables</span>
 <span class="label label-keyword">Metasploit</span>
+<span class="label label-keyword">BurpSuite</span>
 <span class="label label-keyword">Slowloris</span><br><br>
 
 <br><br>

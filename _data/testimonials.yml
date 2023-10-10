@@ -75,7 +75,7 @@ data:
 
   - person: Thomas Bennett
     designation: President
-    company:
+    company: Bennett Web Group
     avatar_img: "/assets/images/ThomasBennett.jpeg"
     review_at: Linkedin
     author_link: "https://www.linkedin.com/in/thomas-bennett-94765333/"
