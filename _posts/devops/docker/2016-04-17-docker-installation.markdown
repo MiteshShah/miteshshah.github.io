@@ -40,44 +40,10 @@ $ sudo apt-get install docker-engine
 $ sudo service docker start
 {% endhighlight %}
 
-#### Install Docker on Debian
-
-{% highlight bash %}
-$ sudo apt-get purge lxc-docker* docker.io*
-$ sudo apt-get update
-$ sudo apt-get install apt-transport-https ca-certificates
-$ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
-$ sudo echo "deb https://apt.dockerproject.org/repo debian-$(lsb_release -cs) main" > /etc/apt/sources.list.d/docker.list
-
-$ sudo apt-get update
-$ sudo apt-get install docker-engine
-$ sudo service docker start
-{% endhighlight %}
-
-#### Install Docker on CentOS
-{% highlight bash %}
-$ sudo yum update
-$ sudo tee /etc/yum.repos.d/docker.repo <<-'EOF'
-[dockerrepo]
-name=Docker Repository
-baseurl=https://yum.dockerproject.org/repo/main/centos/$releasever/
-enabled=1
-gpgcheck=1
-gpgkey=https://yum.dockerproject.org/gpg
-EOF
-
-$ sudo yum install docker-engine
-$ sudo service docker start
-{% endhighlight %}
 
 #### Install Docker on Mac OS X
 {% highlight bash %}
-$ brew install boot2docker
-$ brew cask install virtualbox docker
-
-$ boot2docker init
-$ boot2docker up
-$ export DOCKER_HOST=tcp://IP:PORT
+$ brew install --cask docker
 {% endhighlight %}
 
 **NOTE!**: Make sure you have installed HomeBrew on your system,
