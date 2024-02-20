@@ -24,7 +24,7 @@
         <br>
         <div class="review-body" itemprop="reviewBody">
           <p>{{ item.review }}</p>
-          <a style="color: #428bca" href="{{ item.review_at_link }}" target="_blank" rel="nofollow">{{ review_at_link }} Original review on {{ item.review_at }}</a>
+          <a style="color: #428bca" href="{{ item.review_at_link }}" target="_blank" rel="noopener noreferrer nofollow">{{ review_at_link }} Original review on {{ item.review_at }}</a>
         </div>
       </div>
       {% if forloop.index == 1 %}
