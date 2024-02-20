@@ -34,8 +34,8 @@ If you don't have HomeBrew installed then <a href="/mac/things-to-do-after-insta
 #### Install mtr
 {% highlight bash %}
 [mitesh@Matrix ~]$ brew install mtr
-[mitesh@Matrix ~]$ sudo chown root:wheel /usr/local/Cellar/mtr/0.87/sbin/mtr
-[mitesh@Matrix ~]$ sudo chmod u+s /usr/local/Cellar/mtr/0.87/sbin/mtr
+[mitesh@Matrix ~]$ sudo chown root:wheel /usr/local/Cellar/mtr/0.95/sbin/mtr
+[mitesh@Matrix ~]$ sudo chmod u+s /usr/local/Cellar/mtr/0.95/sbin/mtr
 {% endhighlight %}
 
 * Add following line on your `~/.bashrc` or `~/.zshrc`
