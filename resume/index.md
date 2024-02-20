@@ -100,7 +100,7 @@ December 2014 – July 2016 | Bengaluru Area, India
 April 2014 – November 2014 | Pune Area, India
 
 * EasyEngine written on Shell Scripts (5000+ Lines of Code)
-* EasyEngine (ee) is a command line control panel to set up the NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
+* EasyEngine (ee) is a OpenSource command line control panel to set up the NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
 * Patch Critical Security Vulnerability - SSL Poodle, Heartbleed etc
 * Maintain NGINX package with custom modules like ngx_pagespeed, lua etc
 * Setup/Manage Continuous Integration (CI) using Jenkins from Scratch - This start with six different virtual machines to test EasyEngine on Debian/Ubuntu 32/64 bit systems.
@@ -165,7 +165,7 @@ September 2023<br>
 <br>
 <b><a style="color: #428bca" href="https://easyengine.io">EasyEngine (ee)</a></b><br>
 
-* EasyEngine (ee) is a command line control panel to set up NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
+* EasyEngine (ee) is a OpenSource command line control panel to set up NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
 * EasyEngine’s simple 1-line commands can do the following stuff:
   * Complete Setup - Install NGINX, PHP, MySQL, Mail Server and dependencies in a single command.
   * HHVM & PageSpeed Support - Boost WordPress sites by enabling HHVM and PageSpeed using a single command.
@@ -263,6 +263,10 @@ September 2023<br>
 #### OpenSource Contribution
 
 <br>
+<i class="fa-solid fa-gears"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/EasyEngine/easyengine/graphs/contributors">EasyEngine/EasyEngine</a> <a style="text-decoration: none" href="https://github.com/EasyEngine/easyengine/stargazers"><i class="fa-solid fa-star"></i> 2.1k</a><br>
+ Mind Behind EasyEngine - A command line control panel to set up NGINX server on Debian/Ubuntu Linux distribution for HTML, PHP, MySQL, HHVM, PageSpeed and WordPress websites.
+<br><br>
 <i class="fa-brands fa-chrome"></i>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/GoogleChromeLabs/ps-analysis-tool/pull/211">GoogleChromeLabs/ps-analysis-tool</a><br>
  Quickly Launch Different Chrome for Privacy Sandbox Demo
