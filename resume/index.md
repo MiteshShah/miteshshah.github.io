@@ -268,16 +268,21 @@ September 2023<br>
  Quickly Launch Different Chrome for Privacy Sandbox Demo
 <br><br>
 <i class="fa-brands fa-meta"></i>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/facebook/augmented-traffic-control/pull/220">Facebook/augmented-traffic-control</a><br>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/facebookarchive/augmented-traffic-control/pulls?q=is%3Apr+author%3AMiteshShah+is%3Aclosed">Facebook/augmented-traffic-control</a><br>
  Typo Fix & Reported StyleSheet Issue on Django Framework
 <br><br>
 <i class="fa-brands fa-wordpress"></i>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/wp-cli/wp-cli/pull/532">wp-cli/wp-cli</a><br>
  Fix WordPress SubDomain Issue
 <br><br>
+<i class="fa-brands fa-wordpress"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/wp-cli/wp-cli.github.com/pull/17">wp-cli/wp-cli.github.com</a><br>
+ Single command to install WP-CLI
+<br><br>
 <i class="fa-solid fa-server"></i>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/nginxinc/nginx-wiki/pull/210">NginxInc/nginx-wiki</a><br>
- Updated EasyEngine Definition
+<a style="color: #428bca; text-decoration: none" href="https://github.com/nginxinc/nginx-wiki/pulls?q=is%3Apr+author%3AMiteshShah+is%3Aclosed">NginxInc/nginx-wiki</a><br>
+<a style="text-decoration: none" href="https://github.com/nginxinc/nginx-wiki/pull/452">1. Fix Multisite Regrex</a><br>
+<a style="text-decoration: none" href="https://github.com/nginxinc/nginx-wiki/pull/210">2. Updated EasyEngine Definition</a><br>
 <br><br>
 <i class="fa-brands fa-discourse"></i>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/discourse/discourse/pull/2638">discourse/discourse</a><br>
@@ -295,6 +300,10 @@ September 2023<br>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/creack/docker-vps/pull/1">creack/docker-vps</a><br>
  Automatic Reload NGINX Service When Modify Any Configuration File under /etc/nginx/sites-available or /etc/nginx/sites-enable
 <br><br>
+<i class="fa-brands fa-apple"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/rgcr/m-cli/pull/20">rgcr/m-cli (Swiss Army Knife for macOS)</a><br>
+ Remove Sudo Access
+<br><br>
 <i class="fa-solid fa-terminal"></i>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/pickhardt/betty/pull/76">pickhardt/betty</a><br>
  Make curl silent
@@ -310,6 +319,10 @@ September 2023<br>
 <i class="fa-solid fa-code"></i>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/mudassir0909/jsonresume-theme-elegant/pull/57">mudassir0909/jsonresume-theme-elegant</a><br>
  Added URL in reference section
+<br><br>
+<i class="fa-brands fa-js"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/wearenolte/lighthouse-reporter/pull/1">wearenolte/lighthouse-reporter</a><br>
+ Fix Variable Name Typo
 <br><br>
 <i class="fa-brands fa-js"></i>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/appium/appium/pull/6045/files">appium/appium</a><br>
