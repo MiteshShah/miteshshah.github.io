@@ -263,42 +263,57 @@ September 2023<br>
 #### OpenSource Contribution
 
 <br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/appium/appium/pull/6045/files">appium/appium</a><br>
-<i class="fa fa-check"></i> Fixed OpenJDK Java version RegExp
+<i class="fa-brands fa-chrome"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/GoogleChromeLabs/ps-analysis-tool/pull/211">GoogleChromeLabs/ps-analysis-tool</a><br>
+ Quickly Launch Different Chrome for Privacy Sandbox Demo
 <br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/mudassir0909/jsonresume-theme-elegant/pull/57">mudassir0909/jsonresume-theme-elegant</a><br>
-<i class="fa fa-check"></i> Added URL in reference section
-<br><br>
+<i class="fa-brands fa-meta"></i>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/facebook/augmented-traffic-control/pull/220">Facebook/augmented-traffic-control</a><br>
-<i class="fa fa-check"></i> Typo Fix & Reported StyleSheet Issue on Django Framework #216
+ Typo Fix & Reported StyleSheet Issue on Django Framework
 <br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/nginxinc/nginx-wiki/pull/210">NginxInc/nginx-wiki</a><br>
-<i class="fa fa-check"></i> Updated EasyEngine Definition
-<br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/Blueliv/elk-config-examples/pull/1">Blueliv/elk-config-examples</a><br>
-<i class="fa fa-check"></i> Fix PDF URL
-<br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/10up/WordPress-Server-Configs/pull/2">10up/WordPress-Server-Configs</a><br>
-<i class="fa fa-check"></i> Nginx now support auto variable, so no need to change that variable when we change server
-<br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/discourse/discourse/pull/2638">discourse/discourse</a><br>
-<i class="fa fa-check"></i> Better way to retry curl command
-<br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/pickhardt/betty/pull/76">pickhardt/betty</a><br>
-<i class="fa fa-check"></i> Make curl silent
-<br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/h5bp/server-configs-nginx/pull/38">h5bp/server-configs-nginx</a><br>
-<i class="fa fa-check"></i> Nginx now support auto variable, so no need to change that variable when we change server
-<br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/creack/docker-vps/pull/1">creack/docker-vps</a><br>
-<i class="fa fa-check"></i> Automatic Reload NGINX Service When Modify Any Configuration File under /etc/nginx/sites-available or /etc/nginx/sites-enable
-<br><br>
-<a style="color: #428bca; text-decoration: none" href="https://github.com/bellthoven/bangsh/pull/8">bellthoven/bangsh</a><br>
-<i class="fa fa-check"></i> Fix PATH Issue
-<br><br>
+<i class="fa-brands fa-wordpress"></i>
 <a style="color: #428bca; text-decoration: none" href="https://github.com/wp-cli/wp-cli/pull/532">wp-cli/wp-cli</a><br>
-<i class="fa fa-check"></i> Fix WordPress SubDomain Issue
-
+ Fix WordPress SubDomain Issue
+<br><br>
+<i class="fa-solid fa-server"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/nginxinc/nginx-wiki/pull/210">NginxInc/nginx-wiki</a><br>
+ Updated EasyEngine Definition
+<br><br>
+<i class="fa-brands fa-discourse"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/discourse/discourse/pull/2638">discourse/discourse</a><br>
+ Better way to retry curl command
+<br><br>
+<i class="fa-solid fa-server"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/10up/WordPress-Server-Configs/pull/2">10up/WordPress-Server-Configs</a><br>
+ Nginx now support auto variable, so no need to change that variable when we change server
+<br><br>
+<i class="fa-solid fa-server"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/h5bp/server-configs-nginx/pull/38">h5bp/server-configs-nginx</a><br>
+ Nginx now support auto variable, so no need to change that variable when we change server
+<br><br>
+<i class="fa-brands fa-docker"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/creack/docker-vps/pull/1">creack/docker-vps</a><br>
+ Automatic Reload NGINX Service When Modify Any Configuration File under /etc/nginx/sites-available or /etc/nginx/sites-enable
+<br><br>
+<i class="fa-solid fa-terminal"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/pickhardt/betty/pull/76">pickhardt/betty</a><br>
+ Make curl silent
+<br><br>
+<i class="fa-solid fa-terminal"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/bellthoven/bangsh/pull/8">bellthoven/bangsh</a><br>
+ Fix PATH Issue
+<br><br>
+<i class="fa-solid fa-terminal"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/Blueliv/elk-config-examples/pull/1">Blueliv/elk-config-examples</a><br>
+ Fix PDF URL
+<br><br>
+<i class="fa-solid fa-code"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/mudassir0909/jsonresume-theme-elegant/pull/57">mudassir0909/jsonresume-theme-elegant</a><br>
+ Added URL in reference section
+<br><br>
+<i class="fa-brands fa-js"></i>
+<a style="color: #428bca; text-decoration: none" href="https://github.com/appium/appium/pull/6045/files">appium/appium</a><br>
+ Fixed OpenJDK Java version RegExp
 <br><br>
 
 
