@@ -40,8 +40,8 @@
     </div>
   {% endfor %}
   
-  /* Loop through all testimonial items dynamically */
   <style>
+    /* Loop through all testimonial items dynamically */
     {% for i in (1..site.data.testimonials.data.size) %}
       /* Make the item visible when its corresponding target is clicked */
       #recommendations-{{ i }}:target ~ .item-{{ i }} {
