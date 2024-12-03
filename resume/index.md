@@ -388,6 +388,6 @@ September 2023<br>
 </style>
 
 <div id="qrcode">
-<img alt="Mitesh Shah Resume QR Code" src="https://chart.apis.google.com/chart?chs=200x200&cht=qr&chl={{ site.url }}{{ page.url }}&choe=UTF-8">
+<img alt="Mitesh Shah Resume QR Code" src="/assets/images/qr-code.png" width="150" height="150">
 <p>Scan the QR Code to load the page in your browser.</p>
 </div>
