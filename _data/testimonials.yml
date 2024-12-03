@@ -171,3 +171,12 @@ data:
     author_link: "https://www.linkedin.com/in/jovankitanovic/"
     review: "I had the privilege of working alongside Mitesh as a fellow DevOps and System Administrator. His exceptional technical expertise and meticulous attention to detail significantly contributed to the success of our projects. His problem-solving skills and dedication to optimizing processes were truly impressive. Mitesh is an invaluable asset to any team, and I wholeheartedly recommend him for any future endeavors."
     review_at_link: "https://www.linkedin.com/in/miteshshah05"
+
+  - person: David Orozco
+    designation: SEO Specialist | Digital Marketing AddictSEO Specialist | Digital Marketing Addict
+    company: SEO Specialist
+    avatar_img: "/assets/images/DavidOrozco.jpeg"
+    review_at: Linkedin
+    author_link: "https://www.linkedin.com/in/david-orozco-seo/"
+    review: "Mitesh Shah was our sysadmin until 2022, and I can’t recommend him enough. He kept everything running seamlessly, tackled issues quickly, and was always approachable and reliable. His professionalism and dedication made a lasting impression, and I’m confident he’ll be a valuable asset to any team."
+    review_at_link: "https://www.linkedin.com/in/miteshshah05"
