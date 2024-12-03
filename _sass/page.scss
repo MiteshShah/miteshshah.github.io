@@ -1044,10 +1044,11 @@ in the right place. */
   selector, make it fade in, and place it on top of the pile using z-index: 3.
   Here's where you'd add more target items if your carousel has more than three
   items. It might be worth adding like 10 items right off the bat. */
-  #recommendations-2:target ~ .item-2, #recommendations-3:target ~ .item-3, #recommendations-4:target ~ .item-4, #recommendations-5:target ~ .item-5, #recommendations-6:target ~ .item-6, #recommendations-7:target ~ .item-7, #recommendations-8:target ~ .item-8, #recommendations-9:target ~ .item-9, #recommendations-10:target ~ .item-10, #recommendations-11:target ~ .item-11, #recommendations-12:target ~ .item-12, #recommendations-13:target ~ .item-13, #recommendations-14:target ~ .item-14, #recommendations-15:target ~ .item-15, #recommendations-16:target ~ .item-16, #recommendations-17:target ~ .item-17, #recommendations-18:target ~ .item-18, #recommendations-19:target ~ .item-19    {
+  #recommendations-2:target ~ .item-2, #recommendations-3:target ~ .item-3, #recommendations-4:target ~ .item-4, #recommendations-5:target ~ .item-5, #recommendations-6:target ~ .item-6, #recommendations-7:target ~ .item-7, #recommendations-8:target ~ .item-8, #recommendations-9:target ~ .item-9, #recommendations-10:target ~ .item-10, #recommendations-11:target ~ .item-11, #recommendations-12:target ~ .item-12, #recommendations-13:target ~ .item-13, #recommendations-14:target ~ .item-14, #recommendations-15:target ~ .item-15, #recommendations-16:target ~ .item-16, #recommendations-17:target ~ .item-17, #recommendations-18:target ~ .item-18, #recommendations-19:target ~ .item-19, #recommendations-20:target ~ .item-20    {
     z-index: 3;
     opacity: 1;
   }
+
 }
 
 .review{
