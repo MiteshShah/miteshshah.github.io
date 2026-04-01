@@ -180,3 +180,47 @@ data:
     author_link: "https://www.linkedin.com/in/david-orozco-seo/"
     review: "Mitesh Shah was our sysadmin until 2022, and I can’t recommend him enough. He kept everything running seamlessly, tackled issues quickly, and was always approachable and reliable. His professionalism and dedication made a lasting impression, and I’m confident he’ll be a valuable asset to any team."
     review_at_link: "https://www.linkedin.com/in/miteshshah05"
+  - person: Niraj Giri
+    designation: Senior Frontend Developer
+    company: rtCamp.com
+    avatar_img: "/assets/images/NirajGiri.jpeg"
+    review_at: Linkedin
+    author_link: "https://www.linkedin.com/in/nirajgirixd/"
+    review: "Mitesh is easily one of the best DevOps engineers I've worked with. He's the person you want in your corner when things get complicated. Reliable, sharp, and always willing to jump in and help. Highly recommend!"
+    review_at_link: "https://www.linkedin.com/in/miteshshah05"
+
+  - person: Dipankar Das
+    designation: DevOps Engineer
+    company: rtCamp.com
+    avatar_img: "/assets/images/DipankarDas.jpeg"
+    review_at: Linkedin
+    author_link: "https://www.linkedin.com/in/dipankar-das-1324b6206/"
+    review: "Mitesh is an exceptional Systems Engineer and manager who masters the rare balance of deep technical expertise and impactful mentorship. He played a pivotal role in transferring knowledge on our team's most complex systems, often guiding us toward self-discovery rather than just providing answers. Mitesh's architectural philosophy is centered on elegant simplicity; he consistently advocates for designs with fewer moving parts, ensuring systems are robust, scalable, and require minimal intervention. Any team would be lucky to have his steady hand and 'keep it simple' mindset."
+    review_at_link: "https://www.linkedin.com/in/miteshshah05"
+
+  - person: Akhil
+    designation: Software Engineer | Platform Engineer
+    company: rtCamp.com
+    avatar_img: "/assets/images/Akhil.jpeg"
+    review_at: Linkedin
+    author_link: "https://www.linkedin.com/in/akhil255231/"
+    review: "Mitesh brings a rare mindset to systems engineering and automation — he believes in solving problems once and solving them so well that they never need to be touched again. What might look like 'laziness' at first is actually smart engineering: designing systems that are reliable, scalable, and practically self-sustaining. His approach scales effortlessly, whether managing one server or hundreds of thousands. He builds infrastructure that makes even 99.99% reliability feel easy. That level of foresight, ownership, and automation discipline is something you don't often see. When it comes to real-world engineering and getting things done at scale, he operates at a level that rivals many senior leaders and CTOs. Beyond technical strength, Mitesh is someone you genuinely enjoy working with. He has deep knowledge, strong engineering judgment, and communicates clearly and thoughtfully. He's approachable, collaborative, and always focused on practical solutions rather than unnecessary complexity."
+    review_at_link: "https://www.linkedin.com/in/miteshshah05"
+
+  - person: Immanuel Raj
+    designation: Technical Lead - GDSC SRM Ramapuram | Maintainer - Pixel Extended | AOSP | Open source | Linux | Cloud
+    company: GDSC SRM Ramapuram
+    avatar_img: "/assets/images/ImmanuelRaj.jpeg"
+    review_at: Linkedin
+    author_link: "https://www.linkedin.com/in/iamimmanuelraj/"
+    review: "Mitesh is a rare blend of infrastructure architect, automation engineer, and security thinker. He designs systems the right way from day one — automated, scalable, and secure by default. His strength lies in turning complex hosting and server operations into simple, reliable workflows. From zero-touch provisioning and large-scale deployments to hardened production environments, he consistently eliminates manual effort and builds platforms that run themselves. His approach reduces risk, improves performance, and makes infrastructure predictable at scale. With deep expertise across Linux, DevOps, automation frameworks, and cybersecurity, he doesn't just manage servers — he engineers ecosystems. He thinks several steps ahead, anticipates failure points, and solves problems permanently through smart tooling rather than temporary fixes. Beyond technical execution, he naturally elevates the people around him through practical knowledge sharing, battle-tested processes, and thoughtful leadership. If you need someone who can architect, secure, and scale real-world infrastructure with precision and reliability, Mitesh delivers at a level few can match."
+    review_at_link: "https://www.linkedin.com/in/miteshshah05"
+
+  - person: Gagan Deep Singh
+    designation: VP of Engineering
+    company: rtCamp.com
+    avatar_img: "/assets/images/GaganDeepSingh.jpeg"
+    review_at: Linkedin
+    author_link: "https://www.linkedin.com/in/gagan0123/"
+    review: "Mitesh and I have worked together at rtCamp across two overlapping tenures, over four years in total. We collaborate across infrastructure, security, and multiple client projects, and I can say with confidence that he's one of the most reliable people I've worked with. Mitesh has a sharp eye for security. He's the kind of person who proactively goes looking for vulnerabilities, even in internal deployment scripts and tooling that most people never think to audit. And he doesn't stop at finding issues. He pushes everyone around him to follow better security practices, consistently and persistently, even when it's not the popular message. He treats infrastructure like it's his own. Weekend incidents, off-hours production issues across projects, he just shows up and gets it done, without being asked. That's not something you can teach someone. He's also quite direct. If something is broken or being done wrong, he'll tell you plainly. That kind of honesty, paired with how much he genuinely cares about the systems he manages, makes him someone the entire team leans on more than they probably realize."
+    review_at_link: "https://www.linkedin.com/in/miteshshah05"
