@@ -41,6 +41,17 @@
   {% endfor %}
   
   <style>
++   .carousel-wrapper {
++     min-height: 00px;
++     height: auto;
++   }
++   .carousel-wrapper .carousel-item {
++     overflow-y: auto;
++   }
++   .review-body p {
++     font-size: 16px;
++   }
++
     /* Loop through all testimonial items dynamically */
     {% for i in (1..site.data.testimonials.data.size) %}
       /* Make the item visible when its corresponding target is clicked */
